@@ -1,0 +1,517 @@
+{
+  "flights": [
+  {
+    "id": 1,
+    "from": "Cairo",
+    "to": "Dubai",
+    "date": "2025-07-20",
+    "departureTime": "09:00",
+    "arrivalTime": "13:30",
+    "price": 350,
+    "airline": "Emirates",
+    "returnDate": "2025-07-24"
+  },
+  {
+    "id": 2,
+    "from": "Cairo",
+    "to": "Riyadh",
+    "date": "2025-07-21",
+    "departureTime": "10:15",
+    "arrivalTime": "13:00",
+    "price": 220,
+    "airline": "Saudi Airlines",
+    "returnDate": "2025-07-25"
+  },
+  {
+    "id": 3,
+    "from": "Cairo",
+    "to": "Istanbul",
+    "date": "2025-07-22",
+    "departureTime": "08:30",
+    "arrivalTime": "11:45",
+    "price": 300,
+    "airline": "Turkish Airlines",
+    "transit": {
+      "transitCity": "Athens",
+      "transitDuration": "1h 10m"
+    },
+    "returnDate": "2025-07-26"
+  },
+  {
+    "id": 4,
+    "from": "Riyadh",
+    "to": "London",
+    "date": "2025-08-01",
+    "departureTime": "02:00",
+    "arrivalTime": "07:30",
+    "price": 550,
+    "airline": "British Airways",
+    "returnDate": "2025-08-05"
+  },
+  {
+    "id": 5,
+    "from": "Dubai",
+    "to": "New York",
+    "date": "2025-08-05",
+    "departureTime": "08:00",
+    "arrivalTime": "18:45",
+    "price": 900,
+    "airline": "Emirates",
+    "transit": {
+      "transitCity": "Frankfurt",
+      "transitDuration": "2h 20m"
+    },
+    "returnDate": "2025-08-09"
+  },
+  {
+    "id": 6,
+    "from": "Jeddah",
+    "to": "Cairo",
+    "date": "2025-07-25",
+    "departureTime": "06:30",
+    "arrivalTime": "08:00",
+    "price": 180,
+    "airline": "EgyptAir",
+    "returnDate": "2025-07-29"
+  },
+  {
+    "id": 7,
+    "from": "Doha",
+    "to": "Paris",
+    "date": "2025-07-30",
+    "departureTime": "04:15",
+    "arrivalTime": "09:30",
+    "price": 670,
+    "airline": "Qatar Airways",
+    "transit": {
+      "transitCity": "Rome",
+      "transitDuration": "1h 30m"
+    },
+    "returnDate": "2025-08-03"
+  },
+  {
+    "id": 8,
+    "from": "Alexandria",
+    "to": "Dubai",
+    "date": "2025-07-28",
+    "departureTime": "07:00",
+    "arrivalTime": "12:00",
+    "price": 310,
+    "airline": "FlyDubai",
+    "returnDate": "2025-08-01"
+  },
+  {
+    "id": 9,
+    "from": "Cairo",
+    "to": "Jeddah",
+    "date": "2025-07-26",
+    "departureTime": "13:30",
+    "arrivalTime": "15:30",
+    "price": 190,
+    "airline": "Saudia",
+    "returnDate": "2025-07-30"
+  },
+  {
+    "id": 10,
+    "from": "Dubai",
+    "to": "Tokyo",
+    "date": "2025-08-15",
+    "departureTime": "23:00",
+    "arrivalTime": "12:30",
+    "price": 950,
+    "airline": "Emirates",
+    "transit": {
+      "transitCity": "Singapore",
+      "transitDuration": "3h 00m"
+    },
+    "returnDate": "2025-08-19"
+  },
+  {
+    "id": 11,
+    "from": "Cairo",
+    "to": "London",
+    "date": "2025-07-23",
+    "departureTime": "14:00",
+    "arrivalTime": "18:30",
+    "price": 450,
+    "airline": "British Airways",
+    "returnDate": "2025-07-27",
+    "transit": {
+      "transitCity": "Dubai",
+      "transitDuration": "2h 15m"
+    }
+  },
+  {
+    "id": 12,
+    "from": "Dubai",
+    "to": "Riyadh",
+    "date": "2025-07-24",
+    "departureTime": "11:30",
+    "arrivalTime": "13:15",
+    "price": 180,
+    "airline": "Saudi Airlines",
+    "returnDate": "2025-07-28"
+  },
+  {
+    "id": 13,
+    "from": "Riyadh",
+    "to": "Cairo",
+    "date": "2025-07-27",
+    "departureTime": "16:00",
+    "arrivalTime": "18:45",
+    "price": 210,
+    "airline": "EgyptAir",
+    "returnDate": "2025-07-31"
+  },
+  {
+    "id": 14,
+    "from": "Jeddah",
+    "to": "Dubai",
+    "date": "2025-07-29",
+    "departureTime": "09:15",
+    "arrivalTime": "12:30",
+    "price": 280,
+    "airline": "Emirates",
+    "returnDate": "2025-08-02"
+  },
+  {
+    "id": 15,
+    "from": "Alexandria",
+    "to": "Riyadh",
+    "date": "2025-07-30",
+    "departureTime": "12:00",
+    "arrivalTime": "15:30",
+    "price": 240,
+    "airline": "Saudi Airlines",
+    "returnDate": "2025-08-03",
+    "transit": {
+      "transitCity": "Cairo",
+      "transitDuration": "1h 20m"
+    }
+  },
+  {
+    "id": 16,
+    "from": "Istanbul",
+    "to": "Dubai",
+    "date": "2025-08-01",
+    "departureTime": "07:45",
+    "arrivalTime": "13:15",
+    "price": 320,
+    "airline": "Turkish Airlines",
+    "returnDate": "2025-08-05"
+  },
+  {
+    "id": 17,
+    "from": "Paris",
+    "to": "Cairo",
+    "date": "2025-08-02",
+    "departureTime": "20:30",
+    "arrivalTime": "06:00",
+    "price": 420,
+    "airline": "Air France",
+    "returnDate": "2025-08-06",
+    "transit": {
+      "transitCity": "Istanbul",
+      "transitDuration": "1h 45m"
+    }
+  },
+  {
+    "id": 18,
+    "from": "London",
+    "to": "Dubai",
+    "date": "2025-08-03",
+    "departureTime": "10:00",
+    "arrivalTime": "21:30",
+    "price": 680,
+    "airline": "Emirates",
+    "returnDate": "2025-08-07",
+    "transit": {
+      "transitCity": "Frankfurt",
+      "transitDuration": "2h 30m"
+    }
+  },
+  {
+    "id": 19,
+    "from": "New York",
+    "to": "Dubai",
+    "date": "2025-08-06",
+    "departureTime": "15:00",
+    "arrivalTime": "04:30",
+    "price": 920,
+    "airline": "Emirates",
+    "returnDate": "2025-08-10",
+    "transit": {
+      "transitCity": "Frankfurt",
+      "transitDuration": "2h 00m"
+    }
+  },
+  {
+    "id": 20,
+    "from": "Tokyo",
+    "to": "Dubai",
+    "date": "2025-08-16",
+    "departureTime": "14:30",
+    "arrivalTime": "01:15",
+    "price": 980,
+    "airline": "Emirates",
+    "returnDate": "2025-08-20",
+    "transit": {
+      "transitCity": "Singapore",
+      "transitDuration": "2h 45m"
+    }
+  }
+],
+"hotels": [
+  { "id": 1, "city": "Dubai", "name": "Atlantis The Palm", "price": 300, "availableRooms": 20, "rate": 4.8 , "image":"Atlantis The Palm.jpg" },
+  { "id": 2, "city": "Dubai", "name": "Burj Al Arab", "price": 450, "availableRooms": 15 ,"rate": 5 , "image":"Burj Al Arab.jpg"},
+  { "id": 3, "city": "Dubai", "name": "Rove Downtown", "price": 120, "availableRooms": 35 ,"rate": 4.6 , "image":"Rove Downtown.jpg"},
+  { "id": 4, "city": "Dubai", "name": "Jumeirah Beach Hotel", "price": 250, "availableRooms": 18 ,"rate": 4.5 , "image":"Jumeirah Beach Hotel.jpg"},
+  { "id": 5, "city": "Riyadh", "name": "Riyadh Marriott", "price": 180, "availableRooms": 25 ,"rate": 4.5 , "image":"Riyadh Marriott.jpg"},
+  { "id": 6, "city": "Riyadh", "name": "Hyatt Regency Riyadh", "price": 220, "availableRooms": 22 ,"rate": 5 , "image":"Hyatt Regency Riyadh.jpg"},
+  { "id": 7, "city": "Riyadh", "name": "Novotel Riyadh", "price": 150, "availableRooms": 30 ,"rate": 4.7 , "image":"Novotel Riyadh.jpg"},
+  { "id": 8, "city": "Riyadh", "name": "Holiday Inn Olaya", "price": 130, "availableRooms": 27 ,"rate": 4.1 , "image":"Holiday Inn Olaya.jpg"},
+  { "id": 9, "city": "Istanbul", "name": "Swissotel The Bosphorus", "price": 200, "availableRooms": 19 ,"rate": 5 , "image":"Swissotel The Bosphorus.jpg" },
+  { "id": 10, "city": "Istanbul", "name": "Sirkeci Mansion", "price": 160, "availableRooms": 14 ,"rate": 4.2 , "image":"Sirkeci Mansion.jpg" },
+  { "id": 11, "city": "Istanbul", "name": "Hotel Amira", "price": 140, "availableRooms": 33 ,"rate": 4.7 , "image":"Hotel Amira.jpg" },
+  { "id": 12, "city": "Istanbul", "name": "Radisson Blu Istanbul", "price": 180, "availableRooms": 28 ,"rate": 4 , "image":"Radisson Blu Istanbul.jpg" },
+  { "id": 13, "city": "London", "name": "The Ritz London", "price": 400, "availableRooms": 12 ,"rate": 5 , "image":"The Ritz London.jpg" },
+  { "id": 14, "city": "London", "name": "Premier Inn London", "price": 120, "availableRooms": 40 ,"rate": 4.6 , "image":"Premier Inn London.jpg" },
+  { "id": 15, "city": "London", "name": "The Tower Hotel", "price": 170, "availableRooms": 26 ,"rate": 4.3 , "image":"The Tower Hotel.jpg" },
+  { "id": 16, "city": "London", "name": "Hilton London Bankside", "price": 220, "availableRooms": 24 ,"rate": 5 , "image":"Hilton London Bankside.jpg" },
+  { "id": 17, "city": "New York", "name": "The Plaza Hotel", "price": 380, "availableRooms": 10 ,"rate": 5 , "image":"The Plaza Hotel.jpg" },
+  { "id": 18, "city": "New York", "name": "Pod 51", "price": 140, "availableRooms": 36 ,"rate": 4.2 , "image":"Pod 51.jpg" },
+  { "id": 19, "city": "New York", "name": "Arlo SoHo", "price": 160, "availableRooms": 31 ,"rate": 4.5 , "image":"Arlo SoHo.jpg" },
+  { "id": 20, "city": "New York", "name": "The Standard High Line", "price": 200, "availableRooms": 21 ,"rate": 5 , "image":"The Standard High Line.jpg" },
+
+  { "id": 21, "city": "Tokyo", "name": "Park Hyatt Tokyo", "price": 350, "availableRooms": 14 ,"rate": 5, "image": "Park Hyatt Tokyo.jpg" },
+  { "id": 22, "city": "Tokyo", "name": "Shinjuku Granbell Hotel", "price": 160, "availableRooms": 28 ,"rate": 4.5, "image": "Shinjuku Granbell Hotel.jpg" },
+  { "id": 23, "city": "Tokyo", "name": "The Prince Park Tower Tokyo", "price": 240, "availableRooms": 20 ,"rate": 5, "image": "The Prince Park Tower Tokyo.jpg" },
+  { "id": 24, "city": "Tokyo", "name": "Hotel Gracery Shinjuku", "price": 180, "availableRooms": 30 ,"rate": 4.3, "image": "Hotel Gracery Shinjuku.jpg" },
+
+  { "id": 25, "city": "Jeddah", "name": "Jeddah Hilton", "price": 270, "availableRooms": 19 ,"rate": 5, "image": "Jeddah Hilton.jpg" },
+  { "id": 26, "city": "Jeddah", "name": "InterContinental Jeddah", "price": 230, "availableRooms": 22 ,"rate": 4.9, "image": "InterContinental Jeddah.jpg" },
+  { "id": 27, "city": "Jeddah", "name": "Radisson Blu Jeddah", "price": 190, "availableRooms": 26 ,"rate": 4.2, "image": "Radisson Blu Jeddah.jpg" },
+  { "id": 28, "city": "Jeddah", "name": "Holiday Inn Jeddah Gateway", "price": 160, "availableRooms": 33 ,"rate": 4.4, "image": "Holiday Inn Jeddah Gateway.jpg" },
+
+  { "id": 29, "city": "Paris", "name": "Hotel Le Meurice", "price": 410, "availableRooms": 13 ,"rate": 5, "image": "Hotel Le Meurice.jpg" },
+  { "id": 30, "city": "Paris", "name": "Hotel Regina Louvre", "price": 300, "availableRooms": 17 ,"rate": 4.8, "image": "Hotel Regina Louvre.jpg" },
+  { "id": 31, "city": "Paris", "name": "CitizenM Paris Gare de Lyon", "price": 180, "availableRooms": 29 ,"rate": 4.3, "image": "CitizenM Paris Gare de Lyon.jpg" },
+  { "id": 32, "city": "Paris", "name": "Hotel Eiffel Seine", "price": 160, "availableRooms": 25 , "rate": 4.2, "image": "Hotel Eiffel Seine.jpg" },
+
+  { "id": 33, "city": "Cairo", "name": "Four Seasons Cairo Nile Plaza", "price": 320, "availableRooms": 18 , "rate": 5, "image": "Four Seasons Cairo Nile Plaza.jpg" },
+  { "id": 34, "city": "Cairo", "name": "Steigenberger Hotel El Tahrir", "price": 190, "availableRooms": 27 , "rate": 4.5, "image": "Steigenberger Hotel El Tahrir.jpg" },
+  { "id": 35, "city": "Cairo", "name": "Ramses Hilton", "price": 210, "availableRooms": 22 , "rate": 4.8, "image": "Ramses Hilton.jpg" },
+  { "id": 36, "city": "Cairo", "name": "Kempinski Nile Hotel", "price": 250, "availableRooms": 20 ,"rate": 5, "image": "Kempinski Nile Hotel.jpg" }
+]
+
+,
+  "places": [
+    {
+      "id": 1,
+      "city": "Dubai",
+      "image": "dubai.jpg",
+      "places": [
+        {
+          "name": "Burj Khalifa",
+          "image": "Dubai-Burj-Khalifa.jpg"
+        },
+        {
+          "name": "Dubai Mall",
+          "image": "dubai-mall.jpg"
+        },
+        {
+          "name": "Palm Jumeirah",
+          "image": "Palm_Jumeirah.png"
+        },
+        {
+          "name": "Dubai Marina",
+          "image": "Dubai-Marina.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "city": "Riyadh",
+      "image": "Riyadh.jpg",
+      "places": [
+        {
+          "name": "Kingdom Centre Tower",
+          "image": "Kingdom Centre Tower.jpeg"
+        },
+        {
+          "name": "Al-Masmak Fortress",
+          "image": "Al-Masmak Fortress.jpg"
+        },
+        {
+          "name": "Riyadh Zoo",
+          "image": "Riyadh Zoo.png"
+        },
+        {
+          "name": "National Museum",
+          "image": "National Museum.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "city": "Istanbul",
+      "image": "istanbul.jpg",
+      "places": [
+        {
+          "name": "Hagia Sophia",
+          "image": "Hagia_Sophia.jpg"
+        },
+        {
+          "name": "Blue Mosque",
+          "image": "Blue Mosque.jpg"
+        },
+        {
+          "name": "Grand Bazaar",
+          "image": "Grand Bazaar.jpg"
+        },
+        {
+          "name": "Galata Tower",
+          "image": "Galata Tower.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "city": "London",
+      "image": "London.jpg",
+      "places": [
+        {
+          "name": "London Eye",
+          "image": "London Eye.jpeg"
+        },
+        {
+          "name": "Big Ben",
+          "image": "big-ben.jpg"
+        },
+        {
+          "name": "Tower Bridge",
+          "image": "Tower Bridge.jpg"
+        },
+        {
+          "name": "British Museum",
+          "image": "British Museum.jpg"
+        }
+      ] 
+    },
+    {
+      "id": 5,
+      "city": "New York",
+      "image": "New York.jpg",
+      "places": [
+        {
+          "name": "Statue of Liberty",
+          "image": "Statue of Liberty.jpg"
+        },
+        {
+          "name": "Central Park",
+          "image": "Central Park.jpeg"
+        },
+        {
+          "name": "Times Square",
+          "image": "Times Square.jpg"
+        },
+        {
+          "name": "Brooklyn Bridge",
+          "image": "Brooklyn Bridge.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+  "city": "Cairo",
+  "image": "Cairo.jpg",
+  "places": [
+    {
+      "name": "Pyramids of Giza",
+      "image": "giza-egyptian-pyramids.jpg"
+    },
+    {
+      "name": "Egyptian Museum",
+      "image": "Egyptian Museum.jpg"
+    },
+    {
+      "name": "Khan El Khalili",
+      "image": "Khan-El-Khalili-Bazaar.jpg"
+    },
+    {
+      "name": "Cairo Tower",
+      "image": "Cairo Tower.jpg"
+    }
+  ]
+},
+{
+  "id": 7,
+  "city": "Paris",
+  "image": "Paris.jpg",
+  "places": [
+    {
+      "name": "Eiffel Tower",
+      "image": "Eiffel Tower.jpg"
+    },
+    {
+      "name": "Louvre Museum",
+      "image": "Louvre Museum.jpg"
+    },
+    {
+      "name": "Notre-Dame Cathedral",
+      "image": "Notre-Dame Cathedral.jpeg"
+    },
+    {
+      "name": "Montmartre & Sacré-Cœur",
+      "image": "Montmartre & Sacré-Cœur.jpeg"
+    }
+  ]
+},
+{
+  "id": 8,
+  "city": "Jeddah",
+  "image": "Jeddah.jpg",
+  "places": [
+    {
+      "name": "King Fahd Fountain",
+      "image": "King Fahd Fountain.jpg"
+    },
+    {
+      "name": "Jeddah Corniche",
+      "image": "Jeddah Corniche.jpg"
+    },
+    {
+      "name": "Al-Balad (Old Town)",
+      "image": "Al-Balad (Old Town).jpg"
+    },
+    {
+      "name": "Fakieh Aquarium",
+      "image": "Fakieh Aquarium.jpg"
+    }
+  ]
+},
+{
+  "id": 9,
+  "city": "Tokyo",
+  "image": "Tokyo.jpg",
+  "places": [
+    {
+      "name": "Tokyo Tower",
+      "image": "Tokyo Tower.jpg"
+    },
+    {
+      "name": "Senso-ji Temple",
+      "image": "Senso-ji Temple.jpeg"
+    },
+    {
+      "name": "Shibuya Crossing",
+      "image": "Shibuya Crossing.jpg"
+    },
+    {
+      "name": "Tokyo Skytree",
+      "image": "Tokyo Skytree.jpg"
+    }
+  ]
+}
+  ]
+}
