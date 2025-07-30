@@ -1,310 +1,1650 @@
 {
   "flights": [
-  {
-    "id": 1,
-    "from": "Cairo",
-    "to": "Dubai",
-    "date": "2025-07-20",
-    "departureTime": "09:00",
-    "arrivalTime": "13:30",
-    "price": 350,
-    "airline": "Emirates",
-    "returnDate": "2025-07-24"
-  },
-  {
-    "id": 2,
-    "from": "Cairo",
-    "to": "Riyadh",
-    "date": "2025-07-21",
-    "departureTime": "10:15",
-    "arrivalTime": "13:00",
-    "price": 220,
-    "airline": "Saudi Airlines",
-    "returnDate": "2025-07-25"
-  },
-  {
-    "id": 3,
-    "from": "Cairo",
-    "to": "Istanbul",
-    "date": "2025-07-22",
-    "departureTime": "08:30",
-    "arrivalTime": "11:45",
-    "price": 300,
-    "airline": "Turkish Airlines",
-    "transit": {
-      "transitCity": "Athens",
-      "transitDuration": "1h 10m"
+    {
+      "id": 1,
+      "from": "Cairo",
+      "to": "Dubai",
+      "date": "2025-08-20",
+      "departureTime": "09:00",
+      "arrivalTime": "13:30",
+      "price": 350,
+      "airline": "Emirates"
     },
-    "returnDate": "2025-07-26"
-  },
-  {
-    "id": 4,
-    "from": "Riyadh",
-    "to": "London",
-    "date": "2025-08-01",
-    "departureTime": "02:00",
-    "arrivalTime": "07:30",
-    "price": 550,
-    "airline": "British Airways",
-    "returnDate": "2025-08-05"
-  },
-  {
-    "id": 5,
-    "from": "Dubai",
-    "to": "New York",
-    "date": "2025-08-05",
-    "departureTime": "08:00",
-    "arrivalTime": "18:45",
-    "price": 900,
-    "airline": "Emirates",
-    "transit": {
-      "transitCity": "Frankfurt",
-      "transitDuration": "2h 20m"
+    {
+      "id": 2,
+      "from": "Cairo",
+      "to": "Riyadh",
+      "date": "2025-08-21",
+      "departureTime": "10:15",
+      "arrivalTime": "13:00",
+      "price": 220,
+      "airline": "Saudi Airlines"
     },
-    "returnDate": "2025-08-09"
-  },
-  {
-    "id": 6,
-    "from": "Jeddah",
-    "to": "Cairo",
-    "date": "2025-07-25",
-    "departureTime": "06:30",
-    "arrivalTime": "08:00",
-    "price": 180,
-    "airline": "EgyptAir",
-    "returnDate": "2025-07-29"
-  },
-  {
-    "id": 7,
-    "from": "Doha",
-    "to": "Paris",
-    "date": "2025-07-30",
-    "departureTime": "04:15",
-    "arrivalTime": "09:30",
-    "price": 670,
-    "airline": "Qatar Airways",
-    "transit": {
-      "transitCity": "Rome",
-      "transitDuration": "1h 30m"
+    {
+      "id": 3,
+      "from": "Cairo",
+      "to": "Istanbul",
+      "date": "2025-08-22",
+      "departureTime": "08:30",
+      "arrivalTime": "11:45",
+      "price": 300,
+      "airline": "Turkish Airlines",
+      "transit": {
+        "transitCity": "Athens",
+        "transitDuration": "1h 10m"
+      }
     },
-    "returnDate": "2025-08-03"
-  },
-  {
-    "id": 8,
-    "from": "Alexandria",
-    "to": "Dubai",
-    "date": "2025-07-28",
-    "departureTime": "07:00",
-    "arrivalTime": "12:00",
-    "price": 310,
-    "airline": "FlyDubai",
-    "returnDate": "2025-08-01"
-  },
-  {
-    "id": 9,
-    "from": "Cairo",
-    "to": "Jeddah",
-    "date": "2025-07-26",
-    "departureTime": "13:30",
-    "arrivalTime": "15:30",
-    "price": 190,
-    "airline": "Saudia",
-    "returnDate": "2025-07-30"
-  },
-  {
-    "id": 10,
-    "from": "Dubai",
-    "to": "Tokyo",
-    "date": "2025-08-15",
-    "departureTime": "23:00",
-    "arrivalTime": "12:30",
-    "price": 950,
-    "airline": "Emirates",
-    "transit": {
-      "transitCity": "Singapore",
-      "transitDuration": "3h 00m"
+    {
+      "id": 4,
+      "from": "Riyadh",
+      "to": "London",
+      "date": "2025-08-03",
+      "departureTime": "02:00",
+      "arrivalTime": "07:30",
+      "price": 550,
+      "airline": "British Airways"
     },
-    "returnDate": "2025-08-19"
-  },
-  {
-    "id": 11,
-    "from": "Cairo",
-    "to": "London",
-    "date": "2025-07-23",
-    "departureTime": "14:00",
-    "arrivalTime": "18:30",
-    "price": 450,
-    "airline": "British Airways",
-    "returnDate": "2025-07-27",
-    "transit": {
-      "transitCity": "Dubai",
-      "transitDuration": "2h 15m"
+    {
+      "id": 5,
+      "from": "Dubai",
+      "to": "New York",
+      "date": "2025-08-05",
+      "departureTime": "08:00",
+      "arrivalTime": "18:45",
+      "price": 900,
+      "airline": "Emirates",
+      "transit": {
+        "transitCity": "Frankfurt",
+        "transitDuration": "2h 20m"
+      }
+    },
+    {
+      "id": 6,
+      "from": "Jeddah",
+      "to": "Cairo",
+      "date": "2025-08-25",
+      "departureTime": "06:30",
+      "arrivalTime": "08:00",
+      "price": 180,
+      "airline": "EgyptAir"
+    },
+    {
+      "id": 7,
+      "from": "Jeddah",
+      "to": "Paris",
+      "date": "2025-08-30",
+      "departureTime": "04:15",
+      "arrivalTime": "09:30",
+      "price": 670,
+      "airline": "Qatar Airways",
+      "transit": {
+        "transitCity": "Rome",
+        "transitDuration": "1h 30m"
+      }
+    },
+    {
+      "id": 8,
+      "from": "Alexandria",
+      "to": "Dubai",
+      "date": "2025-08-28",
+      "departureTime": "07:00",
+      "arrivalTime": "12:00",
+      "price": 310,
+      "airline": "FlyDubai"
+    },
+    {
+      "id": 9,
+      "from": "Cairo",
+      "to": "Jeddah",
+      "date": "2025-08-26",
+      "departureTime": "13:30",
+      "arrivalTime": "15:30",
+      "price": 190,
+      "airline": "Saudia"
+    },
+    {
+      "id": 10,
+      "from": "Dubai",
+      "to": "Tokyo",
+      "date": "2025-08-15",
+      "departureTime": "23:00",
+      "arrivalTime": "12:30",
+      "price": 950,
+      "airline": "Emirates",
+      "transit": {
+        "transitCity": "Singapore",
+        "transitDuration": "3h 00m"
+      }
+    },
+    {
+      "id": 11,
+      "from": "Dubai",
+      "to": "Cairo",
+      "date": "2025-08-19",
+      "departureTime": "15:45",
+      "arrivalTime": "18:30",
+      "price": 340,
+      "airline": "FlyDubai"
+    },
+    {
+      "id": 12,
+      "from": "Istanbul",
+      "to": "Riyadh",
+      "date": "2025-08-24",
+      "departureTime": "11:00",
+      "arrivalTime": "15:30",
+      "price": 310,
+      "airline": "Turkish Airlines"
+    },
+    {
+      "id": 13,
+      "from": "London",
+      "to": "Dubai",
+      "date": "2025-08-12",
+      "departureTime": "20:30",
+      "arrivalTime": "06:00",
+      "price": 580,
+      "airline": "British Airways"
+    },
+    {
+      "id": 14,
+      "from": "Jeddah",
+      "to": "Istanbul",
+      "date": "2025-08-23",
+      "departureTime": "05:30",
+      "arrivalTime": "09:00",
+      "price": 270,
+      "airline": "Turkish Airlines"
+    },
+    {
+      "id": 15,
+      "from": "Tokyo",
+      "to": "Dubai",
+      "date": "2025-08-20",
+      "departureTime": "10:00",
+      "arrivalTime": "20:00",
+      "price": 940,
+      "airline": "Emirates",
+      "transit": {
+        "transitCity": "Bangkok",
+        "transitDuration": "2h 15m"
+      }
+    },
+    {
+      "id": 16,
+      "from": "New York",
+      "to": "Cairo",
+      "date": "2025-08-17",
+      "departureTime": "21:00",
+      "arrivalTime": "14:45",
+      "price": 980,
+      "airline": "EgyptAir",
+      "transit": {
+        "transitCity": "London",
+        "transitDuration": "3h 10m"
+      }
+    },
+    {
+      "id": 17,
+      "from": "Cairo",
+      "to": "London",
+      "date": "2025-08-18",
+      "departureTime": "14:00",
+      "arrivalTime": "18:30",
+      "price": 460,
+      "airline": "British Airways"
+    },
+    {
+      "id": 18,
+      "from": "Riyadh",
+      "to": "Paris",
+      "date": "2025-08-21",
+      "departureTime": "01:00",
+      "arrivalTime": "07:00",
+      "price": 620,
+      "airline": "Saudi Airlines",
+      "transit": {
+        "transitCity": "Cairo",
+        "transitDuration": "1h 20m"
+      }
+    },
+    {
+      "id": 19,
+      "from": "Cairo",
+      "to": "New York",
+      "date": "2025-08-24",
+      "departureTime": "16:30",
+      "arrivalTime": "01:00",
+      "price": 920,
+      "airline": "EgyptAir",
+      "transit": {
+        "transitCity": "Madrid",
+        "transitDuration": "2h 40m"
+      }
+    },
+    {
+      "id": 20,
+      "from": "Cairo",
+      "to": "Paris",
+      "date": "2025-08-23",
+      "departureTime": "07:15",
+      "arrivalTime": "11:00",
+      "price": 440,
+      "airline": "Air France"
+    },
+    {
+      "id": 21,
+      "from": "Cairo",
+      "to": "Tokyo",
+      "date": "2025-08-20",
+      "departureTime": "22:00",
+      "arrivalTime": "14:30",
+      "price": 990,
+      "airline": "Emirates",
+      "transit": {
+        "transitCity": "Dubai",
+        "transitDuration": "4h 00m"
+      }
+    },
+    {
+      "id": 22,
+      "from": "Alexandria",
+      "to": "New York",
+      "date": "2025-08-26",
+      "departureTime": "12:45",
+      "arrivalTime": "22:00",
+      "price": 960,
+      "airline": "EgyptAir",
+      "transit": {
+        "transitCity": "Cairo",
+        "transitDuration": "1h 15m"
+      }
+    },
+    {
+      "id": 23,
+      "from": "Alexandria",
+      "to": "Paris",
+      "date": "2025-08-21",
+      "departureTime": "06:00",
+      "arrivalTime": "12:45",
+      "price": 480,
+      "airline": "Air France"
+    },
+    {
+      "id": 24,
+      "from": "Alexandria",
+      "to": "London",
+      "date": "2025-08-27",
+      "departureTime": "13:00",
+      "arrivalTime": "18:30",
+      "price": 500,
+      "airline": "British Airways"
+    },
+    {
+      "id": 25,
+      "from": "Alexandria",
+      "to": "Tokyo",
+      "date": "2025-08-25",
+      "departureTime": "23:30",
+      "arrivalTime": "16:00",
+      "price": 1000,
+      "airline": "Qatar Airways",
+      "transit": {
+        "transitCity": "Doha",
+        "transitDuration": "3h 15m"
+      }
+    },
+    {
+      "id": 1753788073361,
+      "from": "alex",
+      "to": "damnhour",
+      "date": "2025-07-31",
+      "departureTime": "20:25",
+      "arrivalTime": "20:26",
+      "price": 200,
+      "airline": "Emirates"
+    },
+    {
+      "id": 1753792225538,
+      "from": "cairo",
+      "to": "barcelona",
+      "date": "2025-07-31",
+      "departureTime": "18:29",
+      "arrivalTime": "22:29",
+      "price": 300,
+      "airline": "British Airways"
     }
-  },
-  {
-    "id": 12,
-    "from": "Dubai",
-    "to": "Riyadh",
-    "date": "2025-07-24",
-    "departureTime": "11:30",
-    "arrivalTime": "13:15",
-    "price": 180,
-    "airline": "Saudi Airlines",
-    "returnDate": "2025-07-28"
-  },
-  {
-    "id": 13,
-    "from": "Riyadh",
-    "to": "Cairo",
-    "date": "2025-07-27",
-    "departureTime": "16:00",
-    "arrivalTime": "18:45",
-    "price": 210,
-    "airline": "EgyptAir",
-    "returnDate": "2025-07-31"
-  },
-  {
-    "id": 14,
-    "from": "Jeddah",
-    "to": "Dubai",
-    "date": "2025-07-29",
-    "departureTime": "09:15",
-    "arrivalTime": "12:30",
-    "price": 280,
-    "airline": "Emirates",
-    "returnDate": "2025-08-02"
-  },
-  {
-    "id": 15,
-    "from": "Alexandria",
-    "to": "Riyadh",
-    "date": "2025-07-30",
-    "departureTime": "12:00",
-    "arrivalTime": "15:30",
-    "price": 240,
-    "airline": "Saudi Airlines",
-    "returnDate": "2025-08-03",
-    "transit": {
-      "transitCity": "Cairo",
-      "transitDuration": "1h 20m"
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "city": "Dubai",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.1552231883607!2d55.12202071989651!3d25.13044252039412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f153e3609c979%3A0x5945a418a804ac5!2z2KPYqtmE2KfZhtiq2LMg4oCTINin2YTZhtiu2YTYqQ!5e0!3m2!1sar!2seg!4v1753537997628!5m2!1sar!2seg",
+      "name": "Atlantis The Palm",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 7,
+          "price": 100
+        },
+        {
+          "type": "double",
+          "quantity": 20,
+          "price": 200
+        },
+        {
+          "type": "suite",
+          "quantity": 5,
+          "price": 500
+        }
+      ],
+      "onSale": true,
+      "rate": 4.8,
+      "image": "Atlantis The Palm.jpg",
+      "description": "A luxurious ocean-themed resort located on Dubai’s iconic Palm Jumeirah with a waterpark and aquarium.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Private Beach",
+        "Spa",
+        "Waterpark"
+      ],
+      "contact": {
+        "phone": "+971-4-426-2000",
+        "email": "info@atlantisdubai.com"
+      }
+    },
+    {
+      "id": 2,
+      "city": "Dubai",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1805.9132662175873!2d55.186265761373086!3d25.14155484443672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6a576414cf2d%3A0xb3da71b879f0e038!2z2KjYsdisINin2YTYudix2Kg!5e0!3m2!1sar!2seg!4v1753538163519!5m2!1sar!2seg",
+      "name": "Burj Al Arab",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 5,
+          "price": 150
+        },
+        {
+          "type": "double",
+          "quantity": 15,
+          "price": 300
+        },
+        {
+          "type": "suite",
+          "quantity": 2,
+          "price": 700
+        }
+      ],
+      "onSale": false,
+      "rate": 5,
+      "image": "Burj Al Arab.jpg",
+      "description": "An iconic sail-shaped 7-star hotel known for its lavish suites and world-class service.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Private Beach",
+        "Spa",
+        "Fine Dining"
+      ],
+      "contact": {
+        "phone": "+971-4-301-7777",
+        "email": "guestservices@jumeirah.com"
+      }
+    },
+    {
+      "id": 3,
+      "city": "Dubai",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7220.0103560047055!2d55.27651337516376!3d25.203047877707156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f428341ddb8e1%3A0xc51e0d30c4efde50!2sRove%20Downtown!5e0!3m2!1sen!2seg!4v1753538350491!5m2!1sen!2seg",
+      "name": "Rove Downtown",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 7,
+          "price": 80
+        },
+        {
+          "type": "double",
+          "quantity": 30,
+          "price": 150
+        },
+        {
+          "type": "suite",
+          "quantity": 10,
+          "price": 300
+        }
+      ],
+      "onSale": true,
+      "rate": 4.6,
+      "image": "Rove Downtown.jpg",
+      "description": "A trendy and affordable hotel steps away from the Burj Khalifa and Dubai Mall.",
+      "amenities": [
+        "Free Wi-Fi",
+        "24-hour Front Desk",
+        "Restaurant",
+        "Outdoor Pool"
+      ],
+      "contact": {
+        "phone": "+971-4-561-9000",
+        "email": "downtown@rovehotels.com"
+      }
+    },
+    {
+      "id": 4,
+      "city": "Dubai",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7223.651323297377!2d55.1887027751616!3d25.14158427774677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6a540d69b295%3A0x47f78c4e394a2976!2sJumeirah%20Beach%20Hotel!5e0!3m2!1sen!2seg!4v1753538473618!5m2!1sen!2seg",
+      "name": "Jumeirah Beach Hotel",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 15,
+          "price": 200
+        },
+        {
+          "type": "double",
+          "quantity": 25,
+          "price": 350
+        },
+        {
+          "type": "suite",
+          "quantity": 5,
+          "price": 500
+        }
+      ],
+      "onSale": false,
+      "rate": 4.5,
+      "image": "Jumeirah Beach Hotel.jpg",
+      "description": "Family-friendly resort with stunning views of the Burj Al Arab and private beach access.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Private Beach",
+        "Spa",
+        "Kids Club"
+      ],
+      "contact": {
+        "phone": "+971-4-348-0000",
+        "email": "info@jumeirahbeachhotel.com"
+      }
+    },
+    {
+      "id": 5,
+      "city": "Riyadh",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7250.384561029428!2d46.709768075146144!3d24.685916078043665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0383e7394a65%3A0x475e8aa0f4bc6731!2sRiyadh%20Marriott%20Hotel!5e0!3m2!1sen!2seg!4v1753538532807!5m2!1sen!2seg",
+      "name": "Riyadh Marriott",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 18,
+          "price": 180
+        },
+        {
+          "type": "double",
+          "quantity": 30,
+          "price": 300
+        },
+        {
+          "type": "suite",
+          "quantity": 10,
+          "price": 600
+        }
+      ],
+      "onSale": true,
+      "rate": 4.5,
+      "image": "Riyadh Marriott.jpg",
+      "description": "A comfortable and elegant hotel located in the business district of Riyadh.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Fitness Center",
+        "Business Center"
+      ],
+      "contact": {
+        "phone": "+966-11-4779300",
+        "email": "riyadh.reservations@marriott.com"
+      }
+    },
+    {
+      "id": 6,
+      "city": "Riyadh",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.830340820384!2d46.67982077514667!3d24.698358278035453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f033ade6bad47%3A0xade9a682c34a40c!2sHyatt%20Regency%20Riyadh%20Olaya!5e0!3m2!1sen!2seg!4v1753538594897!5m2!1sen!2seg",
+      "name": "Hyatt Regency Riyadh",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 13,
+          "price": 250
+        },
+        {
+          "type": "double",
+          "quantity": 25,
+          "price": 400
+        },
+        {
+          "type": "suite",
+          "quantity": 5,
+          "price": 800
+        }
+      ],
+      "onSale": false,
+      "rate": 5,
+      "image": "Hyatt Regency Riyadh.jpg",
+      "description": "A modern luxury hotel featuring upscale dining and panoramic city views.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Private Pool",
+        "Spa",
+        "Fitness Center"
+      ],
+      "contact": {
+        "phone": "+966-11-2881234",
+        "email": "riyadh.regency@hyatt.com"
+      }
+    },
+    {
+      "id": 7,
+      "city": "Riyadh",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.582418463909!2d46.672938675146895!3d24.706877578029843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f02cd9431a641%3A0x7a1dedabcc2eb859!2sNovotel%20Riyadh%20Al%20Anoud!5e0!3m2!1sen!2seg!4v1753538648820!5m2!1sen!2seg",
+      "name": "Novotel Riyadh",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 20,
+          "price": 180
+        },
+        {
+          "type": "double",
+          "quantity": 30,
+          "price": 300
+        },
+        {
+          "type": "suite",
+          "quantity": 10,
+          "price": 600
+        }
+      ],
+      "onSale": true,
+      "rate": 4.7,
+      "image": "Novotel Riyadh.jpg",
+      "description": "Well-suited for business travelers with modern rooms and excellent amenities.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Fitness Center",
+        "Business Center"
+      ],
+      "contact": {
+        "phone": "+966-11-299-8800",
+        "email": "h0786@accor.com"
+      }
+    },
+    {
+      "id": 8,
+      "city": "Riyadh",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.3538737678514!2d46.6879447751459!3d24.680359178047258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee2bec4beda9b%3A0x9d711fa31ad73197!2sHoliday%20Inn%20Riyadh%20-%20Olaya%20by%20IHG!5e0!3m2!1sen!2seg!4v1753538700030!5m2!1sen!2seg",
+      "name": "Holiday Inn Olaya",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 15,
+          "price": 250
+        },
+        {
+          "type": "double",
+          "quantity": 25,
+          "price": 400
+        },
+        {
+          "type": "suite",
+          "quantity": 5,
+          "price": 800
+        }
+      ],
+      "onSale": false,
+      "rate": 4.1,
+      "image": "Holiday Inn Olaya.jpg",
+      "description": "A casual and convenient hotel in central Riyadh with comfortable rooms.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Fitness Center"
+      ],
+      "contact": {
+        "phone": "+966-11-4625000",
+        "email": "info@holidayinnriyadh.com"
+      }
+    },
+    {
+      "id": 9,
+      "city": "Istanbul",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.2727531151954!2d28.995103775860173!3d41.04116407134589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab77526f3dc9b%3A0x92ada1dd6c7d611e!2sSwiss%C3%B4tel%20The%20Bosphorus%20Istanbul!5e0!3m2!1sen!2seg!4v1753538740577!5m2!1sen!2seg",
+      "name": "Swissotel The Bosphorus",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 15,
+          "price": 280
+        },
+        {
+          "type": "double",
+          "quantity": 25,
+          "price": 450
+        },
+        {
+          "type": "suite",
+          "quantity": 10,
+          "price": 800
+        }
+      ],
+      "onSale": true,
+      "rate": 5,
+      "image": "Swissotel The Bosphorus.jpg",
+      "description": "Luxury hotel offering stunning Bosphorus views and a tranquil spa experience.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Private Pool",
+        "Spa",
+        "Fitness Center"
+      ],
+      "contact": {
+        "phone": "+90-212-326-1100",
+        "email": "reservations.bosphorus@swissotel.com"
+      }
+    },
+    {
+      "id": 10,
+      "city": "Istanbul",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.5664212795505!2d28.975970975858733!3d41.01286227135001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab94f44b816fb%3A0x41e31821ef31ac07!2sSirkeci%20Mansion%20Hotel!5e0!3m2!1sen!2seg!4v1753538783210!5m2!1sen!2seg",
+      "name": "Sirkeci Mansion",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 20,
+          "price": 250
+        },
+        {
+          "type": "double",
+          "quantity": 30,
+          "price": 400
+        },
+        {
+          "type": "suite",
+          "quantity": 5,
+          "price": 800
+        }
+      ],
+      "onSale": false,
+      "rate": 4.2,
+      "image": "Sirkeci Mansion.jpg",
+      "description": "Charming boutique hotel near Topkapi Palace with traditional Turkish hospitality.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Spa",
+        "Airport Shuttle"
+      ],
+      "contact": {
+        "phone": "+90-212-528-4344",
+        "email": "info@sirkecimansion.com"
+      }
+    },
+    {
+      "id": 11,
+      "city": "Istanbul",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6022.02880414752!2d28.971354075858205!3d41.003057971351296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab99845165faf%3A0xded287990e016577!2sHotel%20Amira%20Istanbul!5e0!3m2!1sen!2seg!4v1753538828731!5m2!1sen!2seg",
+      "name": "Hotel Amira",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 10,
+          "price": 120
+        },
+        {
+          "type": "double",
+          "quantity": 15,
+          "price": 220
+        },
+        {
+          "type": "suite",
+          "quantity": 3,
+          "price": 500
+        }
+      ],
+      "onSale": true,
+      "rate": 4.7,
+      "image": "Hotel Amira.jpg",
+      "description": "A stylish boutique hotel in Sultanahmet, steps from the Blue Mosque.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Fitness Center"
+      ],
+      "contact": {
+        "phone": "+90-212-516-1626",
+        "email": "info@hotelamira.com"
+      }
+    },
+    {
+      "id": 12,
+      "city": "Istanbul",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.9924261448914!2d28.979218075858206!3d41.00353897135118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9dfffdd868d%3A0x9447dd465106fed8!2sRadisson%20Hotel%20Istanbul%20Sultanahmet!5e0!3m2!1sen!2seg!4v1753538870113!5m2!1sen!2seg",
+      "name": "Radisson Blu Istanbul",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 12,
+          "price": 200
+        },
+        {
+          "type": "double",
+          "quantity": 18,
+          "price": 350
+        },
+        {
+          "type": "suite",
+          "quantity": 4,
+          "price": 600
+        }
+      ],
+      "onSale": false,
+      "rate": 4,
+      "image": "Radisson Blu Istanbul.jpg",
+      "description": "Upscale accommodation with easy access to shopping and business areas.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Fitness Center",
+        "Business Center"
+      ],
+      "contact": {
+        "phone": "+90-212-310-1500",
+        "email": "info.istanbul@radissonblu.com"
+      }
+    },
+    {
+      "id": 13,
+      "city": "London",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4966.669083696286!2d-0.14420222353009504!3d51.507078171813276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760529d30fc857%3A0x596135811e044014!2sThe%20Ritz%20London!5e0!3m2!1sen!2seg!4v1753538940551!5m2!1sen!2seg",
+      "name": "The Ritz London",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 5,
+          "price": 400
+        },
+        {
+          "type": "double",
+          "quantity": 10,
+          "price": 700
+        },
+        {
+          "type": "suite",
+          "quantity": 2,
+          "price": 1500
+        }
+      ],
+      "onSale": false,
+      "rate": 5,
+      "image": "The Ritz London.jpg",
+      "description": "Historic 5-star hotel offering timeless luxury and afternoon tea tradition.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Spa",
+        "Fine Dining",
+        "24-hour Room Service"
+      ],
+      "contact": {
+        "phone": "+44-20-7493-8181",
+        "email": "enquiries@theritzlondon.com"
+      }
+    },
+    {
+      "id": 14,
+      "city": "London",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.584074250484!2d-0.12064582353036088!3d51.50249967181227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8af7a1533332d%3A0x43d3fab3daeb5b25!2sPremier%20Inn%20London%20County%20Hall%20hotel!5e0!3m2!1sen!2seg!4v1753538986921!5m2!1sen!2seg",
+      "name": "Premier Inn London",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 20,
+          "price": 100
+        },
+        {
+          "type": "double",
+          "quantity": 30,
+          "price": 180
+        },
+        {
+          "type": "suite",
+          "quantity": 5,
+          "price": 400
+        }
+      ],
+      "onSale": true,
+      "rate": 4.6,
+      "image": "Premier Inn London.jpg",
+      "description": "Reliable budget-friendly hotel chain with clean rooms and good service.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Fitness Center"
+      ],
+      "contact": {
+        "phone": "+44-333-003-8101",
+        "email": "customer.relations@premierinn.com"
+      }
+    },
+    {
+      "id": 15,
+      "city": "London",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4966.700934973771!2d-0.07653982353013278!3d51.50678597181318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876034824cbc437%3A0xcb55e6ff166d412c!2sThe%20Tower%20Hotel%2C%20by%20Thistle!5e0!3m2!1sen!2seg!4v1753539026693!5m2!1sen!2seg",
+      "name": "The Tower Hotel",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 15,
+          "price": 150
+        },
+        {
+          "type": "double",
+          "quantity": 25,
+          "price": 250
+        },
+        {
+          "type": "suite",
+          "quantity": 5,
+          "price": 600
+        }
+      ],
+      "onSale": false,
+      "rate": 4.3,
+      "image": "The Tower Hotel.jpg",
+      "description": "Hotel with scenic views of Tower Bridge and easy Thames river access.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Fitness Center"
+      ],
+      "contact": {
+        "phone": "+44-20-7523-5063",
+        "email": "info.thetower@guoman.co.uk"
+      }
+    },
+    {
+      "id": 16,
+      "city": "London",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4966.824371079288!2d-0.10370072353020497!3d51.50565357181288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604af6af74cc7%3A0x6c4cb3cbe03e95bf!2sHilton%20London%20Bankside!5e0!3m2!1sen!2seg!4v1753539173915!5m2!1sen!2seg",
+      "name": "Hilton London Bankside",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 11,
+          "price": 200
+        },
+        {
+          "type": "double",
+          "quantity": 22,
+          "price": 350
+        },
+        {
+          "type": "suite",
+          "quantity": 7,
+          "price": 700
+        }
+      ],
+      "onSale": true,
+      "rate": 5,
+      "image": "Hilton London Bankside.jpg",
+      "description": "Modern luxury hotel in South Bank close to Tate Modern and the Shard.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Spa",
+        "Restaurant",
+        "Fitness Center"
+      ],
+      "contact": {
+        "phone": "+44-20-3667-5600",
+        "email": "info@hiltonbankside.co.uk"
+      }
+    },
+    {
+      "id": 17,
+      "city": "New York",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6043.762928931713!2d-73.97690002415439!3d40.764631771385744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f07d5da561%3A0x61f6aa300ba8339d!2sThe%20Plaza!5e0!3m2!1sen!2seg!4v1753539225220!5m2!1sen!2seg",
+      "name": "The Plaza Hotel",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 5,
+          "price": 500
+        },
+        {
+          "type": "double",
+          "quantity": 10,
+          "price": 800
+        },
+        {
+          "type": "suite",
+          "quantity": 2,
+          "price": 1500
+        }
+      ],
+      "onSale": false,
+      "rate": 5,
+      "image": "The Plaza Hotel.jpg",
+      "description": "New York’s iconic hotel at Central Park South with elegant, historic charm.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Spa",
+        "Fine Dining",
+        "24-hour Room Service"
+      ],
+      "contact": {
+        "phone": "+1-212-759-3000",
+        "email": "plazareservation@fairmont.com"
+      }
+    },
+    {
+      "id": 18,
+      "city": "New York",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6044.567352781436!2d-73.9716684241549!3d40.755785071387024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e31d4457eb%3A0x2bb34c38744394ed!2sPod%2051!5e0!3m2!1sen!2seg!4v1753539263354!5m2!1sen!2seg",
+      "name": "Pod 51",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 25,
+          "price": 100
+        },
+        {
+          "type": "double",
+          "quantity": 40,
+          "price": 180
+        },
+        {
+          "type": "suite",
+          "quantity": 10,
+          "price": 350
+        }
+      ],
+      "onSale": true,
+      "rate": 4.2,
+      "image": "Pod 51.jpg",
+      "description": "Smart, affordable and compact rooms in Midtown Manhattan with a rooftop deck.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Rooftop Terrace",
+        "Restaurant",
+        "24-hour Front Desk"
+      ],
+      "contact": {
+        "phone": "+1-212-355-0300",
+        "email": "stay@thepodhotel.com"
+      }
+    },
+    {
+      "id": 19,
+      "city": "New York",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6047.411718143927!2d-74.01054002415648!3d40.72449127139177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a86ec13155%3A0x241dde24a8128197!2sArlo%20SoHo!5e0!3m2!1sen!2seg!4v1753539311836!5m2!1sen!2seg",
+      "name": "Arlo SoHo",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 20,
+          "price": 150
+        },
+        {
+          "type": "double",
+          "quantity": 30,
+          "price": 250
+        },
+        {
+          "type": "suite",
+          "quantity": 5,
+          "price": 500
+        }
+      ],
+      "onSale": false,
+      "rate": 4.5,
+      "image": "Arlo SoHo.jpg",
+      "description": "Trendy micro-hotel in SoHo with vibrant social spaces and cozy rooms.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Fitness Center",
+        "24-hour Room Service"
+      ],
+      "contact": {
+        "phone": "+1-212-342-7000",
+        "email": "soho@arlohotels.com"
+      }
+    },
+    {
+      "id": 20,
+      "city": "New York",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9641768275096!2d-74.01043832415567!3d40.74081377138925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259c06677ef37%3A0x505cfe96ba9da92a!2sThe%20Standard%2C%20High%20Line!5e0!3m2!1sen!2seg!4v1753539365683!5m2!1sen!2seg",
+      "name": "The Standard High Line",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 10,
+          "price": 250
+        },
+        {
+          "type": "double",
+          "quantity": 15,
+          "price": 400
+        },
+        {
+          "type": "suite",
+          "quantity": 3,
+          "price": 700
+        }
+      ],
+      "onSale": true,
+      "rate": 5,
+      "image": "The Standard High Line.jpg",
+      "description": "Modern hotel with skyline views above the High Line park in NYC.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Spa",
+        "Fine Dining",
+        "24-hour Room Service"
+      ],
+      "contact": {
+        "phone": "+1-212-645-4646",
+        "email": "info@standardhotels.com"
+      }
+    },
+    {
+      "id": 21,
+      "city": "Tokyo",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.648662032545!2d139.68851377559193!3d35.685652072585874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f32cd7dab227%3A0x2cd8a394ca8e7d96!2sPark%20Hyatt%20Tokyo!5e0!3m2!1sen!2seg!4v1753539424404!5m2!1sen!2seg",
+      "name": "Park Hyatt Tokyo",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 8,
+          "price": 300
+        },
+        {
+          "type": "double",
+          "quantity": 12,
+          "price": 500
+        },
+        {
+          "type": "suite",
+          "quantity": 2,
+          "price": 1000
+        }
+      ],
+      "onSale": false,
+      "rate": 5,
+      "image": "Park Hyatt Tokyo.jpg",
+      "description": "Famous for its luxury and skyline views, featured in the movie 'Lost in Translation'.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Spa",
+        "Fine Dining",
+        "Indoor Pool"
+      ],
+      "contact": {
+        "phone": "+81-3-5322-1234",
+        "email": "tokyo.park@hyatt.com"
+      }
+    },
+    {
+      "id": 22,
+      "city": "Tokyo",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.202397021688!2d139.7031218755924!3d35.69663667258221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd8dc89b75f%3A0xdf00a4957d8a0cfd!2sShinjuku%20Granbell%20Hotel!5e0!3m2!1sen!2seg!4v1753539464227!5m2!1sen!2seg",
+      "name": "Shinjuku Granbell Hotel",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 10,
+          "price": 150
+        },
+        {
+          "type": "double",
+          "quantity": 20,
+          "price": 250
+        },
+        {
+          "type": "suite",
+          "quantity": 5,
+          "price": 500
+        }
+      ],
+      "onSale": true,
+      "rate": 4.5,
+      "image": "Shinjuku Granbell Hotel.jpg",
+      "description": "A stylish hotel in Shinjuku with modern design and rooftop bar.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Fitness Center",
+        "24-hour Room Service"
+      ],
+      "contact": {
+        "phone": "+81-3-5155-2666",
+        "email": "info@granbellhotel.jp"
+      }
+    },
+    {
+      "id": 23,
+      "city": "Tokyo",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6483.75018380493!2d139.74451647559061!3d35.6554489725956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ec44a3cbf4f5%3A0xeb0678d2239813f6!2sThe%20Prince%20Park%20Tower%20Tokyo!5e0!3m2!1sen!2seg!4v1753539525938!5m2!1sen!2seg",
+      "name": "The Prince Park Tower Tokyo",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 6,
+          "price": 350
+        },
+        {
+          "type": "double",
+          "quantity": 10,
+          "price": 600
+        },
+        {
+          "type": "suite",
+          "quantity": 2,
+          "price": 1200
+        }
+      ],
+      "onSale": false,
+      "rate": 5,
+      "image": "The Prince Park Tower Tokyo.jpg",
+      "description": "Overlooks Tokyo Tower with luxurious rooms and a serene park setting.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Spa",
+        "Fine Dining",
+        "Indoor Pool"
+      ],
+      "contact": {
+        "phone": "+81-3-5400-1111",
+        "email": "reservation@princehotels.co.jp"
+      }
+    },
+    {
+      "id": 24,
+      "city": "Tokyo",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.254339965405!2d139.69945957559239!3d35.695358272582645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd82535e517%3A0x9db5eb8a28bbac69!2sHotel%20Gracery%20Shinjuku!5e0!3m2!1sen!2seg!4v1753539568645!5m2!1sen!2seg",
+      "name": "Hotel Gracery Shinjuku",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 15,
+          "price": 180
+        },
+        {
+          "type": "double",
+          "quantity": 25,
+          "price": 300
+        },
+        {
+          "type": "suite",
+          "quantity": 5,
+          "price": 600
+        }
+      ],
+      "onSale": true,
+      "rate": 4.3,
+      "image": "Hotel Gracery Shinjuku.jpg",
+      "description": "Popular hotel in Kabukicho known for its giant Godzilla head on the terrace.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Spa",
+        "Fine Dining",
+        "Indoor Pool"
+      ],
+      "contact": {
+        "phone": "+81-3-6833-2489",
+        "email": "shinjuku@gracery.com"
+      }
+    },
+    {
+      "id": 25,
+      "city": "Jeddah",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3709.5154297930712!2d39.10675937504829!3d21.604829980192484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3dbd751aa2b57%3A0xd32f14ab8ce46662!2sJeddah%20Hilton!5e0!3m2!1sen!2seg!4v1753539784824!5m2!1sen!2seg",
+      "name": "Jeddah Hilton",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 8,
+          "price": 200
+        },
+        {
+          "type": "double",
+          "quantity": 15,
+          "price": 350
+        },
+        {
+          "type": "suite",
+          "quantity": 4,
+          "price": 700
+        }
+      ],
+      "onSale": false,
+      "rate": 5,
+      "image": "Jeddah Hilton.jpg",
+      "description": "Prestigious seafront hotel near the Corniche with luxurious rooms and event halls.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Private Beach",
+        "Spa",
+        "Fitness Center"
+      ],
+      "contact": {
+        "phone": "+966-12-659-0000",
+        "email": "jeddah.reservations@hilton.com"
+      }
+    },
+    {
+      "id": 26,
+      "city": "Jeddah",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.7980454347994!2d39.153171075045805!3d21.515628980258274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3db20ff3443b5%3A0x9f2944a4d4214fd2!2sInterContinental%20Jeddah%20by%20IHG!5e0!3m2!1sen!2seg!4v1753539896135!5m2!1sen!2seg",
+      "name": "InterContinental Jeddah",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 10,
+          "price": 250
+        },
+        {
+          "type": "double",
+          "quantity": 20,
+          "price": 400
+        },
+        {
+          "type": "suite",
+          "quantity": 3,
+          "price": 800
+        }
+      ],
+      "onSale": true,
+      "rate": 4.9,
+      "image": "InterContinental Jeddah.jpg",
+      "description": "Elegant hotel with Red Sea views, upscale dining, and central location.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Spa",
+        "Fine Dining",
+        "Indoor Pool"
+      ],
+      "contact": {
+        "phone": "+966-12-229-5555",
+        "email": "info@icjeddah.com"
+      }
+    },
+    {
+      "id": 27,
+      "city": "Jeddah",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.7971898724327!2d39.15810757504566!3d21.51566248025837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3cfee01b368b9%3A0x43328385b1894790!2sRadisson%20Blu%20Hotel%2C%20Jeddah%20Al%20Hamra!5e0!3m2!1sen!2seg!4v1753539946782!5m2!1sen!2seg",
+      "name": "Radisson Blu Jeddah",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 12,
+          "price": 220
+        },
+        {
+          "type": "double",
+          "quantity": 18,
+          "price": 350
+        },
+        {
+          "type": "suite",
+          "quantity": 4,
+          "price": 650
+        }
+      ],
+      "onSale": false,
+      "rate": 4.2,
+      "image": "Radisson Blu Jeddah.jpg",
+      "description": "Modern hotel with comfortable rooms and international cuisine.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Spa",
+        "Fine Dining",
+        "Indoor Pool"
+      ],
+      "contact": {
+        "phone": "+966-12-652-1234",
+        "email": "info.jeddah@radissonblu.com"
+      }
+    },
+    {
+      "id": 28,
+      "city": "Jeddah",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3708.968200061054!2d39.15218457504891!3d21.626162780176877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d867359f05bf%3A0x5aca756a1744de89!2sHoliday%20Inn%20Jeddah%20Gateway%20by%20IHG!5e0!3m2!1sen!2seg!4v1753539990535!5m2!1sen!2seg",
+      "name": "Holiday Inn Jeddah Gateway",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 15,
+          "price": 180
+        },
+        {
+          "type": "double",
+          "quantity": 25,
+          "price": 300
+        },
+        {
+          "type": "suite",
+          "quantity": 5,
+          "price": 550
+        }
+      ],
+      "onSale": true,
+      "rate": 4.4,
+      "image": "Holiday Inn Jeddah Gateway.jpg",
+      "description": "Close to the airport and Red Sea Mall, offering convenient stays for travelers.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Fitness Center",
+        "24-hour Room Service"
+      ],
+      "contact": {
+        "phone": "+966-12-510-8666",
+        "email": "reservations@hijgateway.com"
+      }
+    },
+    {
+      "id": 29,
+      "city": "Paris",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5249.2680498248055!2d2.3255081763061196!3d48.865188771333045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f37dc585251%3A0xe0a171bc7aaa5c94!2sLe%20Meurice!5e0!3m2!1sen!2seg!4v1753540332811!5m2!1sen!2seg",
+      "name": "Hotel Le Meurice",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 5,
+          "price": 400
+        },
+        {
+          "type": "double",
+          "quantity": 10,
+          "price": 700
+        },
+        {
+          "type": "suite",
+          "quantity": 2,
+          "price": 1500
+        }
+      ],
+      "onSale": false,
+      "rate": 5,
+      "image": "Hotel Le Meurice.jpg",
+      "description": "Historic palace hotel with opulent interiors and Michelin-starred dining.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Spa",
+        "Fine Dining",
+        "24-hour Room Service"
+      ],
+      "contact": {
+        "phone": "+33-1-4458-1010",
+        "email": "lemeurice@dorchestercollection.com"
+      }
+    },
+    {
+      "id": 30,
+      "city": "Paris",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5249.406864921702!2d2.329973876306047!3d48.863865371332864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2f0987ff3f%3A0xcc97cf1ed75b3fb2!2sHotel%20Regina%20Louvre!5e0!3m2!1sen!2seg!4v1753540528289!5m2!1sen!2seg",
+      "name": "Hotel Regina Louvre",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 8,
+          "price": 350
+        },
+        {
+          "type": "double",
+          "quantity": 12,
+          "price": 600
+        },
+        {
+          "type": "suite",
+          "quantity": 3,
+          "price": 1200
+        }
+      ],
+      "onSale": true,
+      "rate": 4.8,
+      "image": "Hotel Regina Louvre.jpg",
+      "description": "Elegant hotel opposite the Louvre with classic Parisian charm.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Spa",
+        "Fine Dining",
+        "Indoor Pool"
+      ],
+      "contact": {
+        "phone": "+33-1-4296-5868",
+        "email": "reservation@regina-hotel.com"
+      }
+    },
+    {
+      "id": 31,
+      "city": "Paris",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.775735862253!2d2.369094176304816!3d48.84341627133016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6721b7d55567d%3A0xaa8fe344e1e346b3!2scitizenM%20Paris%20Gare%20de%20Lyon%20hotel!5e0!3m2!1sen!2seg!4v1753540598428!5m2!1sen!2seg",
+      "name": "CitizenM Paris Gare de Lyon",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 20,
+          "price": 120
+        },
+        {
+          "type": "double",
+          "quantity": 30,
+          "price": 200
+        },
+        {
+          "type": "suite",
+          "quantity": 6,
+          "price": 400
+        }
+      ],
+      "onSale": false,
+      "rate": 4.3,
+      "image": "CitizenM Paris Gare de Lyon.jpg",
+      "description": "Trendy and tech-savvy hotel ideal for digital nomads and city explorers.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Fitness Center",
+        "24-hour Front Desk"
+      ],
+      "contact": {
+        "phone": "+33-1-8474-7770",
+        "email": "paris.garedelyon@citizenm.com"
+      }
+    },
+    {
+      "id": 32,
+      "city": "Paris",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.2011076469116!2d2.2867305763054593!3d48.85437537133157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6701cdc5aca9d%3A0xd2832698e462ce44!2sHotel%20Eiffel%20Seine!5e0!3m2!1sen!2seg!4v1753540642309!5m2!1sen!2seg",
+      "name": "Hotel Eiffel Seine",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 15,
+          "price": 150
+        },
+        {
+          "type": "double",
+          "quantity": 25,
+          "price": 250
+        },
+        {
+          "type": "suite",
+          "quantity": 4,
+          "price": 500
+        }
+      ],
+      "onSale": true,
+      "rate": 4.2,
+      "image": "Hotel Eiffel Seine.jpg",
+      "description": "Boutique hotel near the Eiffel Tower with Art Nouveau-inspired decor.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Restaurant",
+        "Fitness Center",
+        "24-hour Front Desk"
+      ],
+      "contact": {
+        "phone": "+33-1-4578-1459",
+        "email": "contact@eiffelseine.com"
+      }
+    },
+    {
+      "id": 33,
+      "city": "Cairo",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.021669493729!2d31.22688187534459!3d30.03623617492775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840cd3ef57809%3A0xd7f50b4221f71eb0!2sFour%20Seasons%20Hotel%20Cairo%20at%20Nile%20Plaza!5e0!3m2!1sen!2seg!4v1753540734896!5m2!1sen!2seg",
+      "name": "Four Seasons Cairo Nile Plaza",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 10,
+          "price": 150
+        },
+        {
+          "type": "double",
+          "quantity": 15,
+          "price": 250
+        },
+        {
+          "type": "suite",
+          "quantity": 3,
+          "price": 500
+        }
+      ],
+      "onSale": false,
+      "rate": 5,
+      "image": "Four Seasons Cairo Nile Plaza.jpg",
+      "description": "Lavish hotel with panoramic Nile views, luxurious spa, and fine dining.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Spa",
+        "Fine Dining",
+        "Indoor Pool"
+      ],
+      "contact": {
+        "phone": "+20-2-2791-7000",
+        "email": "reservations.cai@fourseasons.com"
+      }
+    },
+    {
+      "id": 34,
+      "city": "Cairo",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.6558933763195!2d31.232684075345063!3d30.046728474922507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840c6e7b40217%3A0xa56e70b7cb4fa53d!2sSteigenberger%20Hotel%20El%20Tahrir%20Cairo!5e0!3m2!1sen!2seg!4v1753540793781!5m2!1sen!2seg",
+      "name": "Steigenberger Hotel El Tahrir",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 12,
+          "price": 180
+        },
+        {
+          "type": "double",
+          "quantity": 20,
+          "price": 300
+        },
+        {
+          "type": "suite",
+          "quantity": 4,
+          "price": 600
+        }
+      ],
+      "onSale": true,
+      "rate": 4.5,
+      "image": "Steigenberger Hotel El Tahrir.jpg",
+      "description": "Modern hotel across from the Egyptian Museum in the heart of Cairo.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Spa",
+        "Fine Dining",
+        "Indoor Pool"
+      ],
+      "contact": {
+        "phone": "+20-2-2575-0777",
+        "email": "info@steigenbergereltahrir.com"
+      }
+    },
+    {
+      "id": 35,
+      "city": "Cairo",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.5290929198413!2d31.22946617534514!3d30.050364974920672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840c381a29537%3A0xf1d5b3a64a0e4de1!2sRamses%20Hilton!5e0!3m2!1sen!2seg!4v1753540848350!5m2!1sen!2seg",
+      "name": "Ramses Hilton",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 15,
+          "price": 200
+        },
+        {
+          "type": "double",
+          "quantity": 25,
+          "price": 350
+        },
+        {
+          "type": "suite",
+          "quantity": 5,
+          "price": 700
+        }
+      ],
+      "onSale": false,
+      "rate": 4.8,
+      "image": "Ramses Hilton.jpg",
+      "description": "High-rise hotel offering Nile views, rooftop dining, and excellent service.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Spa",
+        "Fine Dining",
+        "Outdoor Pool"
+      ],
+      "contact": {
+        "phone": "+20-2-2394-7070",
+        "email": "cairo.info@hilton.com"
+      }
+    },
+    {
+      "id": 36,
+      "city": "Cairo",
+      "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.935962709555!2d31.233456324655315!3d30.038694974926447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840cdb8f441cb%3A0x59cf96cf4cfe8978!2z2YHZhtiv2YIg2YPZhdio2YbYs9mD2Yog2KfZhNmG2YrZhCDYp9mE2YLYp9mH2LHYqQ!5e0!3m2!1sar!2seg!4v1753537544225!5m2!1sar!2seg",
+      "name": "Kempinski Nile Hotel",
+      "availableRooms": [
+        {
+          "type": "single",
+          "quantity": 10,
+          "price": 220
+        },
+        {
+          "type": "double",
+          "quantity": 18,
+          "price": 350
+        },
+        {
+          "type": "suite",
+          "quantity": 4,
+          "price": 700
+        }
+      ],
+      "onSale": true,
+      "rate": 5,
+      "image": "Kempinski Nile Hotel.jpg",
+      "description": "European luxury meets Egyptian elegance along the Nile Corniche.",
+      "amenities": [
+        "Free Wi-Fi",
+        "Spa",
+        "Fine Dining",
+        "Outdoor Pool"
+      ],
+      "contact": {
+        "phone": "+20-2-2798-0000",
+        "email": "info.cairo@kempinski.com"
+      }
     }
-  },
-  {
-    "id": 16,
-    "from": "Istanbul",
-    "to": "Dubai",
-    "date": "2025-08-01",
-    "departureTime": "07:45",
-    "arrivalTime": "13:15",
-    "price": 320,
-    "airline": "Turkish Airlines",
-    "returnDate": "2025-08-05"
-  },
-  {
-    "id": 17,
-    "from": "Paris",
-    "to": "Cairo",
-    "date": "2025-08-02",
-    "departureTime": "20:30",
-    "arrivalTime": "06:00",
-    "price": 420,
-    "airline": "Air France",
-    "returnDate": "2025-08-06",
-    "transit": {
-      "transitCity": "Istanbul",
-      "transitDuration": "1h 45m"
-    }
-  },
-  {
-    "id": 18,
-    "from": "London",
-    "to": "Dubai",
-    "date": "2025-08-03",
-    "departureTime": "10:00",
-    "arrivalTime": "21:30",
-    "price": 680,
-    "airline": "Emirates",
-    "returnDate": "2025-08-07",
-    "transit": {
-      "transitCity": "Frankfurt",
-      "transitDuration": "2h 30m"
-    }
-  },
-  {
-    "id": 19,
-    "from": "New York",
-    "to": "Dubai",
-    "date": "2025-08-06",
-    "departureTime": "15:00",
-    "arrivalTime": "04:30",
-    "price": 920,
-    "airline": "Emirates",
-    "returnDate": "2025-08-10",
-    "transit": {
-      "transitCity": "Frankfurt",
-      "transitDuration": "2h 00m"
-    }
-  },
-  {
-    "id": 20,
-    "from": "Tokyo",
-    "to": "Dubai",
-    "date": "2025-08-16",
-    "departureTime": "14:30",
-    "arrivalTime": "01:15",
-    "price": 980,
-    "airline": "Emirates",
-    "returnDate": "2025-08-20",
-    "transit": {
-      "transitCity": "Singapore",
-      "transitDuration": "2h 45m"
-    }
-  }
-],
-"hotels": [
-  { "id": 1, "city": "Dubai", "name": "Atlantis The Palm", "price": 300, "availableRooms": 20, "rate": 4.8 , "image":"Atlantis The Palm.jpg" },
-  { "id": 2, "city": "Dubai", "name": "Burj Al Arab", "price": 450, "availableRooms": 15 ,"rate": 5 , "image":"Burj Al Arab.jpg"},
-  { "id": 3, "city": "Dubai", "name": "Rove Downtown", "price": 120, "availableRooms": 35 ,"rate": 4.6 , "image":"Rove Downtown.jpg"},
-  { "id": 4, "city": "Dubai", "name": "Jumeirah Beach Hotel", "price": 250, "availableRooms": 18 ,"rate": 4.5 , "image":"Jumeirah Beach Hotel.jpg"},
-  { "id": 5, "city": "Riyadh", "name": "Riyadh Marriott", "price": 180, "availableRooms": 25 ,"rate": 4.5 , "image":"Riyadh Marriott.jpg"},
-  { "id": 6, "city": "Riyadh", "name": "Hyatt Regency Riyadh", "price": 220, "availableRooms": 22 ,"rate": 5 , "image":"Hyatt Regency Riyadh.jpg"},
-  { "id": 7, "city": "Riyadh", "name": "Novotel Riyadh", "price": 150, "availableRooms": 30 ,"rate": 4.7 , "image":"Novotel Riyadh.jpg"},
-  { "id": 8, "city": "Riyadh", "name": "Holiday Inn Olaya", "price": 130, "availableRooms": 27 ,"rate": 4.1 , "image":"Holiday Inn Olaya.jpg"},
-  { "id": 9, "city": "Istanbul", "name": "Swissotel The Bosphorus", "price": 200, "availableRooms": 19 ,"rate": 5 , "image":"Swissotel The Bosphorus.jpg" },
-  { "id": 10, "city": "Istanbul", "name": "Sirkeci Mansion", "price": 160, "availableRooms": 14 ,"rate": 4.2 , "image":"Sirkeci Mansion.jpg" },
-  { "id": 11, "city": "Istanbul", "name": "Hotel Amira", "price": 140, "availableRooms": 33 ,"rate": 4.7 , "image":"Hotel Amira.jpg" },
-  { "id": 12, "city": "Istanbul", "name": "Radisson Blu Istanbul", "price": 180, "availableRooms": 28 ,"rate": 4 , "image":"Radisson Blu Istanbul.jpg" },
-  { "id": 13, "city": "London", "name": "The Ritz London", "price": 400, "availableRooms": 12 ,"rate": 5 , "image":"The Ritz London.jpg" },
-  { "id": 14, "city": "London", "name": "Premier Inn London", "price": 120, "availableRooms": 40 ,"rate": 4.6 , "image":"Premier Inn London.jpg" },
-  { "id": 15, "city": "London", "name": "The Tower Hotel", "price": 170, "availableRooms": 26 ,"rate": 4.3 , "image":"The Tower Hotel.jpg" },
-  { "id": 16, "city": "London", "name": "Hilton London Bankside", "price": 220, "availableRooms": 24 ,"rate": 5 , "image":"Hilton London Bankside.jpg" },
-  { "id": 17, "city": "New York", "name": "The Plaza Hotel", "price": 380, "availableRooms": 10 ,"rate": 5 , "image":"The Plaza Hotel.jpg" },
-  { "id": 18, "city": "New York", "name": "Pod 51", "price": 140, "availableRooms": 36 ,"rate": 4.2 , "image":"Pod 51.jpg" },
-  { "id": 19, "city": "New York", "name": "Arlo SoHo", "price": 160, "availableRooms": 31 ,"rate": 4.5 , "image":"Arlo SoHo.jpg" },
-  { "id": 20, "city": "New York", "name": "The Standard High Line", "price": 200, "availableRooms": 21 ,"rate": 5 , "image":"The Standard High Line.jpg" },
-
-  { "id": 21, "city": "Tokyo", "name": "Park Hyatt Tokyo", "price": 350, "availableRooms": 14 ,"rate": 5, "image": "Park Hyatt Tokyo.jpg" },
-  { "id": 22, "city": "Tokyo", "name": "Shinjuku Granbell Hotel", "price": 160, "availableRooms": 28 ,"rate": 4.5, "image": "Shinjuku Granbell Hotel.jpg" },
-  { "id": 23, "city": "Tokyo", "name": "The Prince Park Tower Tokyo", "price": 240, "availableRooms": 20 ,"rate": 5, "image": "The Prince Park Tower Tokyo.jpg" },
-  { "id": 24, "city": "Tokyo", "name": "Hotel Gracery Shinjuku", "price": 180, "availableRooms": 30 ,"rate": 4.3, "image": "Hotel Gracery Shinjuku.jpg" },
-
-  { "id": 25, "city": "Jeddah", "name": "Jeddah Hilton", "price": 270, "availableRooms": 19 ,"rate": 5, "image": "Jeddah Hilton.jpg" },
-  { "id": 26, "city": "Jeddah", "name": "InterContinental Jeddah", "price": 230, "availableRooms": 22 ,"rate": 4.9, "image": "InterContinental Jeddah.jpg" },
-  { "id": 27, "city": "Jeddah", "name": "Radisson Blu Jeddah", "price": 190, "availableRooms": 26 ,"rate": 4.2, "image": "Radisson Blu Jeddah.jpg" },
-  { "id": 28, "city": "Jeddah", "name": "Holiday Inn Jeddah Gateway", "price": 160, "availableRooms": 33 ,"rate": 4.4, "image": "Holiday Inn Jeddah Gateway.jpg" },
-
-  { "id": 29, "city": "Paris", "name": "Hotel Le Meurice", "price": 410, "availableRooms": 13 ,"rate": 5, "image": "Hotel Le Meurice.jpg" },
-  { "id": 30, "city": "Paris", "name": "Hotel Regina Louvre", "price": 300, "availableRooms": 17 ,"rate": 4.8, "image": "Hotel Regina Louvre.jpg" },
-  { "id": 31, "city": "Paris", "name": "CitizenM Paris Gare de Lyon", "price": 180, "availableRooms": 29 ,"rate": 4.3, "image": "CitizenM Paris Gare de Lyon.jpg" },
-  { "id": 32, "city": "Paris", "name": "Hotel Eiffel Seine", "price": 160, "availableRooms": 25 , "rate": 4.2, "image": "Hotel Eiffel Seine.jpg" },
-
-  { "id": 33, "city": "Cairo", "name": "Four Seasons Cairo Nile Plaza", "price": 320, "availableRooms": 18 , "rate": 5, "image": "Four Seasons Cairo Nile Plaza.jpg" },
-  { "id": 34, "city": "Cairo", "name": "Steigenberger Hotel El Tahrir", "price": 190, "availableRooms": 27 , "rate": 4.5, "image": "Steigenberger Hotel El Tahrir.jpg" },
-  { "id": 35, "city": "Cairo", "name": "Ramses Hilton", "price": 210, "availableRooms": 22 , "rate": 4.8, "image": "Ramses Hilton.jpg" },
-  { "id": 36, "city": "Cairo", "name": "Kempinski Nile Hotel", "price": 250, "availableRooms": 20 ,"rate": 5, "image": "Kempinski Nile Hotel.jpg" }
-]
-
-,
+  ],
   "places": [
     {
       "id": 1,
@@ -312,20 +1652,28 @@
       "image": "dubai.jpg",
       "places": [
         {
+          "id": 1,
           "name": "Burj Khalifa",
-          "image": "Dubai-Burj-Khalifa.jpg"
+          "image": "Dubai-Burj-Khalifa.jpg",
+          "description": "The Burj Khalifa, the world's tallest building, stands at 829.8 meters. Its observation decks offer stunning views of Dubai's skyline. A marvel of modern engineering, it’s a must-visit landmark."
         },
         {
+          "id": 2,
           "name": "Dubai Mall",
-          "image": "dubai-mall.jpg"
+          "image": "dubai-mall.jpg",
+          "description": "Dubai Mall is one of the largest shopping centers globally, with over 1,200 stores. It houses an aquarium, ice rink, and diverse dining options. A hub for entertainment and luxury shopping."
         },
         {
+          "id": 3,
           "name": "Palm Jumeirah",
-          "image": "Palm_Jumeirah.png"
+          "image": "Palm_Jumeirah.png",
+          "description": "Palm Jumeirah is an artificial archipelago shaped like a palm tree. It features luxury hotels, beaches, and the iconic Atlantis resort. A unique destination for relaxation and adventure."
         },
         {
+          "id": 4,
           "name": "Dubai Marina",
-          "image": "Dubai-Marina.jpeg"
+          "image": "Dubai-Marina.jpeg",
+          "description": "Dubai Marina is a vibrant waterfront with stunning skyscrapers and yachts. It offers scenic walks, dining, and nightlife along the promenade. A perfect blend of urban and coastal charm."
         }
       ]
     },
@@ -335,20 +1683,28 @@
       "image": "Riyadh.jpg",
       "places": [
         {
+          "id": 5,
           "name": "Kingdom Centre Tower",
-          "image": "Kingdom Centre Tower.jpeg"
+          "image": "Kingdom Centre Tower.jpeg",
+          "description": "Kingdom Centre Tower is a striking skyscraper with a unique skybridge. It offers panoramic views of Riyadh from its observation deck. A symbol of the city’s modern ambition."
         },
         {
+          "id": 6,
           "name": "Al-Masmak Fortress",
-          "image": "Al-Masmak Fortress.jpg"
+          "image": "Al-Masmak Fortress.jpg",
+          "description": "Al-Masmak Fortress is a historic clay and mudbrick fort. It played a key role in Saudi Arabia’s history and now houses a museum. A glimpse into Riyadh’s cultural past."
         },
         {
+          "id": 7,
           "name": "Riyadh Zoo",
-          "image": "Riyadh Zoo.png"
+          "image": "Riyadh Zoo.png",
+          "description": "Riyadh Zoo is a family-friendly attraction with diverse animal species. It offers educational exhibits and a relaxing environment. A great spot for wildlife enthusiasts."
         },
         {
+          "id": 8,
           "name": "National Museum",
-          "image": "National Museum.jpg"
+          "image": "National Museum.jpg",
+          "description": "The National Museum showcases Saudi Arabia’s rich history and culture. Its exhibits span ancient artifacts to modern achievements. A must-visit for history buffs."
         }
       ]
     },
@@ -358,20 +1714,28 @@
       "image": "istanbul.jpg",
       "places": [
         {
+          "id": 9,
           "name": "Hagia Sophia",
-          "image": "Hagia_Sophia.jpg"
+          "image": "Hagia_Sophia.jpg",
+          "description": "Hagia Sophia is a historic architectural marvel, once a cathedral and mosque. Its stunning dome and mosaics attract millions. A symbol of Istanbul’s rich history."
         },
         {
+          "id": 10,
           "name": "Blue Mosque",
-          "image": "Blue Mosque.jpg"
+          "image": "Blue Mosque.jpg",
+          "description": "The Blue Mosque is famous for its intricate blue tiles and six minarets. It remains an active place of worship with stunning architecture. A serene cultural landmark."
         },
         {
+          "id": 11,
           "name": "Grand Bazaar",
-          "image": "Grand Bazaar.jpg"
+          "image": "Grand Bazaar.jpg",
+          "description": "The Grand Bazaar is one of the world’s oldest and largest covered markets. It offers vibrant shops selling spices, jewelry, and textiles. A lively hub of Turkish culture."
         },
         {
+          "id": 12,
           "name": "Galata Tower",
-          "image": "Galata Tower.jpg"
+          "image": "Galata Tower.jpg",
+          "description": "Galata Tower offers breathtaking views of Istanbul’s skyline. Built in the 14th century, it’s a historic landmark. A perfect spot for history and photography lovers."
         }
       ]
     },
@@ -381,22 +1745,30 @@
       "image": "London.jpg",
       "places": [
         {
+          "id": 13,
           "name": "London Eye",
-          "image": "London Eye.jpeg"
+          "image": "London Eye.jpeg",
+          "description": "The London Eye is a giant Ferris wheel on the River Thames. It offers panoramic views of London’s iconic landmarks. A must-ride for visitors."
         },
         {
+          "id": 14,
           "name": "Big Ben",
-          "image": "big-ben.jpg"
+          "image": "big-ben.jpg",
+          "description": "Big Ben is the nickname for the Great Bell in the Elizabeth Tower. The tower is part of the Palace of Westminster. An iconic symbol of London."
         },
         {
+          "id": 15,
           "name": "Tower Bridge",
-          "image": "Tower Bridge.jpg"
+          "image": "Tower Bridge.jpg",
+          "description": "Tower Bridge is a stunning bascule bridge over the River Thames. Its Victorian design and walkways offer great views. A historic and photogenic landmark."
         },
         {
+          "id": 16,
           "name": "British Museum",
-          "image": "British Museum.jpg"
+          "image": "British Museum.jpg",
+          "description": "The British Museum houses a vast collection of global artifacts. Highlights include the Rosetta Stone and Egyptian mummies. A treasure trove for history enthusiasts."
         }
-      ] 
+      ]
     },
     {
       "id": 5,
@@ -404,114 +1776,315 @@
       "image": "New York.jpg",
       "places": [
         {
+          "id": 17,
           "name": "Statue of Liberty",
-          "image": "Statue of Liberty.jpg"
+          "image": "Statue of Liberty.jpg",
+          "description": "The Statue of Liberty is a symbol of freedom and democracy. Located on Liberty Island, it offers tours and stunning views. A must-see New York icon."
         },
         {
+          "id": 18,
           "name": "Central Park",
-          "image": "Central Park.jpeg"
+          "image": "Central Park.jpeg",
+          "description": "Central Park is an urban oasis spanning 843 acres. It offers trails, lakes, and attractions like the Bethesda Fountain. Perfect for relaxation and recreation."
         },
         {
+          "id": 19,
           "name": "Times Square",
-          "image": "Times Square.jpg"
+          "image": "Times Square.jpg",
+          "description": "Times Square is a bustling hub known for its bright billboards. It’s a center for entertainment, dining, and Broadway shows. A vibrant New York experience."
         },
         {
+          "id": 20,
           "name": "Brooklyn Bridge",
-          "image": "Brooklyn Bridge.jpg"
+          "image": "Brooklyn Bridge.jpg",
+          "description": "The Brooklyn Bridge is a historic suspension bridge connecting Manhattan and Brooklyn. Its pedestrian walkway offers stunning city views. A marvel of 19th-century engineering."
         }
       ]
     },
     {
       "id": 6,
-  "city": "Cairo",
-  "image": "Cairo.jpg",
-  "places": [
-    {
-      "name": "Pyramids of Giza",
-      "image": "giza-egyptian-pyramids.jpg"
+      "city": "Cairo",
+      "image": "Cairo.jpg",
+      "places": [
+        {
+          "id": 21,
+          "name": "Pyramids of Giza",
+          "image": "giza-egyptian-pyramids.jpg",
+          "description": "The Pyramids of Giza are ancient wonders built over 4,500 years ago. They include the Great Pyramid, a UNESCO site. A testament to Egypt’s ancient ingenuity."
+        },
+        {
+          "id": 22,
+          "name": "Egyptian Museum",
+          "image": "Egyptian Museum.jpg",
+          "description": "The Egyptian Museum houses over 120,000 artifacts of ancient Egypt. Highlights include Tutankhamun’s treasures. A must-visit for history and archaeology lovers."
+        },
+        {
+          "id": 23,
+          "name": "Khan El Khalili",
+          "image": "Khan-El-Khalili-Bazaar.jpg",
+          "description": "Khan El Khalili is a vibrant bazaar in Cairo’s old city. It offers spices, souvenirs, and traditional crafts. A lively spot for shopping and culture."
+        },
+        {
+          "id": 24,
+          "name": "Cairo Tower",
+          "image": "Cairo Tower.jpg",
+          "description": "Cairo Tower is the tallest structure in North Africa. Its observation deck offers panoramic city views. A modern landmark with stunning vistas."
+        }
+      ]
     },
     {
-      "name": "Egyptian Museum",
-      "image": "Egyptian Museum.jpg"
+      "id": 7,
+      "city": "Paris",
+      "image": "Paris.jpg",
+      "places": [
+        {
+          "id": 25,
+          "name": "Eiffel Tower",
+          "image": "Eiffel Tower.jpg",
+          "description": "The Eiffel Tower is Paris’s iconic iron lattice tower. It offers breathtaking views from its observation decks. A symbol of romance and French engineering."
+        },
+        {
+          "id": 26,
+          "name": "Louvre Museum",
+          "image": "Louvre Museum.jpg",
+          "description": "The Louvre is the world’s largest art museum, housing the Mona Lisa. Its glass pyramid entrance is iconic. A must-visit for art and history lovers."
+        },
+        {
+          "id": 27,
+          "name": "Notre-Dame Cathedral",
+          "image": "Notre-Dame Cathedral.jpeg",
+          "description": "Notre-Dame is a historic Catholic cathedral with stunning Gothic architecture. Known for its rose windows and gargoyles. A cultural and spiritual landmark."
+        },
+        {
+          "id": 28,
+          "name": "Montmartre & Sacré-Cœur",
+          "image": "Montmartre & Sacré-Cœur.jpeg",
+          "description": "Montmartre is a historic district with the stunning Sacré-Cœur Basilica. It offers panoramic views and charming streets. A hub for art and Parisian culture."
+        }
+      ]
     },
     {
-      "name": "Khan El Khalili",
-      "image": "Khan-El-Khalili-Bazaar.jpg"
+      "id": 8,
+      "city": "Jeddah",
+      "image": "Jeddah.jpg",
+      "places": [
+        {
+          "id": 29,
+          "name": "King Fahd Fountain",
+          "image": "King Fahd Fountain.jpg",
+          "description": "King Fahd Fountain is the world’s tallest fountain, reaching 312 meters. Located on Jeddah’s waterfront, it’s a stunning nighttime spectacle. A symbol of the city’s grandeur."
+        },
+        {
+          "id": 30,
+          "name": "Jeddah Corniche",
+          "image": "Jeddah Corniche.jpg",
+          "description": "Jeddah Corniche is a scenic coastal promenade along the Red Sea. It features parks, sculptures, and dining options. Perfect for leisurely walks and sea views."
+        },
+        {
+          "id": 31,
+          "name": "Al-Balad (Old Town)",
+          "image": "Al-Balad (Old Town).jpg",
+          "description": "Al-Balad is Jeddah’s historic district with coral stone buildings. It’s a UNESCO site with vibrant markets and museums. A window into Saudi heritage."
+        },
+        {
+          "id": 32,
+          "name": "Fakieh Aquarium",
+          "image": "Fakieh Aquarium.jpg",
+          "description": "Fakieh Aquarium showcases marine life from the Red Sea and beyond. It offers interactive exhibits and dolphin shows. A fun family-friendly attraction."
+        }
+      ]
     },
     {
-      "name": "Cairo Tower",
-      "image": "Cairo Tower.jpg"
+      "id": 9,
+      "city": "Tokyo",
+      "image": "Tokyo.jpg",
+      "places": [
+        {
+          "id": 33,
+          "name": "Tokyo Tower",
+          "image": "Tokyo Tower.jpg",
+          "description": "Tokyo Tower is a 333-meter landmark inspired by the Eiffel Tower. It offers stunning city views from its observation decks. A symbol of Tokyo’s modernity."
+        },
+        {
+          "id": 34,
+          "name": "Senso-ji Temple",
+          "image": "Senso-ji Temple.jpeg",
+          "description": "Senso-ji is Tokyo’s oldest temple, dating back to 645 AD. Its iconic Kaminarimon gate and vibrant Nakamise street attract visitors. A cultural and spiritual hub."
+        },
+        {
+          "id": 35,
+          "name": "Shibuya Crossing",
+          "image": "Shibuya Crossing.jpg",
+          "description": "Shibuya Crossing is one of the world’s busiest pedestrian intersections. It’s a vibrant symbol of Tokyo’s energy and urban life. Best experienced at night."
+        },
+        {
+          "id": 36,
+          "name": "Tokyo Skytree",
+          "image": "Tokyo Skytree.jpg",
+          "description": "Tokyo Skytree is the tallest tower in the world at 634 meters. Its observation decks offer panoramic views. A modern marvel of Japanese engineering."
+        }
+      ]
     }
-  ]
-},
-{
-  "id": 7,
-  "city": "Paris",
-  "image": "Paris.jpg",
-  "places": [
+  ],
+  "users": [
     {
-      "name": "Eiffel Tower",
-      "image": "Eiffel Tower.jpg"
+      "email": "ahmedelhalawany429@gmail.com",
+      "favorites": [
+        {
+          "id": 1,
+          "type": "flight",
+          "airline": "Emirates",
+          "flightNumber": "Flight #1",
+          "from": "Cairo",
+          "to": "Dubai",
+          "departureTime": "09:00",
+          "arrivalTime": "13:30",
+          "date": "2025-08-20",
+          "price": 350
+        },
+        {
+          "id": 2,
+          "type": "flight",
+          "airline": "Saudi Airlines",
+          "flightNumber": "Flight #2",
+          "from": "Cairo",
+          "to": "Riyadh",
+          "departureTime": "10:15",
+          "arrivalTime": "13:00",
+          "date": "2025-08-21",
+          "price": 220
+        }
+      ],
+      "bookedFlights": [
+        {
+          "id": 1,
+          "from": "Cairo",
+          "to": "Dubai",
+          "date": "2025-08-20",
+          "returnDate": "2025-08-27",
+          "departureTime": "09:00",
+          "arrivalTime": "13:30",
+          "price": 350,
+          "airline": "Emirates",
+          "adults": 1,
+          "children": 0
+        }
+      ],
+      "bookedHotels": []
     },
     {
-      "name": "Louvre Museum",
-      "image": "Louvre Museum.jpg"
+      "email": "ziad@gmail.com",
+      "favorites": [
+        {
+          "id": 1,
+          "type": "flight",
+          "airline": "Emirates",
+          "flightNumber": "Flight #1",
+          "from": "Cairo",
+          "to": "Dubai",
+          "departureTime": "09:00",
+          "arrivalTime": "13:30",
+          "date": "2025-08-20",
+          "price": 350
+        }
+      ],
+      "bookedFlights": [],
+      "bookedHotels": []
     },
     {
-      "name": "Notre-Dame Cathedral",
-      "image": "Notre-Dame Cathedral.jpeg"
-    },
-    {
-      "name": "Montmartre & Sacré-Cœur",
-      "image": "Montmartre & Sacré-Cœur.jpeg"
+      "email": "gg@gmail.com",
+      "favorites": [
+        {
+          "id": "1",
+          "type": "flight"
+        },
+        {
+          "id": "2",
+          "type": "flight"
+        },
+        {
+          "id": "3",
+          "type": "flight"
+        }
+      ],
+      "bookedFlights": [
+        {
+          "id": 8,
+          "from": "Alexandria",
+          "to": "Dubai",
+          "date": "2025-08-28",
+          "departureTime": "07:00",
+          "arrivalTime": "12:00",
+          "price": 310,
+          "airline": "FlyDubai",
+          "adults": 1,
+          "children": 1
+        }
+      ],
+      "bookedHotels": [
+        {
+          "bookingId": "1753850861010",
+          "hotelId": 2,
+          "hotelName": "Burj Al Arab",
+          "city": "Dubai",
+          "rooms": [
+            {
+              "type": "single",
+              "count": 2
+            },
+            {
+              "type": "suite",
+              "count": 1
+            }
+          ],
+          "totalCost": 1000,
+          "fullName": "gg",
+          "phone": "1235",
+          "bookingDate": "2025-07-30T07:47:41.149642"
+        }
+      ]
     }
-  ]
-},
-{
-  "id": 8,
-  "city": "Jeddah",
-  "image": "Jeddah.jpg",
-  "places": [
+  ],
+  "airlines": [
     {
-      "name": "King Fahd Fountain",
-      "image": "King Fahd Fountain.jpg"
+      "id": 1,
+      "name": "Emirates"
     },
     {
-      "name": "Jeddah Corniche",
-      "image": "Jeddah Corniche.jpg"
+      "id": 2,
+      "name": "Saudi Airlines"
     },
     {
-      "name": "Al-Balad (Old Town)",
-      "image": "Al-Balad (Old Town).jpg"
+      "id": 3,
+      "name": "Turkish Airlines"
     },
     {
-      "name": "Fakieh Aquarium",
-      "image": "Fakieh Aquarium.jpg"
+      "id": 4,
+      "name": "British Airways"
+    },
+    {
+      "id": 5,
+      "name": "EgyptAir"
+    },
+    {
+      "id": 6,
+      "name": "Qatar Airways"
+    },
+    {
+      "id": 7,
+      "name": "FlyDubai"
+    },
+    {
+      "id": 8,
+      "name": "Saudia"
+    },
+    {
+      "id": 9,
+      "name": "Air France"
+    },
+    {
+      "id": 10,
+      "name": "Qatar Airways"
     }
-  ]
-},
-{
-  "id": 9,
-  "city": "Tokyo",
-  "image": "Tokyo.jpg",
-  "places": [
-    {
-      "name": "Tokyo Tower",
-      "image": "Tokyo Tower.jpg"
-    },
-    {
-      "name": "Senso-ji Temple",
-      "image": "Senso-ji Temple.jpeg"
-    },
-    {
-      "name": "Shibuya Crossing",
-      "image": "Shibuya Crossing.jpg"
-    },
-    {
-      "name": "Tokyo Skytree",
-      "image": "Tokyo Skytree.jpg"
-    }
-  ]
-}
   ]
 }
