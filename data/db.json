@@ -3,27 +3,51 @@
     {
       "id": 2001,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "09:00",
       "arrivalTime": "13:30",
-      "price": 350,
+      "price": 141750,
       "airline": "Emirates"
     },
     {
       "id": 2002,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "14:30",
       "arrivalTime": "19:30",
-      "price": 320,
+      "price": 480,
       "airline": "Etihad Airways"
     },
     {
       "id": 2003,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "18:00",
       "arrivalTime": "22:15",
@@ -31,13 +55,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "1h 30m"
       }
     },
     {
       "id": 2004,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "03:00",
       "arrivalTime": "07:00",
@@ -47,7 +83,15 @@
     {
       "id": 2005,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "HND",
+        "name": "Haneda Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "22:00",
       "arrivalTime": "14:30",
@@ -55,13 +99,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Dubai",
+        "transitAirport": {
+          "code": "DXB",
+          "name": "Dubai International Airport"
+        },
         "transitDuration": "4h 00m"
       }
     },
     {
       "id": 2006,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "NRT",
+        "name": "Narita International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "01:30",
       "arrivalTime": "18:10",
@@ -69,13 +125,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "3h 30m"
       }
     },
     {
       "id": 2007,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "HND",
+        "name": "Haneda Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "09:45",
       "arrivalTime": "02:30",
@@ -83,13 +151,25 @@
       "airline": "Etihad Airways",
       "transit": {
         "transitCity": "Abu Dhabi",
+        "transitAirport": {
+          "code": "AUH",
+          "name": "Abu Dhabi International Airport"
+        },
         "transitDuration": "3h 45m"
       }
     },
     {
       "id": 2008,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "NRT",
+        "name": "Narita International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "16:00",
       "arrivalTime": "08:45",
@@ -97,13 +177,25 @@
       "airline": "Japan Airlines",
       "transit": {
         "transitCity": "Dubai",
+        "transitAirport": {
+          "code": "DXB",
+          "name": "Dubai International Airport"
+        },
         "transitDuration": "4h 15m"
       }
     },
     {
       "id": 2009,
       "from": "Tokyo",
+      "fromAirport": {
+        "code": "HND",
+        "name": "Haneda Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "10:00",
       "arrivalTime": "20:00",
@@ -111,13 +203,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Bangkok",
+        "transitAirport": {
+          "code": "BKK",
+          "name": "Suvarnabhumi Airport"
+        },
         "transitDuration": "2h 15m"
       }
     },
     {
       "id": 2010,
       "from": "Tokyo",
+      "fromAirport": {
+        "code": "NRT",
+        "name": "Narita International Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "03:00",
       "arrivalTime": "13:30",
@@ -125,77 +229,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "2h 00m"
       }
     },
     {
-      "id": 2011,
-      "from": "Tokyo",
-      "to": "Dubai",
-      "date": "2025-09-01",
-      "departureTime": "15:30",
-      "arrivalTime": "02:00",
-      "price": 960,
-      "airline": "Etihad Airways",
-      "transit": {
-        "transitCity": "Abu Dhabi",
-        "transitDuration": "2h 30m"
-      }
-    },
-    {
-      "id": 2012,
-      "from": "Tokyo",
-      "to": "Dubai",
-      "date": "2025-09-01",
-      "departureTime": "20:10",
-      "arrivalTime": "06:00",
-      "price": 920,
-      "airline": "Japan Airlines"
-    },
-    {
-      "id": 2013,
-      "from": "Cairo",
-      "to": "Riyadh",
-      "date": "2025-09-01",
-      "departureTime": "10:15",
-      "arrivalTime": "13:00",
-      "price": 220,
-      "airline": "Saudi Airlines"
-    },
-    {
-      "id": 2014,
-      "from": "Cairo",
-      "to": "Riyadh",
-      "date": "2025-09-01",
-      "departureTime": "06:00",
-      "arrivalTime": "08:55",
-      "price": 250,
-      "airline": "EgyptAir"
-    },
-    {
-      "id": 2015,
-      "from": "Cairo",
-      "to": "Riyadh",
-      "date": "2025-09-01",
-      "departureTime": "15:30",
-      "arrivalTime": "18:30",
-      "price": 280,
-      "airline": "Flynas"
-    },
-    {
-      "id": 2016,
-      "from": "Cairo",
-      "to": "Riyadh",
-      "date": "2025-09-01",
-      "departureTime": "21:00",
-      "arrivalTime": "23:55",
-      "price": 200,
-      "airline": "Air Arabia"
-    },
-    {
       "id": 2017,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "ORY",
+        "name": "Paris Orly Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "06:00",
       "arrivalTime": "12:40",
@@ -205,7 +257,15 @@
     {
       "id": 2018,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "CDG",
+        "name": "Paris Charles de Gaulle Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "10:00",
       "arrivalTime": "16:40",
@@ -213,93 +273,25 @@
       "airline": "Lufthansa",
       "transit": {
         "transitCity": "Frankfurt",
+        "transitAirport": {
+          "code": "FRA",
+          "name": "Frankfurt Airport"
+        },
         "transitDuration": "1h 40m"
-      }
-    },
-    {
-      "id": 2019,
-      "from": "Alexandria",
-      "to": "Paris",
-      "date": "2025-09-01",
-      "departureTime": "14:30",
-      "arrivalTime": "21:30",
-      "price": 460,
-      "airline": "British Airways",
-      "transit": {
-        "transitCity": "London",
-        "transitDuration": "2h 00m"
-      }
-    },
-    {
-      "id": 2020,
-      "from": "Alexandria",
-      "to": "Paris",
-      "date": "2025-09-01",
-      "departureTime": "20:00",
-      "arrivalTime": "02:55",
-      "price": 490,
-      "airline": "Qatar Airways",
-      "transit": {
-        "transitCity": "Doha",
-        "transitDuration": "2h 30m"
-      }
-    },
-    {
-      "id": 2021,
-      "from": "Riyadh",
-      "to": "Paris",
-      "date": "2025-09-01",
-      "departureTime": "01:00",
-      "arrivalTime": "07:10",
-      "price": 620,
-      "airline": "Saudi Airlines",
-      "transit": {
-        "transitCity": "Cairo",
-        "transitDuration": "1h 20m"
-      }
-    },
-    {
-      "id": 2022,
-      "from": "Riyadh",
-      "to": "Paris",
-      "date": "2025-09-01",
-      "departureTime": "08:00",
-      "arrivalTime": "14:30",
-      "price": 650,
-      "airline": "Air France"
-    },
-    {
-      "id": 2023,
-      "from": "Riyadh",
-      "to": "Paris",
-      "date": "2025-09-01",
-      "departureTime": "13:00",
-      "arrivalTime": "19:15",
-      "price": 600,
-      "airline": "Lufthansa",
-      "transit": {
-        "transitCity": "Frankfurt",
-        "transitDuration": "1h 50m"
-      }
-    },
-    {
-      "id": 2024,
-      "from": "Riyadh",
-      "to": "Paris",
-      "date": "2025-09-01",
-      "departureTime": "18:30",
-      "arrivalTime": "00:45",
-      "price": 630,
-      "airline": "Qatar Airways",
-      "transit": {
-        "transitCity": "Doha",
-        "transitDuration": "2h 00m"
       }
     },
     {
       "id": 2025,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Istanbul",
+      "toAirport": {
+        "code": "SAW",
+        "name": "Sabiha Gökçen International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "08:30",
       "arrivalTime": "12:15",
@@ -307,13 +299,25 @@
       "airline": "Turkish Airlines",
       "transit": {
         "transitCity": "Athens",
+        "transitAirport": {
+          "code": "ATH",
+          "name": "Athens International Airport"
+        },
         "transitDuration": "1h 10m"
       }
     },
     {
       "id": 2026,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Istanbul",
+      "toAirport": {
+        "code": "IST",
+        "name": "Istanbul Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "03:00",
       "arrivalTime": "06:30",
@@ -323,7 +327,15 @@
     {
       "id": 2027,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Istanbul",
+      "toAirport": {
+        "code": "SAW",
+        "name": "Sabiha Gökçen International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "14:00",
       "arrivalTime": "17:20",
@@ -331,71 +343,17 @@
       "airline": "Pegasus Airlines"
     },
     {
-      "id": 2028,
-      "from": "Cairo",
-      "to": "Istanbul",
-      "date": "2025-09-01",
-      "departureTime": "20:00",
-      "arrivalTime": "23:30",
-      "price": 310,
-      "airline": "Qatar Airways",
-      "transit": {
-        "transitCity": "Doha",
-        "transitDuration": "1h 30m"
-      }
-    },
-    {
-      "id": 2029,
-      "from": "Riyadh",
-      "to": "London",
-      "date": "2025-09-01",
-      "departureTime": "02:00",
-      "arrivalTime": "07:45",
-      "price": 550,
-      "airline": "British Airways"
-    },
-    {
-      "id": 2030,
-      "from": "Riyadh",
-      "to": "London",
-      "date": "2025-09-01",
-      "departureTime": "08:00",
-      "arrivalTime": "13:30",
-      "price": 580,
-      "airline": "Saudi Airlines"
-    },
-    {
-      "id": 2031,
-      "from": "Riyadh",
-      "to": "London",
-      "date": "2025-09-01",
-      "departureTime": "14:00",
-      "arrivalTime": "19:00",
-      "price": 560,
-      "airline": "Qatar Airways",
-      "transit": {
-        "transitCity": "Doha",
-        "transitDuration": "1h 45m"
-      }
-    },
-    {
-      "id": 2032,
-      "from": "Riyadh",
-      "to": "London",
-      "date": "2025-09-01",
-      "departureTime": "20:00",
-      "arrivalTime": "01:40",
-      "price": 590,
-      "airline": "Emirates",
-      "transit": {
-        "transitCity": "Dubai",
-        "transitDuration": "2h 00m"
-      }
-    },
-    {
       "id": 2033,
       "from": "Dubai",
+      "fromAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "EWR",
+        "name": "Newark Liberty International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "08:00",
       "arrivalTime": "18:45",
@@ -403,13 +361,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Frankfurt",
+        "transitAirport": {
+          "code": "FRA",
+          "name": "Frankfurt Airport"
+        },
         "transitDuration": "2h 20m"
       }
     },
     {
       "id": 2034,
       "from": "Dubai",
+      "fromAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "02:00",
       "arrivalTime": "12:55",
@@ -417,341 +387,25 @@
       "airline": "Etihad Airways",
       "transit": {
         "transitCity": "Abu Dhabi",
+        "transitAirport": {
+          "code": "AUH",
+          "name": "Abu Dhabi International Airport"
+        },
         "transitDuration": "2h 30m"
       }
     },
     {
-      "id": 2035,
-      "from": "Dubai",
-      "to": "New York",
-      "date": "2025-09-01",
-      "departureTime": "14:00",
-      "arrivalTime": "00:30",
-      "price": 880,
-      "airline": "Qatar Airways",
-      "transit": {
-        "transitCity": "Doha",
-        "transitDuration": "2h 15m"
-      }
-    },
-    {
-      "id": 2036,
-      "from": "Dubai",
-      "to": "New York",
-      "date": "2025-09-01",
-      "departureTime": "20:00",
-      "arrivalTime": "06:15",
-      "price": 910,
-      "airline": "Delta Air Lines"
-    },
-    {
-      "id": 2037,
-      "from": "Jeddah",
-      "to": "Cairo",
-      "date": "2025-09-01",
-      "departureTime": "06:30",
-      "arrivalTime": "08:00",
-      "price": 180,
-      "airline": "EgyptAir"
-    },
-    {
-      "id": 2038,
-      "from": "Jeddah",
-      "to": "Cairo",
-      "date": "2025-09-01",
-      "departureTime": "12:00",
-      "arrivalTime": "13:45",
-      "price": 200,
-      "airline": "Saudi Airlines"
-    },
-    {
-      "id": 2039,
-      "from": "Jeddah",
-      "to": "Cairo",
-      "date": "2025-09-01",
-      "departureTime": "17:00",
-      "arrivalTime": "18:40",
-      "price": 190,
-      "airline": "Flynas"
-    },
-    {
-      "id": 2040,
-      "from": "Jeddah",
-      "to": "Cairo",
-      "date": "2025-09-01",
-      "departureTime": "22:00",
-      "arrivalTime": "23:00",
-      "price": 210,
-      "airline": "Air Arabia"
-    },
-    {
-      "id": 2041,
-      "from": "Jeddah",
-      "to": "Paris",
-      "date": "2025-09-01",
-      "departureTime": "04:15",
-      "arrivalTime": "09:30",
-      "price": 670,
-      "airline": "Qatar Airways",
-      "transit": {
-        "transitCity": "Rome",
-        "transitDuration": "1h 30m"
-      }
-    },
-    {
-      "id": 2042,
-      "from": "Jeddah",
-      "to": "Paris",
-      "date": "2025-09-01",
-      "departureTime": "09:00",
-      "arrivalTime": "14:25",
-      "price": 650,
-      "airline": "Saudi Airlines"
-    },
-    {
-      "id": 2043,
-      "from": "Jeddah",
-      "to": "Paris",
-      "date": "2025-09-01",
-      "departureTime": "14:00",
-      "arrivalTime": "19:30",
-      "price": 680,
-      "airline": "Air France"
-    },
-    {
-      "id": 2044,
-      "from": "Jeddah",
-      "to": "Paris",
-      "date": "2025-09-01",
-      "departureTime": "20:00",
-      "arrivalTime": "01:45",
-      "price": 660,
-      "airline": "Lufthansa",
-      "transit": {
-        "transitCity": "Frankfurt",
-        "transitDuration": "1h 45m"
-      }
-    },
-    {
-      "id": 2045,
-      "from": "Alexandria",
-      "to": "Dubai",
-      "date": "2025-09-01",
-      "departureTime": "07:00",
-      "arrivalTime": "12:00",
-      "price": 310,
-      "airline": "FlyDubai"
-    },
-    {
-      "id": 2046,
-      "from": "Alexandria",
-      "to": "Dubai",
-      "date": "2025-09-01",
-      "departureTime": "02:00",
-      "arrivalTime": "07:30",
-      "price": 300,
-      "airline": "Air Arabia"
-    },
-    {
-      "id": 2047,
-      "from": "Alexandria",
-      "to": "Dubai",
-      "date": "2025-09-01",
-      "departureTime": "13:00",
-      "arrivalTime": "18:10",
-      "price": 330,
-      "airline": "Emirates"
-    },
-    {
-      "id": 2048,
-      "from": "Alexandria",
-      "to": "Dubai",
-      "date": "2025-09-01",
-      "departureTime": "18:00",
-      "arrivalTime": "23:15",
-      "price": 320,
-      "airline": "Qatar Airways",
-      "transit": {
-        "transitCity": "Doha",
-        "transitDuration": "1h 30m"
-      }
-    },
-    {
-      "id": 2049,
-      "from": "Cairo",
-      "to": "Jeddah",
-      "date": "2025-09-01",
-      "departureTime": "13:30",
-      "arrivalTime": "15:30",
-      "price": 190,
-      "airline": "Saudia"
-    },
-    {
-      "id": 2050,
-      "from": "Cairo",
-      "to": "Jeddah",
-      "date": "2025-09-01",
-      "departureTime": "07:00",
-      "arrivalTime": "09:10",
-      "price": 200,
-      "airline": "EgyptAir"
-    },
-    {
-      "id": 2051,
-      "from": "Cairo",
-      "to": "Jeddah",
-      "date": "2025-09-01",
-      "departureTime": "18:00",
-      "arrivalTime": "20:30",
-      "price": 180,
-      "airline": "Flynas"
-    },
-    {
-      "id": 2052,
-      "from": "Cairo",
-      "to": "Jeddah",
-      "date": "2025-09-01",
-      "departureTime": "22:00",
-      "arrivalTime": "00:45",
-      "price": 210,
-      "airline": "Air Arabia"
-    },
-    {
-      "id": 2053,
-      "from": "Dubai",
-      "to": "Tokyo",
-      "date": "2025-09-01",
-      "departureTime": "23:00",
-      "arrivalTime": "12:30",
-      "price": 950,
-      "airline": "Emirates",
-      "transit": {
-        "transitCity": "Singapore",
-        "transitDuration": "3h 00m"
-      }
-    },
-    {
-      "id": 2054,
-      "from": "Dubai",
-      "to": "Tokyo",
-      "date": "2025-09-01",
-      "departureTime": "08:00",
-      "arrivalTime": "21:10",
-      "price": 970,
-      "airline": "Qatar Airways",
-      "transit": {
-        "transitCity": "Doha",
-        "transitDuration": "2h 45m"
-      }
-    },
-    {
-      "id": 2055,
-      "from": "Dubai",
-      "to": "Tokyo",
-      "date": "2025-09-01",
-      "departureTime": "14:00",
-      "arrivalTime": "03:40",
-      "price": 930,
-      "airline": "Etihad Airways",
-      "transit": {
-        "transitCity": "Abu Dhabi",
-        "transitDuration": "3h 00m"
-      }
-    },
-    {
-      "id": 2056,
-      "from": "Dubai",
-      "to": "Tokyo",
-      "date": "2025-09-01",
-      "departureTime": "18:00",
-      "arrivalTime": "07:00",
-      "price": 960,
-      "airline": "Japan Airlines"
-    },
-    {
-      "id": 2057,
-      "from": "Dubai",
-      "to": "Cairo",
-      "date": "2025-09-01",
-      "departureTime": "15:45",
-      "arrivalTime": "18:30",
-      "price": 340,
-      "airline": "FlyDubai"
-    },
-    {
-      "id": 2058,
-      "from": "Dubai",
-      "to": "Cairo",
-      "date": "2025-09-01",
-      "departureTime": "07:00",
-      "arrivalTime": "09:30",
-      "price": 350,
-      "airline": "Emirates"
-    },
-    {
-      "id": 2059,
-      "from": "Dubai",
-      "to": "Cairo",
-      "date": "2025-09-01",
-      "departureTime": "12:00",
-      "arrivalTime": "14:20",
-      "price": 330,
-      "airline": "EgyptAir"
-    },
-    {
-      "id": 2060,
-      "from": "Dubai",
-      "to": "Cairo",
-      "date": "2025-09-01",
-      "departureTime": "20:00",
-      "arrivalTime": "23:00",
-      "price": 320,
-      "airline": "Air Arabia"
-    },
-    {
-      "id": 2061,
-      "from": "Istanbul",
-      "to": "Riyadh",
-      "date": "2025-09-01",
-      "departureTime": "11:00",
-      "arrivalTime": "15:30",
-      "price": 310,
-      "airline": "Turkish Airlines"
-    },
-    {
-      "id": 2062,
-      "from": "Istanbul",
-      "to": "Riyadh",
-      "date": "2025-09-01",
-      "departureTime": "06:00",
-      "arrivalTime": "10:45",
-      "price": 300,
-      "airline": "Saudi Airlines"
-    },
-    {
-      "id": 2063,
-      "from": "Istanbul",
-      "to": "Riyadh",
-      "date": "2025-09-01",
-      "departureTime": "16:00",
-      "arrivalTime": "20:00",
-      "price": 320,
-      "airline": "Pegasus Airlines"
-    },
-    {
-      "id": 2064,
-      "from": "Istanbul",
-      "to": "Riyadh",
-      "date": "2025-09-01",
-      "departureTime": "21:00",
-      "arrivalTime": "01:15",
-      "price": 290,
-      "airline": "Flynas"
-    },
-    {
       "id": 2065,
       "from": "London",
+      "fromAirport": {
+        "code": "LGW",
+        "name": "London Gatwick Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "20:30",
       "arrivalTime": "06:00",
@@ -761,7 +415,15 @@
     {
       "id": 2066,
       "from": "London",
+      "fromAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "08:00",
       "arrivalTime": "17:45",
@@ -771,7 +433,15 @@
     {
       "id": 2067,
       "from": "London",
+      "fromAirport": {
+        "code": "LGW",
+        "name": "London Gatwick Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "13:00",
       "arrivalTime": "22:00",
@@ -779,13 +449,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "1h 45m"
       }
     },
     {
       "id": 2068,
       "from": "London",
+      "fromAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "16:00",
       "arrivalTime": "01:15",
@@ -793,13 +475,25 @@
       "airline": "Etihad Airways",
       "transit": {
         "transitCity": "Abu Dhabi",
+        "transitAirport": {
+          "code": "AUH",
+          "name": "Abu Dhabi International Airport"
+        },
         "transitDuration": "2h 00m"
       }
     },
     {
       "id": 2069,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Istanbul",
+      "toAirport": {
+        "code": "IST",
+        "name": "Istanbul Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "05:30",
       "arrivalTime": "09:00",
@@ -809,7 +503,15 @@
     {
       "id": 2070,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Istanbul",
+      "toAirport": {
+        "code": "SAW",
+        "name": "Sabiha Gökçen International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "10:00",
       "arrivalTime": "13:00",
@@ -819,7 +521,15 @@
     {
       "id": 2071,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Istanbul",
+      "toAirport": {
+        "code": "SAW",
+        "name": "Sabiha Gökçen International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "15:00",
       "arrivalTime": "18:10",
@@ -829,7 +539,15 @@
     {
       "id": 2072,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Istanbul",
+      "toAirport": {
+        "code": "IST",
+        "name": "Istanbul Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "20:00",
       "arrivalTime": "23:40",
@@ -839,7 +557,15 @@
     {
       "id": 2073,
       "from": "New York",
+      "fromAirport": {
+        "code": "EWR",
+        "name": "Newark Liberty International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "21:00",
       "arrivalTime": "14:45",
@@ -847,13 +573,25 @@
       "airline": "EgyptAir",
       "transit": {
         "transitCity": "London",
+        "transitAirport": {
+          "code": "LGW",
+          "name": "London Gatwick Airport"
+        },
         "transitDuration": "3h 10m"
       }
     },
     {
       "id": 2074,
       "from": "New York",
+      "fromAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "09:00",
       "arrivalTime": "02:35",
@@ -861,13 +599,25 @@
       "airline": "British Airways",
       "transit": {
         "transitCity": "London",
+        "transitAirport": {
+          "code": "LHR",
+          "name": "London Heathrow Airport"
+        },
         "transitDuration": "2h 45m"
       }
     },
     {
       "id": 2075,
       "from": "New York",
+      "fromAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "14:00",
       "arrivalTime": "07:15",
@@ -875,13 +625,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Dubai",
+        "transitAirport": {
+          "code": "DXB",
+          "name": "Dubai International Airport"
+        },
         "transitDuration": "3h 00m"
       }
     },
     {
       "id": 2076,
       "from": "New York",
+      "fromAirport": {
+        "code": "EWR",
+        "name": "Newark Liberty International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "18:00",
       "arrivalTime": "12:00",
@@ -889,13 +651,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "2h 50m"
       }
     },
     {
       "id": 2077,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LGW",
+        "name": "London Gatwick Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "14:00",
       "arrivalTime": "18:30",
@@ -905,7 +679,15 @@
     {
       "id": 2078,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "08:00",
       "arrivalTime": "12:10",
@@ -915,7 +697,15 @@
     {
       "id": 2079,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "STN",
+        "name": "London Stansted Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "18:00",
       "arrivalTime": "22:45",
@@ -923,13 +713,25 @@
       "airline": "Air France",
       "transit": {
         "transitCity": "Paris",
+        "transitAirport": {
+          "code": "ORY",
+          "name": "Paris Orly Airport"
+        },
         "transitDuration": "1h 30m"
       }
     },
     {
       "id": 2080,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "22:00",
       "arrivalTime": "02:20",
@@ -937,13 +739,25 @@
       "airline": "Lufthansa",
       "transit": {
         "transitCity": "Frankfurt",
+        "transitAirport": {
+          "code": "FRA",
+          "name": "Frankfurt Airport"
+        },
         "transitDuration": "1h 45m"
       }
     },
     {
       "id": 2081,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "EWR",
+        "name": "Newark Liberty International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "16:30",
       "arrivalTime": "01:00",
@@ -951,13 +765,25 @@
       "airline": "EgyptAir",
       "transit": {
         "transitCity": "Madrid",
+        "transitAirport": {
+          "code": "MAD",
+          "name": "Adolfo Suárez Madrid–Barajas Airport"
+        },
         "transitDuration": "2h 40m"
       }
     },
     {
       "id": 2082,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "08:00",
       "arrivalTime": "16:20",
@@ -965,13 +791,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Dubai",
+        "transitAirport": {
+          "code": "DXB",
+          "name": "Dubai International Airport"
+        },
         "transitDuration": "3h 00m"
       }
     },
     {
       "id": 2083,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "LGA",
+        "name": "LaGuardia Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "12:00",
       "arrivalTime": "20:35",
@@ -979,13 +817,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "2h 45m"
       }
     },
     {
       "id": 2084,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "20:00",
       "arrivalTime": "04:45",
@@ -993,13 +843,25 @@
       "airline": "British Airways",
       "transit": {
         "transitCity": "London",
+        "transitAirport": {
+          "code": "LGW",
+          "name": "London Gatwick Airport"
+        },
         "transitDuration": "2h 50m"
       }
     },
     {
       "id": 2085,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "ORY",
+        "name": "Paris Orly Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "07:15",
       "arrivalTime": "11:00",
@@ -1009,7 +871,15 @@
     {
       "id": 2086,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "CDG",
+        "name": "Paris Charles de Gaulle Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "12:00",
       "arrivalTime": "16:00",
@@ -1019,7 +889,15 @@
     {
       "id": 2087,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "CDG",
+        "name": "Paris Charles de Gaulle Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "16:00",
       "arrivalTime": "19:30",
@@ -1027,13 +905,25 @@
       "airline": "Lufthansa",
       "transit": {
         "transitCity": "Frankfurt",
+        "transitAirport": {
+          "code": "FRA",
+          "name": "Frankfurt Airport"
+        },
         "transitDuration": "1h 30m"
       }
     },
     {
       "id": 2088,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "ORY",
+        "name": "Paris Orly Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "20:00",
       "arrivalTime": "23:15",
@@ -1041,13 +931,25 @@
       "airline": "British Airways",
       "transit": {
         "transitCity": "London",
+        "transitAirport": {
+          "code": "LHR",
+          "name": "London Heathrow Airport"
+        },
         "transitDuration": "1h 45m"
       }
     },
     {
       "id": 2089,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "EWR",
+        "name": "Newark Liberty International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "12:45",
       "arrivalTime": "22:00",
@@ -1055,13 +957,25 @@
       "airline": "EgyptAir",
       "transit": {
         "transitCity": "Cairo",
+        "transitAirport": {
+          "code": "CAI",
+          "name": "Cairo International Airport"
+        },
         "transitDuration": "1h 15m"
       }
     },
     {
       "id": 2090,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "07:00",
       "arrivalTime": "16:00",
@@ -1069,13 +983,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Dubai",
+        "transitAirport": {
+          "code": "DXB",
+          "name": "Dubai International Airport"
+        },
         "transitDuration": "2h 30m"
       }
     },
     {
       "id": 2091,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "LGA",
+        "name": "LaGuardia Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "16:00",
       "arrivalTime": "01:30",
@@ -1083,13 +1009,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "2h 45m"
       }
     },
     {
       "id": 2092,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "20:00",
       "arrivalTime": "05:35",
@@ -1097,13 +1035,25 @@
       "airline": "British Airways",
       "transit": {
         "transitCity": "London",
+        "transitAirport": {
+          "code": "LGW",
+          "name": "London Gatwick Airport"
+        },
         "transitDuration": "2h 50m"
       }
     },
     {
       "id": 2093,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LGW",
+        "name": "London Gatwick Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "13:00",
       "arrivalTime": "18:30",
@@ -1113,7 +1063,15 @@
     {
       "id": 2094,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "07:00",
       "arrivalTime": "12:20",
@@ -1123,7 +1081,15 @@
     {
       "id": 2095,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "STN",
+        "name": "London Stansted Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "16:00",
       "arrivalTime": "21:00",
@@ -1131,13 +1097,25 @@
       "airline": "Air France",
       "transit": {
         "transitCity": "Paris",
+        "transitAirport": {
+          "code": "ORY",
+          "name": "Paris Orly Airport"
+        },
         "transitDuration": "1h 30m"
       }
     },
     {
       "id": 2096,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "20:00",
       "arrivalTime": "01:45",
@@ -1145,13 +1123,25 @@
       "airline": "Lufthansa",
       "transit": {
         "transitCity": "Frankfurt",
+        "transitAirport": {
+          "code": "FRA",
+          "name": "Frankfurt Airport"
+        },
         "transitDuration": "1h 45m"
       }
     },
     {
       "id": 2097,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "HND",
+        "name": "Haneda Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "23:30",
       "arrivalTime": "16:00",
@@ -1159,13 +1149,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "3h 15m"
       }
     },
     {
       "id": 2098,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "NRT",
+        "name": "Narita International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "08:00",
       "arrivalTime": "00:20",
@@ -1173,13 +1175,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Dubai",
+        "transitAirport": {
+          "code": "DXB",
+          "name": "Dubai International Airport"
+        },
         "transitDuration": "3h 30m"
       }
     },
     {
       "id": 2099,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "HND",
+        "name": "Haneda Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "14:00",
       "arrivalTime": "06:10",
@@ -1187,13 +1201,25 @@
       "airline": "Etihad Airways",
       "transit": {
         "transitCity": "Abu Dhabi",
+        "transitAirport": {
+          "code": "AUH",
+          "name": "Abu Dhabi International Airport"
+        },
         "transitDuration": "3h 45m"
       }
     },
     {
       "id": 2100,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "NRT",
+        "name": "Narita International Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "18:00",
       "arrivalTime": "10:45",
@@ -1201,13 +1227,25 @@
       "airline": "Japan Airlines",
       "transit": {
         "transitCity": "Dubai",
+        "transitAirport": {
+          "code": "DXB",
+          "name": "Dubai International Airport"
+        },
         "transitDuration": "3h 00m"
       }
     },
     {
       "id": 2101,
-      "from": "cairo",
-      "to": "barcelona",
+      "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
+      "to": "Barcelona",
+      "toAirport": {
+        "code": "BCN",
+        "name": "Barcelona–El Prat Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "18:29",
       "arrivalTime": "22:29",
@@ -1216,8 +1254,16 @@
     },
     {
       "id": 2102,
-      "from": "cairo",
-      "to": "barcelona",
+      "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
+      "to": "Barcelona",
+      "toAirport": {
+        "code": "BCN",
+        "name": "Barcelona–El Prat Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "08:00",
       "arrivalTime": "12:10",
@@ -1226,8 +1272,16 @@
     },
     {
       "id": 2103,
-      "from": "cairo",
-      "to": "barcelona",
+      "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
+      "to": "Barcelona",
+      "toAirport": {
+        "code": "BCN",
+        "name": "Barcelona–El Prat Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "12:00",
       "arrivalTime": "16:15",
@@ -1236,8 +1290,16 @@
     },
     {
       "id": 2104,
-      "from": "cairo",
-      "to": "barcelona",
+      "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
+      "to": "Barcelona",
+      "toAirport": {
+        "code": "BCN",
+        "name": "Barcelona–El Prat Airport"
+      },
       "date": "2025-09-01",
       "departureTime": "22:00",
       "arrivalTime": "02:30",
@@ -1245,13 +1307,25 @@
       "airline": "Lufthansa",
       "transit": {
         "transitCity": "Frankfurt",
+        "transitAirport": {
+          "code": "FRA",
+          "name": "Frankfurt Airport"
+        },
         "transitDuration": "1h 30m"
       }
     },
     {
       "id": 2105,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "09:00",
       "arrivalTime": "13:30",
@@ -1261,7 +1335,15 @@
     {
       "id": 2106,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "14:30",
       "arrivalTime": "19:30",
@@ -1271,7 +1353,15 @@
     {
       "id": 2107,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "18:00",
       "arrivalTime": "22:15",
@@ -1279,13 +1369,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "1h 30m"
       }
     },
     {
       "id": 2108,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "03:00",
       "arrivalTime": "07:00",
@@ -1295,7 +1397,15 @@
     {
       "id": 2109,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "HND",
+        "name": "Haneda Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "22:00",
       "arrivalTime": "14:30",
@@ -1303,13 +1413,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Dubai",
+        "transitAirport": {
+          "code": "DXB",
+          "name": "Dubai International Airport"
+        },
         "transitDuration": "4h 00m"
       }
     },
     {
       "id": 2110,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "NRT",
+        "name": "Narita International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "01:30",
       "arrivalTime": "18:10",
@@ -1317,13 +1439,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "3h 30m"
       }
     },
     {
       "id": 2111,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "HND",
+        "name": "Haneda Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "09:45",
       "arrivalTime": "02:30",
@@ -1331,13 +1465,25 @@
       "airline": "Etihad Airways",
       "transit": {
         "transitCity": "Abu Dhabi",
+        "transitAirport": {
+          "code": "AUH",
+          "name": "Abu Dhabi International Airport"
+        },
         "transitDuration": "3h 45m"
       }
     },
     {
       "id": 2112,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "HND",
+        "name": "Haneda Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "16:00",
       "arrivalTime": "08:45",
@@ -1345,13 +1491,25 @@
       "airline": "Japan Airlines",
       "transit": {
         "transitCity": "Dubai",
+        "transitAirport": {
+          "code": "DXB",
+          "name": "Dubai International Airport"
+        },
         "transitDuration": "4h 15m"
       }
     },
     {
       "id": 2113,
       "from": "Tokyo",
+      "fromAirport": {
+        "code": "NRT",
+        "name": "Narita International Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "10:00",
       "arrivalTime": "20:00",
@@ -1359,13 +1517,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Bangkok",
+        "transitAirport": {
+          "code": "BKK",
+          "name": "Suvarnabhumi Airport"
+        },
         "transitDuration": "2h 15m"
       }
     },
     {
       "id": 2114,
       "from": "Tokyo",
+      "fromAirport": {
+        "code": "HND",
+        "name": "Haneda Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "03:00",
       "arrivalTime": "13:30",
@@ -1373,13 +1543,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "2h 00m"
       }
     },
     {
       "id": 2115,
       "from": "Tokyo",
+      "fromAirport": {
+        "code": "NRT",
+        "name": "Narita International Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "15:30",
       "arrivalTime": "02:00",
@@ -1387,13 +1569,25 @@
       "airline": "Etihad Airways",
       "transit": {
         "transitCity": "Abu Dhabi",
+        "transitAirport": {
+          "code": "AUH",
+          "name": "Abu Dhabi International Airport"
+        },
         "transitDuration": "2h 30m"
       }
     },
     {
       "id": 2116,
       "from": "Tokyo",
+      "fromAirport": {
+        "code": "HND",
+        "name": "Haneda Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "20:10",
       "arrivalTime": "06:00",
@@ -1403,7 +1597,15 @@
     {
       "id": 2117,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Riyadh",
+      "toAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "10:15",
       "arrivalTime": "13:00",
@@ -1413,7 +1615,15 @@
     {
       "id": 2118,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Riyadh",
+      "toAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "06:00",
       "arrivalTime": "08:55",
@@ -1423,7 +1633,15 @@
     {
       "id": 2119,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Riyadh",
+      "toAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "15:30",
       "arrivalTime": "18:30",
@@ -1433,7 +1651,15 @@
     {
       "id": 2120,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Riyadh",
+      "toAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "21:00",
       "arrivalTime": "23:55",
@@ -1443,7 +1669,15 @@
     {
       "id": 2121,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "CDG",
+        "name": "Paris Charles de Gaulle Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "06:00",
       "arrivalTime": "12:40",
@@ -1453,7 +1687,15 @@
     {
       "id": 2122,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "ORY",
+        "name": "Paris Orly Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "10:00",
       "arrivalTime": "16:40",
@@ -1461,13 +1703,25 @@
       "airline": "Lufthansa",
       "transit": {
         "transitCity": "Frankfurt",
+        "transitAirport": {
+          "code": "FRA",
+          "name": "Frankfurt Airport"
+        },
         "transitDuration": "1h 40m"
       }
     },
     {
       "id": 2123,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "CDG",
+        "name": "Paris Charles de Gaulle Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "14:30",
       "arrivalTime": "21:30",
@@ -1475,13 +1729,25 @@
       "airline": "British Airways",
       "transit": {
         "transitCity": "London",
+        "transitAirport": {
+          "code": "LGW",
+          "name": "London Gatwick Airport"
+        },
         "transitDuration": "2h 00m"
       }
     },
     {
       "id": 2124,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "ORY",
+        "name": "Paris Orly Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "20:00",
       "arrivalTime": "02:55",
@@ -1489,13 +1755,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "2h 30m"
       }
     },
     {
       "id": 2125,
       "from": "Riyadh",
+      "fromAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "CDG",
+        "name": "Paris Charles de Gaulle Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "01:00",
       "arrivalTime": "07:10",
@@ -1503,13 +1781,25 @@
       "airline": "Saudi Airlines",
       "transit": {
         "transitCity": "Cairo",
+        "transitAirport": {
+          "code": "CAI",
+          "name": "Cairo International Airport"
+        },
         "transitDuration": "1h 20m"
       }
     },
     {
       "id": 2126,
       "from": "Riyadh",
+      "fromAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "ORY",
+        "name": "Paris Orly Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "08:00",
       "arrivalTime": "14:30",
@@ -1519,7 +1809,15 @@
     {
       "id": 2127,
       "from": "Riyadh",
+      "fromAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "CDG",
+        "name": "Paris Charles de Gaulle Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "13:00",
       "arrivalTime": "19:15",
@@ -1527,13 +1825,25 @@
       "airline": "Lufthansa",
       "transit": {
         "transitCity": "Frankfurt",
+        "transitAirport": {
+          "code": "FRA",
+          "name": "Frankfurt Airport"
+        },
         "transitDuration": "1h 50m"
       }
     },
     {
       "id": 2128,
       "from": "Riyadh",
+      "fromAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "ORY",
+        "name": "Paris Orly Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "18:30",
       "arrivalTime": "00:45",
@@ -1541,13 +1851,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "2h 00m"
       }
     },
     {
       "id": 2129,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Istanbul",
+      "toAirport": {
+        "code": "IST",
+        "name": "Istanbul Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "08:30",
       "arrivalTime": "12:15",
@@ -1555,13 +1877,25 @@
       "airline": "Turkish Airlines",
       "transit": {
         "transitCity": "Athens",
+        "transitAirport": {
+          "code": "ATH",
+          "name": "Athens International Airport"
+        },
         "transitDuration": "1h 10m"
       }
     },
     {
       "id": 2130,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Istanbul",
+      "toAirport": {
+        "code": "SAW",
+        "name": "Sabiha Gökçen International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "03:00",
       "arrivalTime": "06:30",
@@ -1571,7 +1905,15 @@
     {
       "id": 2131,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Istanbul",
+      "toAirport": {
+        "code": "IST",
+        "name": "Istanbul Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "14:00",
       "arrivalTime": "17:20",
@@ -1581,7 +1923,15 @@
     {
       "id": 2132,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Istanbul",
+      "toAirport": {
+        "code": "SAW",
+        "name": "Sabiha Gökçen International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "20:00",
       "arrivalTime": "23:30",
@@ -1589,13 +1939,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "1h 30m"
       }
     },
     {
       "id": 2133,
       "from": "Riyadh",
+      "fromAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "02:00",
       "arrivalTime": "07:45",
@@ -1605,7 +1967,15 @@
     {
       "id": 2134,
       "from": "Riyadh",
+      "fromAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LGW",
+        "name": "London Gatwick Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "08:00",
       "arrivalTime": "13:30",
@@ -1615,7 +1985,15 @@
     {
       "id": 2135,
       "from": "Riyadh",
+      "fromAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "14:00",
       "arrivalTime": "19:00",
@@ -1623,13 +2001,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "1h 45m"
       }
     },
     {
       "id": 2136,
       "from": "Riyadh",
+      "fromAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LGW",
+        "name": "London Gatwick Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "20:00",
       "arrivalTime": "01:40",
@@ -1637,13 +2027,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Dubai",
+        "transitAirport": {
+          "code": "DWC",
+          "name": "Al Maktoum International Airport"
+        },
         "transitDuration": "2h 00m"
       }
     },
     {
       "id": 2137,
       "from": "Dubai",
+      "fromAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "08:00",
       "arrivalTime": "18:45",
@@ -1651,13 +2053,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Frankfurt",
+        "transitAirport": {
+          "code": "FRA",
+          "name": "Frankfurt Airport"
+        },
         "transitDuration": "2h 20m"
       }
     },
     {
       "id": 2138,
       "from": "Dubai",
+      "fromAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "EWR",
+        "name": "Newark Liberty International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "02:00",
       "arrivalTime": "12:55",
@@ -1665,13 +2079,25 @@
       "airline": "Etihad Airways",
       "transit": {
         "transitCity": "Abu Dhabi",
+        "transitAirport": {
+          "code": "AUH",
+          "name": "Abu Dhabi International Airport"
+        },
         "transitDuration": "2h 30m"
       }
     },
     {
       "id": 2139,
       "from": "Dubai",
+      "fromAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "14:00",
       "arrivalTime": "00:30",
@@ -1679,13 +2105,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "2h 15m"
       }
     },
     {
       "id": 2140,
       "from": "Dubai",
+      "fromAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "EWR",
+        "name": "Newark Liberty International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "20:00",
       "arrivalTime": "06:15",
@@ -1695,7 +2133,15 @@
     {
       "id": 2141,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "06:30",
       "arrivalTime": "08:00",
@@ -1705,7 +2151,15 @@
     {
       "id": 2142,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "12:00",
       "arrivalTime": "13:45",
@@ -1715,7 +2169,15 @@
     {
       "id": 2143,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "17:00",
       "arrivalTime": "18:40",
@@ -1725,7 +2187,15 @@
     {
       "id": 2144,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "22:00",
       "arrivalTime": "23:00",
@@ -1735,7 +2205,15 @@
     {
       "id": 2145,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "CDG",
+        "name": "Paris Charles de Gaulle Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "04:15",
       "arrivalTime": "09:30",
@@ -1743,13 +2221,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Rome",
+        "transitAirport": {
+          "code": "FCO",
+          "name": "Leonardo da Vinci–Fiumicino Airport"
+        },
         "transitDuration": "1h 30m"
       }
     },
     {
       "id": 2146,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "ORY",
+        "name": "Paris Orly Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "09:00",
       "arrivalTime": "14:25",
@@ -1759,7 +2249,15 @@
     {
       "id": 2147,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "CDG",
+        "name": "Paris Charles de Gaulle Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "14:00",
       "arrivalTime": "19:30",
@@ -1769,7 +2267,15 @@
     {
       "id": 2148,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "ORY",
+        "name": "Paris Orly Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "20:00",
       "arrivalTime": "01:45",
@@ -1777,13 +2283,25 @@
       "airline": "Lufthansa",
       "transit": {
         "transitCity": "Frankfurt",
+        "transitAirport": {
+          "code": "FRA",
+          "name": "Frankfurt Airport"
+        },
         "transitDuration": "1h 45m"
       }
     },
     {
       "id": 2149,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "07:00",
       "arrivalTime": "12:00",
@@ -1793,7 +2311,15 @@
     {
       "id": 2150,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "02:00",
       "arrivalTime": "07:30",
@@ -1803,7 +2329,15 @@
     {
       "id": 2151,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "13:00",
       "arrivalTime": "18:10",
@@ -1813,7 +2347,15 @@
     {
       "id": 2152,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "18:00",
       "arrivalTime": "23:15",
@@ -1821,13 +2363,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "1h 30m"
       }
     },
     {
       "id": 2153,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Jeddah",
+      "toAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "13:30",
       "arrivalTime": "15:30",
@@ -1837,7 +2391,15 @@
     {
       "id": 2154,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Jeddah",
+      "toAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "07:00",
       "arrivalTime": "09:10",
@@ -1847,7 +2409,15 @@
     {
       "id": 2155,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Jeddah",
+      "toAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "18:00",
       "arrivalTime": "20:30",
@@ -1857,7 +2427,15 @@
     {
       "id": 2156,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Jeddah",
+      "toAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "22:00",
       "arrivalTime": "00:45",
@@ -1867,7 +2445,15 @@
     {
       "id": 2157,
       "from": "Dubai",
+      "fromAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "NRT",
+        "name": "Narita International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "23:00",
       "arrivalTime": "12:30",
@@ -1875,13 +2461,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Singapore",
+        "transitAirport": {
+          "code": "SIN",
+          "name": "Singapore Changi Airport"
+        },
         "transitDuration": "3h 00m"
       }
     },
     {
       "id": 2158,
       "from": "Dubai",
+      "fromAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "HND",
+        "name": "Haneda Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "08:00",
       "arrivalTime": "21:10",
@@ -1889,13 +2487,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "2h 45m"
       }
     },
     {
       "id": 2159,
       "from": "Dubai",
+      "fromAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "NRT",
+        "name": "Narita International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "14:00",
       "arrivalTime": "03:40",
@@ -1903,13 +2513,25 @@
       "airline": "Etihad Airways",
       "transit": {
         "transitCity": "Abu Dhabi",
+        "transitAirport": {
+          "code": "AUH",
+          "name": "Abu Dhabi International Airport"
+        },
         "transitDuration": "3h 00m"
       }
     },
     {
       "id": 2160,
       "from": "Dubai",
+      "fromAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "HND",
+        "name": "Haneda Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "18:00",
       "arrivalTime": "07:00",
@@ -1919,7 +2541,15 @@
     {
       "id": 2161,
       "from": "Dubai",
+      "fromAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "15:45",
       "arrivalTime": "18:30",
@@ -1929,7 +2559,15 @@
     {
       "id": 2162,
       "from": "Dubai",
+      "fromAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "07:00",
       "arrivalTime": "09:30",
@@ -1939,7 +2577,15 @@
     {
       "id": 2163,
       "from": "Dubai",
+      "fromAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "12:00",
       "arrivalTime": "14:20",
@@ -1949,7 +2595,15 @@
     {
       "id": 2164,
       "from": "Dubai",
+      "fromAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "20:00",
       "arrivalTime": "23:00",
@@ -1959,7 +2613,15 @@
     {
       "id": 2165,
       "from": "Istanbul",
+      "fromAirport": {
+        "code": "IST",
+        "name": "Istanbul Airport"
+      },
       "to": "Riyadh",
+      "toAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "11:00",
       "arrivalTime": "15:30",
@@ -1969,7 +2631,15 @@
     {
       "id": 2166,
       "from": "Istanbul",
+      "fromAirport": {
+        "code": "SAW",
+        "name": "Sabiha Gökçen International Airport"
+      },
       "to": "Riyadh",
+      "toAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "06:00",
       "arrivalTime": "10:45",
@@ -1979,7 +2649,15 @@
     {
       "id": 2167,
       "from": "Istanbul",
+      "fromAirport": {
+        "code": "IST",
+        "name": "Istanbul Airport"
+      },
       "to": "Riyadh",
+      "toAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "16:00",
       "arrivalTime": "20:00",
@@ -1989,7 +2667,15 @@
     {
       "id": 2168,
       "from": "Istanbul",
+      "fromAirport": {
+        "code": "SAW",
+        "name": "Sabiha Gökçen International Airport"
+      },
       "to": "Riyadh",
+      "toAirport": {
+        "code": "RUH",
+        "name": "King Khalid International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "21:00",
       "arrivalTime": "01:15",
@@ -1999,7 +2685,15 @@
     {
       "id": 2169,
       "from": "London",
+      "fromAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "20:30",
       "arrivalTime": "06:00",
@@ -2009,7 +2703,15 @@
     {
       "id": 2170,
       "from": "London",
+      "fromAirport": {
+        "code": "LGW",
+        "name": "London Gatwick Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "08:00",
       "arrivalTime": "17:45",
@@ -2019,7 +2721,15 @@
     {
       "id": 2171,
       "from": "London",
+      "fromAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DXB",
+        "name": "Dubai International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "13:00",
       "arrivalTime": "22:00",
@@ -2027,13 +2737,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "1h 45m"
       }
     },
     {
       "id": 2172,
       "from": "London",
+      "fromAirport": {
+        "code": "LGW",
+        "name": "London Gatwick Airport"
+      },
       "to": "Dubai",
+      "toAirport": {
+        "code": "DWC",
+        "name": "Al Maktoum International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "16:00",
       "arrivalTime": "01:15",
@@ -2041,13 +2763,25 @@
       "airline": "Etihad Airways",
       "transit": {
         "transitCity": "Abu Dhabi",
+        "transitAirport": {
+          "code": "AUH",
+          "name": "Abu Dhabi International Airport"
+        },
         "transitDuration": "2h 00m"
       }
     },
     {
       "id": 2173,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Istanbul",
+      "toAirport": {
+        "code": "IST",
+        "name": "Istanbul Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "05:30",
       "arrivalTime": "09:00",
@@ -2057,7 +2791,15 @@
     {
       "id": 2174,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Istanbul",
+      "toAirport": {
+        "code": "SAW",
+        "name": "Sabiha Gökçen International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "10:00",
       "arrivalTime": "13:00",
@@ -2067,7 +2809,15 @@
     {
       "id": 2175,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Istanbul",
+      "toAirport": {
+        "code": "IST",
+        "name": "Istanbul Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "15:00",
       "arrivalTime": "18:10",
@@ -2077,7 +2827,15 @@
     {
       "id": 2176,
       "from": "Jeddah",
+      "fromAirport": {
+        "code": "JED",
+        "name": "King Abdulaziz International Airport"
+      },
       "to": "Istanbul",
+      "toAirport": {
+        "code": "SAW",
+        "name": "Sabiha Gökçen International Airport"
+      },
       "date": "2025-09-15",
       "departureTime": "20:00",
       "arrivalTime": "23:40",
@@ -2087,7 +2845,15 @@
     {
       "id": 16,
       "from": "New York",
+      "fromAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-08-17",
       "departureTime": "21:00",
       "arrivalTime": "14:45",
@@ -2095,13 +2861,25 @@
       "airline": "EgyptAir",
       "transit": {
         "transitCity": "London",
+        "transitAirport": {
+          "code": "LHR",
+          "name": "London Heathrow Airport"
+        },
         "transitDuration": "3h 10m"
       }
     },
     {
       "id": 1055,
       "from": "New York",
+      "fromAirport": {
+        "code": "EWR",
+        "name": "Newark Liberty International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-08-17",
       "departureTime": "09:00",
       "arrivalTime": "02:35",
@@ -2109,13 +2887,25 @@
       "airline": "British Airways",
       "transit": {
         "transitCity": "London",
+        "transitAirport": {
+          "code": "LGW",
+          "name": "London Gatwick Airport"
+        },
         "transitDuration": "2h 45m"
       }
     },
     {
       "id": 1056,
       "from": "New York",
+      "fromAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-08-17",
       "departureTime": "14:00",
       "arrivalTime": "07:15",
@@ -2123,13 +2913,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Dubai",
+        "transitAirport": {
+          "code": "DXB",
+          "name": "Dubai International Airport"
+        },
         "transitDuration": "3h 00m"
       }
     },
     {
       "id": 1057,
       "from": "New York",
+      "fromAirport": {
+        "code": "EWR",
+        "name": "Newark Liberty International Airport"
+      },
       "to": "Cairo",
+      "toAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "date": "2025-08-17",
       "departureTime": "18:00",
       "arrivalTime": "12:00",
@@ -2137,13 +2939,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "2h 50m"
       }
     },
     {
       "id": 17,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport"
+      },
       "date": "2025-08-18",
       "departureTime": "14:00",
       "arrivalTime": "18:30",
@@ -2153,7 +2967,15 @@
     {
       "id": 1058,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LGW",
+        "name": "London Gatwick Airport"
+      },
       "date": "2025-08-18",
       "departureTime": "08:00",
       "arrivalTime": "12:10",
@@ -2163,7 +2985,15 @@
     {
       "id": 1059,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport"
+      },
       "date": "2025-08-18",
       "departureTime": "18:00",
       "arrivalTime": "22:45",
@@ -2171,13 +3001,25 @@
       "airline": "Air France",
       "transit": {
         "transitCity": "Paris",
+        "transitAirport": {
+          "code": "CDG",
+          "name": "Paris Charles de Gaulle Airport"
+        },
         "transitDuration": "1h 30m"
       }
     },
     {
       "id": 1060,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LGW",
+        "name": "London Gatwick Airport"
+      },
       "date": "2025-08-18",
       "departureTime": "22:00",
       "arrivalTime": "02:20",
@@ -2185,13 +3027,25 @@
       "airline": "Lufthansa",
       "transit": {
         "transitCity": "Frankfurt",
+        "transitAirport": {
+          "code": "FRA",
+          "name": "Frankfurt Airport"
+        },
         "transitDuration": "1h 45m"
       }
     },
     {
       "id": 19,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport"
+      },
       "date": "2025-08-24",
       "departureTime": "16:30",
       "arrivalTime": "01:00",
@@ -2199,13 +3053,25 @@
       "airline": "EgyptAir",
       "transit": {
         "transitCity": "Madrid",
+        "transitAirport": {
+          "code": "MAD",
+          "name": "Adolfo Suárez Madrid–Barajas Airport"
+        },
         "transitDuration": "2h 40m"
       }
     },
     {
       "id": 1061,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "EWR",
+        "name": "Newark Liberty International Airport"
+      },
       "date": "2025-08-24",
       "departureTime": "08:00",
       "arrivalTime": "16:20",
@@ -2213,13 +3079,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Dubai",
+        "transitAirport": {
+          "code": "DXB",
+          "name": "Dubai International Airport"
+        },
         "transitDuration": "3h 00m"
       }
     },
     {
       "id": 1062,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport"
+      },
       "date": "2025-08-24",
       "departureTime": "12:00",
       "arrivalTime": "20:35",
@@ -2227,13 +3105,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "2h 45m"
       }
     },
     {
       "id": 1063,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "EWR",
+        "name": "Newark Liberty International Airport"
+      },
       "date": "2025-08-24",
       "departureTime": "20:00",
       "arrivalTime": "04:45",
@@ -2241,13 +3131,25 @@
       "airline": "British Airways",
       "transit": {
         "transitCity": "London",
+        "transitAirport": {
+          "code": "LHR",
+          "name": "London Heathrow Airport"
+        },
         "transitDuration": "2h 50m"
       }
     },
     {
       "id": 20,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "CDG",
+        "name": "Paris Charles de Gaulle Airport"
+      },
       "date": "2025-08-23",
       "departureTime": "07:15",
       "arrivalTime": "11:00",
@@ -2257,7 +3159,15 @@
     {
       "id": 1064,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "ORY",
+        "name": "Paris Orly Airport"
+      },
       "date": "2025-08-23",
       "departureTime": "12:00",
       "arrivalTime": "16:00",
@@ -2267,7 +3177,15 @@
     {
       "id": 1065,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "CDG",
+        "name": "Paris Charles de Gaulle Airport"
+      },
       "date": "2025-08-23",
       "departureTime": "16:00",
       "arrivalTime": "19:30",
@@ -2275,13 +3193,25 @@
       "airline": "Lufthansa",
       "transit": {
         "transitCity": "Frankfurt",
+        "transitAirport": {
+          "code": "FRA",
+          "name": "Frankfurt Airport"
+        },
         "transitDuration": "1h 30m"
       }
     },
     {
       "id": 1066,
       "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
       "to": "Paris",
+      "toAirport": {
+        "code": "ORY",
+        "name": "Paris Orly Airport"
+      },
       "date": "2025-08-23",
       "departureTime": "20:00",
       "arrivalTime": "23:15",
@@ -2289,13 +3219,25 @@
       "airline": "British Airways",
       "transit": {
         "transitCity": "London",
+        "transitAirport": {
+          "code": "LGW",
+          "name": "London Gatwick Airport"
+        },
         "transitDuration": "1h 45m"
       }
     },
     {
       "id": 22,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport"
+      },
       "date": "2025-08-26",
       "departureTime": "12:45",
       "arrivalTime": "22:00",
@@ -2303,13 +3245,25 @@
       "airline": "EgyptAir",
       "transit": {
         "transitCity": "Cairo",
+        "transitAirport": {
+          "code": "CAI",
+          "name": "Cairo International Airport"
+        },
         "transitDuration": "1h 15m"
       }
     },
     {
       "id": 1067,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "EWR",
+        "name": "Newark Liberty International Airport"
+      },
       "date": "2025-08-26",
       "departureTime": "07:00",
       "arrivalTime": "16:00",
@@ -2317,13 +3271,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Dubai",
+        "transitAirport": {
+          "code": "DXB",
+          "name": "Dubai International Airport"
+        },
         "transitDuration": "2h 30m"
       }
     },
     {
       "id": 1068,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "JFK",
+        "name": "John F. Kennedy International Airport"
+      },
       "date": "2025-08-26",
       "departureTime": "16:00",
       "arrivalTime": "01:30",
@@ -2331,13 +3297,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "2h 45m"
       }
     },
     {
       "id": 1069,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "New York",
+      "toAirport": {
+        "code": "EWR",
+        "name": "Newark Liberty International Airport"
+      },
       "date": "2025-08-26",
       "departureTime": "20:00",
       "arrivalTime": "05:35",
@@ -2345,13 +3323,25 @@
       "airline": "British Airways",
       "transit": {
         "transitCity": "London",
+        "transitAirport": {
+          "code": "LGW",
+          "name": "London Gatwick Airport"
+        },
         "transitDuration": "2h 50m"
       }
     },
     {
       "id": 24,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport"
+      },
       "date": "2025-08-27",
       "departureTime": "13:00",
       "arrivalTime": "18:30",
@@ -2361,7 +3351,15 @@
     {
       "id": 1070,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LGW",
+        "name": "London Gatwick Airport"
+      },
       "date": "2025-08-27",
       "departureTime": "07:00",
       "arrivalTime": "12:20",
@@ -2371,7 +3369,15 @@
     {
       "id": 1071,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LHR",
+        "name": "London Heathrow Airport"
+      },
       "date": "2025-08-27",
       "departureTime": "16:00",
       "arrivalTime": "21:00",
@@ -2379,13 +3385,25 @@
       "airline": "Air France",
       "transit": {
         "transitCity": "Paris",
+        "transitAirport": {
+          "code": "CDG",
+          "name": "Paris Charles de Gaulle Airport"
+        },
         "transitDuration": "1h 30m"
       }
     },
     {
       "id": 1072,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "London",
+      "toAirport": {
+        "code": "LGW",
+        "name": "London Gatwick Airport"
+      },
       "date": "2025-08-27",
       "departureTime": "20:00",
       "arrivalTime": "01:45",
@@ -2393,13 +3411,25 @@
       "airline": "Lufthansa",
       "transit": {
         "transitCity": "Frankfurt",
+        "transitAirport": {
+          "code": "FRA",
+          "name": "Frankfurt Airport"
+        },
         "transitDuration": "1h 45m"
       }
     },
     {
       "id": 25,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "NRT",
+        "name": "Narita International Airport"
+      },
       "date": "2025-08-25",
       "departureTime": "23:30",
       "arrivalTime": "16:00",
@@ -2407,13 +3437,25 @@
       "airline": "Qatar Airways",
       "transit": {
         "transitCity": "Doha",
+        "transitAirport": {
+          "code": "DOH",
+          "name": "Hamad International Airport"
+        },
         "transitDuration": "3h 15m"
       }
     },
     {
       "id": 1073,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "HND",
+        "name": "Haneda Airport"
+      },
       "date": "2025-08-25",
       "departureTime": "08:00",
       "arrivalTime": "00:20",
@@ -2421,13 +3463,25 @@
       "airline": "Emirates",
       "transit": {
         "transitCity": "Dubai",
+        "transitAirport": {
+          "code": "DXB",
+          "name": "Dubai International Airport"
+        },
         "transitDuration": "3h 30m"
       }
     },
     {
       "id": 1074,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "NRT",
+        "name": "Narita International Airport"
+      },
       "date": "2025-08-25",
       "departureTime": "14:00",
       "arrivalTime": "06:10",
@@ -2435,13 +3489,25 @@
       "airline": "Etihad Airways",
       "transit": {
         "transitCity": "Abu Dhabi",
+        "transitAirport": {
+          "code": "AUH",
+          "name": "Abu Dhabi International Airport"
+        },
         "transitDuration": "3h 45m"
       }
     },
     {
       "id": 1075,
       "from": "Alexandria",
+      "fromAirport": {
+        "code": "HBE",
+        "name": "Borg El Arab International Airport"
+      },
       "to": "Tokyo",
+      "toAirport": {
+        "code": "HND",
+        "name": "Haneda Airport"
+      },
       "date": "2025-08-25",
       "departureTime": "18:00",
       "arrivalTime": "10:45",
@@ -2449,13 +3515,25 @@
       "airline": "Japan Airlines",
       "transit": {
         "transitCity": "Dubai",
+        "transitAirport": {
+          "code": "DWC",
+          "name": "Al Maktoum International Airport"
+        },
         "transitDuration": "3h 00m"
       }
     },
     {
       "id": 1753792225538,
-      "from": "cairo",
-      "to": "barcelona",
+      "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
+      "to": "Barcelona",
+      "toAirport": {
+        "code": "BCN",
+        "name": "Barcelona–El Prat Airport"
+      },
       "date": "2025-07-31",
       "departureTime": "18:29",
       "arrivalTime": "22:29",
@@ -2464,8 +3542,16 @@
     },
     {
       "id": 1079,
-      "from": "cairo",
-      "to": "barcelona",
+      "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
+      "to": "Barcelona",
+      "toAirport": {
+        "code": "BCN",
+        "name": "Barcelona–El Prat Airport"
+      },
       "date": "2025-07-31",
       "departureTime": "08:00",
       "arrivalTime": "12:10",
@@ -2474,8 +3560,16 @@
     },
     {
       "id": 1080,
-      "from": "cairo",
-      "to": "barcelona",
+      "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
+      "to": "Barcelona",
+      "toAirport": {
+        "code": "BCN",
+        "name": "Barcelona–El Prat Airport"
+      },
       "date": "2025-07-31",
       "departureTime": "12:00",
       "arrivalTime": "16:15",
@@ -2484,8 +3578,16 @@
     },
     {
       "id": 1081,
-      "from": "cairo",
-      "to": "barcelona",
+      "from": "Cairo",
+      "fromAirport": {
+        "code": "CAI",
+        "name": "Cairo International Airport"
+      },
+      "to": "Barcelona",
+      "toAirport": {
+        "code": "BCN",
+        "name": "Barcelona–El Prat Airport"
+      },
       "date": "2025-07-31",
       "departureTime": "22:00",
       "arrivalTime": "02:30",
@@ -2493,6 +3595,10 @@
       "airline": "Lufthansa",
       "transit": {
         "transitCity": "Frankfurt",
+        "transitAirport": {
+          "code": "FRA",
+          "name": "Frankfurt Airport"
+        },
         "transitDuration": "1h 30m"
       }
     }
@@ -2502,25 +3608,27 @@
       "id": 1,
       "city": "Dubai",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.1552231883607!2d55.12202071989651!3d25.13044252039412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f153e3609c979%3A0x5945a418a804ac5!2z2KPYqtmE2KfZhtiq2LMg4oCTINin2YTZhtiu2YTYqQ!5e0!3m2!1sar!2seg!4v1753537997628!5m2!1sar!2seg",
+      "lat": "25.13058827685937",
+      "lng": "55.11713907539954",
       "name": "Atlantis The Palm",
       "availableRooms": [
         {
           "type": "single",
-          "quantity": 11,
+          "quantity": 9,
           "price": 100,
           "bed": "queen",
           "noOfBeds": 1
         },
         {
           "type": "double",
-          "quantity": 21,
+          "quantity": 19,
           "price": 200,
           "bed": "king",
           "noOfBeds": 2
         },
         {
           "type": "suite",
-          "quantity": 6,
+          "quantity": 4,
           "price": 500,
           "bed": "king",
           "noOfBeds": 3
@@ -2529,6 +3637,12 @@
       "onSale": true,
       "rate": 4.8,
       "image": "Atlantis The Palm.jpg",
+      "roomsImages": [
+        "Atlantis The Palm room1.jpg",
+        "Atlantis The Palm room2.jpg",
+        "Atlantis The Palm room3.jpg",
+        "Atlantis The Palm room4.jpg"
+      ],
       "description": "A luxurious ocean-themed resort located on Dubai’s iconic Palm Jumeirah with a waterpark and aquarium.",
       "amenities": [
         "Free Wi-Fi",
@@ -2545,27 +3659,41 @@
       "id": 2,
       "city": "Dubai",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1805.9132662175873!2d55.186265761373086!3d25.14155484443672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6a576414cf2d%3A0xb3da71b879f0e038!2z2KjYsdisINin2YTYudix2Kg!5e0!3m2!1sar!2seg!4v1753538163519!5m2!1sar!2seg",
+      "lat": "25.141302321889384",
+      "lng": "55.18525725080344",
       "name": "Burj Al Arab",
       "availableRooms": [
         {
           "type": "single",
-          "quantity": 6,
-          "price": 150
+          "quantity": 2,
+          "price": 150,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
-          "quantity": 15,
-          "price": 300
+          "quantity": 14,
+          "price": 300,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
-          "quantity": 3,
-          "price": 700
+          "quantity": 2,
+          "price": 700,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 5,
       "image": "Burj Al Arab.jpg",
+      "roomsImages": [
+        "Burj Al Arab room1.jpg",
+        "Burj Al Arab room2.jpg",
+        "Burj Al Arab room3.jpg",
+        "Burj Al Arab room4.jpg"
+      ],
       "description": "An iconic sail-shaped 7-star hotel known for its lavish suites and world-class service.",
       "amenities": [
         "Free Wi-Fi",
@@ -2582,27 +3710,41 @@
       "id": 3,
       "city": "Dubai",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7220.0103560047055!2d55.27651337516376!3d25.203047877707156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f428341ddb8e1%3A0xc51e0d30c4efde50!2sRove%20Downtown!5e0!3m2!1sen!2seg!4v1753538350491!5m2!1sen!2seg",
+      "lat": "25.203203197574535",
+      "lng": "55.27913121957622",
       "name": "Rove Downtown",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 7,
-          "price": 80
+          "price": 80,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 30,
-          "price": 150
+          "price": 150,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 10,
-          "price": 300
+          "price": 300,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 4.6,
       "image": "Rove Downtown.jpg",
+      "roomsImages": [
+        "Rove Downtown room1.jpg",
+        "Rove Downtown room2.jpg",
+        "Rove Downtown room3.jpg",
+        "Rove Downtown room4.jpg"
+      ],
       "description": "A trendy and affordable hotel steps away from the Burj Khalifa and Dubai Mall.",
       "amenities": [
         "Free Wi-Fi",
@@ -2619,27 +3761,41 @@
       "id": 4,
       "city": "Dubai",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7223.651323297377!2d55.1887027751616!3d25.14158427774677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6a540d69b295%3A0x47f78c4e394a2976!2sJumeirah%20Beach%20Hotel!5e0!3m2!1sen!2seg!4v1753538473618!5m2!1sen!2seg",
+      "lat": "25.141807662587894",
+      "lng": "55.1912669753991",
       "name": "Jumeirah Beach Hotel",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 15,
-          "price": 200
+          "price": 200,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 25,
-          "price": 350
+          "price": 350,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 5,
-          "price": 500
+          "price": 500,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 4.5,
       "image": "Jumeirah Beach Hotel.jpg",
+      "roomsImages": [
+        "Jumeirah Beach Hotel room1.jpg",
+        "Jumeirah Beach Hotel room2.jpg",
+        "Jumeirah Beach Hotel room3.jpg",
+        "Jumeirah Beach Hotel room4.jpg"
+      ],
       "description": "Family-friendly resort with stunning views of the Burj Al Arab and private beach access.",
       "amenities": [
         "Free Wi-Fi",
@@ -2656,27 +3812,41 @@
       "id": 5,
       "city": "Riyadh",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7250.384561029428!2d46.709768075146144!3d24.685916078043665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0383e7394a65%3A0x475e8aa0f4bc6731!2sRiyadh%20Marriott%20Hotel!5e0!3m2!1sen!2seg!4v1753538532807!5m2!1sen!2seg",
+      "lat": "24.686218219506312",
+      "lng": "46.712343028524316",
       "name": "Riyadh Marriott",
       "availableRooms": [
         {
           "type": "single",
-          "quantity": 15,
-          "price": 180
+          "quantity": 13,
+          "price": 180,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 30,
-          "price": 300
+          "price": 300,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 10,
-          "price": 600
+          "price": 600,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 4.5,
       "image": "Riyadh Marriott.jpg",
+      "roomsImages": [
+        "Riyadh Marriott room1.jpg",
+        "Riyadh Marriott room2.jpg",
+        "Riyadh Marriott room3.jpg",
+        "Riyadh Marriott room4.jpg"
+      ],
       "description": "A comfortable and elegant hotel located in the business district of Riyadh.",
       "amenities": [
         "Free Wi-Fi",
@@ -2693,27 +3863,41 @@
       "id": 6,
       "city": "Riyadh",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.830340820384!2d46.67982077514667!3d24.698358278035453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f033ade6bad47%3A0xade9a682c34a40c!2sHyatt%20Regency%20Riyadh%20Olaya!5e0!3m2!1sen!2seg!4v1753538594897!5m2!1sen!2seg",
+      "lat": "24.698572719849235",
+      "lng": "46.68248153493694",
       "name": "Hyatt Regency Riyadh",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 13,
-          "price": 250
+          "price": 250,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
-          "quantity": 25,
-          "price": 400
+          "quantity": 23,
+          "price": 400,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 5,
-          "price": 800
+          "price": 800,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 5,
       "image": "Hyatt Regency Riyadh.jpg",
+      "roomsImages": [
+        "Hyatt Regency Riyadh room1.jpg",
+        "Hyatt Regency Riyadh room2.jpg",
+        "Hyatt Regency Riyadh room3.jpg",
+        "Hyatt Regency Riyadh room4.jpg"
+      ],
       "description": "A modern luxury hotel featuring upscale dining and panoramic city views.",
       "amenities": [
         "Free Wi-Fi",
@@ -2730,27 +3914,41 @@
       "id": 7,
       "city": "Riyadh",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.582418463909!2d46.672938675146895!3d24.706877578029843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f02cd9431a641%3A0x7a1dedabcc2eb859!2sNovotel%20Riyadh%20Al%20Anoud!5e0!3m2!1sen!2seg!4v1753538648820!5m2!1sen!2seg",
+      "lat": "24.70704321511814",
+      "lng": "46.67547071317599",
       "name": "Novotel Riyadh",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 20,
-          "price": 180
+          "price": 180,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 30,
-          "price": 300
+          "price": 300,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 10,
-          "price": 600
+          "price": 600,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 4.7,
       "image": "Novotel Riyadh.jpg",
+      "roomsImages": [
+        "Novotel Riyadh room1.jpg",
+        "Novotel Riyadh room2.jpg",
+        "Novotel Riyadh room3.jpg",
+        "Novotel Riyadh room4.jpg"
+      ],
       "description": "Well-suited for business travelers with modern rooms and excellent amenities.",
       "amenities": [
         "Free Wi-Fi",
@@ -2767,27 +3965,41 @@
       "id": 8,
       "city": "Riyadh",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3625.3538737678514!2d46.6879447751459!3d24.680359178047258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee2bec4beda9b%3A0x9d711fa31ad73197!2sHoliday%20Inn%20Riyadh%20-%20Olaya%20by%20IHG!5e0!3m2!1sen!2seg!4v1753538700030!5m2!1sen!2seg",
+      "lat": "24.680398195079384",
+      "lng": "46.690551886601746",
       "name": "Holiday Inn Olaya",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 15,
-          "price": 250
+          "price": 250,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 25,
-          "price": 400
+          "price": 400,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 5,
-          "price": 800
+          "price": 800,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 4.1,
       "image": "Holiday Inn Olaya.jpg",
+      "roomsImages": [
+        "Holiday Inn Olaya room1.jpg",
+        "Holiday Inn Olaya room2.jpeg",
+        "Holiday Inn Olaya room3.avif",
+        "Holiday Inn Olaya room4.jpg"
+      ],
       "description": "A casual and convenient hotel in central Riyadh with comfortable rooms.",
       "amenities": [
         "Free Wi-Fi",
@@ -2803,27 +4015,41 @@
       "id": 9,
       "city": "Istanbul",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.2727531151954!2d28.995103775860173!3d41.04116407134589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab77526f3dc9b%3A0x92ada1dd6c7d611e!2sSwiss%C3%B4tel%20The%20Bosphorus%20Istanbul!5e0!3m2!1sen!2seg!4v1753538740577!5m2!1sen!2seg",
+      "lat": "41.04135828136657",
+      "lng": "28.997710890043916",
       "name": "Swissotel The Bosphorus",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 15,
-          "price": 280
+          "price": 280,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 25,
-          "price": 450
+          "price": 450,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 10,
-          "price": 800
+          "price": 800,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 5,
       "image": "Swissotel The Bosphorus.jpg",
+      "roomsImages": [
+        "Swissotel The Bosphorus room1.jpg",
+        "Swissotel The Bosphorus room2.jpg",
+        "Swissotel The Bosphorus room3.jpg",
+        "Swissotel The Bosphorus room4.jpg"
+      ],
       "description": "Luxury hotel offering stunning Bosphorus views and a tranquil spa experience.",
       "amenities": [
         "Free Wi-Fi",
@@ -2840,27 +4066,41 @@
       "id": 10,
       "city": "Istanbul",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.5664212795505!2d28.975970975858733!3d41.01286227135001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab94f44b816fb%3A0x41e31821ef31ac07!2sSirkeci%20Mansion%20Hotel!5e0!3m2!1sen!2seg!4v1753538783210!5m2!1sen!2seg",
+      "lat": "41.0130403737565",
+      "lng": "28.97855663237377",
       "name": "Sirkeci Mansion",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 20,
-          "price": 250
+          "price": 250,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 30,
-          "price": 400
+          "price": 400,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 5,
-          "price": 800
+          "price": 800,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 4.2,
       "image": "Sirkeci Mansion.jpg",
+      "roomsImages": [
+        "Sirkeci Mansion room1.jpg",
+        "Sirkeci Mansion room2.jpg",
+        "Sirkeci Mansion room3.jpg",
+        "Sirkeci Mansion room4.jpg"
+      ],
       "description": "Charming boutique hotel near Topkapi Palace with traditional Turkish hospitality.",
       "amenities": [
         "Free Wi-Fi",
@@ -2877,27 +4117,41 @@
       "id": 11,
       "city": "Istanbul",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6022.02880414752!2d28.971354075858205!3d41.003057971351296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab99845165faf%3A0xded287990e016577!2sHotel%20Amira%20Istanbul!5e0!3m2!1sen!2seg!4v1753538828731!5m2!1sen!2seg",
+      "lat": "41.00326848728257",
+      "lng": "28.97400410538927",
       "name": "Hotel Amira",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 10,
-          "price": 120
+          "price": 120,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 15,
-          "price": 220
+          "price": 220,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 3,
-          "price": 500
+          "price": 500,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 4.7,
       "image": "Hotel Amira.jpg",
+      "roomsImages": [
+        "Hotel Amira room1.jpg",
+        "Hotel Amira room2.jpg",
+        "Hotel Amira room3.jpg",
+        "Hotel Amira room4.jpg"
+      ],
       "description": "A stylish boutique hotel in Sultanahmet, steps from the Blue Mosque.",
       "amenities": [
         "Free Wi-Fi",
@@ -2913,27 +4167,41 @@
       "id": 12,
       "city": "Istanbul",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.9924261448914!2d28.979218075858206!3d41.00353897135118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab9dfffdd868d%3A0x9447dd465106fed8!2sRadisson%20Hotel%20Istanbul%20Sultanahmet!5e0!3m2!1sen!2seg!4v1753538870113!5m2!1sen!2seg",
+      "lat": "41.061579563252465",
+      "lng": "28.988898390042852",
       "name": "Radisson Blu Istanbul",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 12,
-          "price": 200
+          "price": 200,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 18,
-          "price": 350
+          "price": 350,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 4,
-          "price": 600
+          "price": 600,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 4,
       "image": "Radisson Blu Istanbul.jpg",
+      "roomsImages": [
+        "Radisson Blu Istanbul room1.jpg",
+        "Radisson Blu Istanbul room2.jpg",
+        "Radisson Blu Istanbul room3.jpg",
+        "Radisson Blu Istanbul room4.jpg"
+      ],
       "description": "Upscale accommodation with easy access to shopping and business areas.",
       "amenities": [
         "Free Wi-Fi",
@@ -2950,27 +4218,41 @@
       "id": 13,
       "city": "London",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4966.669083696286!2d-0.14420222353009504!3d51.507078171813276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760529d30fc857%3A0x596135811e044014!2sThe%20Ritz%20London!5e0!3m2!1sen!2seg!4v1753538940551!5m2!1sen!2seg",
+      "lat": "51.50723843921193",
+      "lng": "-0.14158438172990143",
       "name": "The Ritz London",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 5,
-          "price": 400
+          "price": 400,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 10,
-          "price": 700
+          "price": 700,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 2,
-          "price": 1500
+          "price": 1500,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 5,
       "image": "The Ritz London.jpg",
+      "roomsImages": [
+        "The Ritz London room1.jpg",
+        "The Ritz London room2.jpg",
+        "The Ritz London room3.jpg",
+        "The Ritz London room4.jpg"
+      ],
       "description": "Historic 5-star hotel offering timeless luxury and afternoon tea tradition.",
       "amenities": [
         "Free Wi-Fi",
@@ -2987,27 +4269,41 @@
       "id": 14,
       "city": "London",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.584074250484!2d-0.12064582353036088!3d51.50249967181227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8af7a1533332d%3A0x43d3fab3daeb5b25!2sPremier%20Inn%20London%20County%20Hall%20hotel!5e0!3m2!1sen!2seg!4v1753538986921!5m2!1sen!2seg",
+      "lat": "51.50270002610265",
+      "lng": "-0.11811381241642559",
       "name": "Premier Inn London",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 20,
-          "price": 100
+          "price": 100,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 30,
-          "price": 180
+          "price": 180,
+          "bed": "queen",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 5,
-          "price": 400
+          "price": 400,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 4.6,
       "image": "Premier Inn London.jpg",
+      "roomsImages": [
+        "Premier Inn London room1.jpg",
+        "Premier Inn London room2.jpg",
+        "Premier Inn London room3.jpg",
+        "Premier Inn London room4.jpg"
+      ],
       "description": "Reliable budget-friendly hotel chain with clean rooms and good service.",
       "amenities": [
         "Free Wi-Fi",
@@ -3023,27 +4319,41 @@
       "id": 15,
       "city": "London",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4966.700934973771!2d-0.07653982353013278!3d51.50678597181318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876034824cbc437%3A0xcb55e6ff166d412c!2sThe%20Tower%20Hotel%2C%20by%20Thistle!5e0!3m2!1sen!2seg!4v1753539026693!5m2!1sen!2seg",
+      "lat": "51.50691952887435",
+      "lng": "-0.07397562590910678",
       "name": "The Tower Hotel",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 15,
-          "price": 150
+          "price": 150,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 25,
-          "price": 250
+          "price": 250,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 5,
-          "price": 600
+          "price": 600,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 4.3,
       "image": "The Tower Hotel.jpg",
+      "roomsImages": [
+        "The Tower Hotel room1.jpg",
+        "The Tower Hotel room2.jpg",
+        "The Tower Hotel room3.jpg",
+        "The Tower Hotel room4.jpg"
+      ],
       "description": "Hotel with scenic views of Tower Bridge and easy Thames river access.",
       "amenities": [
         "Free Wi-Fi",
@@ -3059,27 +4369,41 @@
       "id": 16,
       "city": "London",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4966.824371079288!2d-0.10370072353020497!3d51.50565357181288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604af6af74cc7%3A0x6c4cb3cbe03e95bf!2sHilton%20London%20Bankside!5e0!3m2!1sen!2seg!4v1753539173915!5m2!1sen!2seg",
+      "lat": "51.50581384422245",
+      "lng": "-0.10103996638640753",
       "name": "Hilton London Bankside",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 10,
-          "price": 200
+          "price": 200,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 20,
-          "price": 350
+          "price": 350,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 5,
-          "price": 700
+          "price": 700,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 5,
       "image": "Hilton London Bankside.jpg",
+      "roomsImages": [
+        "Hilton London Bankside room1.jpg",
+        "Hilton London Bankside room2.jpg",
+        "Hilton London Bankside room3.jpg",
+        "Hilton London Bankside room4.jpg"
+      ],
       "description": "Modern luxury hotel in South Bank close to Tate Modern and the Shard.",
       "amenities": [
         "Free Wi-Fi",
@@ -3096,27 +4420,41 @@
       "id": 17,
       "city": "New York",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6043.762928931713!2d-73.97690002415439!3d40.764631771385744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f07d5da561%3A0x61f6aa300ba8339d!2sThe%20Plaza!5e0!3m2!1sen!2seg!4v1753539225220!5m2!1sen!2seg",
+      "lat": "40.764794217440134",
+      "lng": "-73.97430361853921",
       "name": "The Plaza Hotel",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 5,
-          "price": 500
+          "price": 500,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 10,
-          "price": 800
+          "price": 800,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 2,
-          "price": 1500
+          "price": 1500,
+          "bed": "king",
+          "noOfBeds": 4
         }
       ],
       "onSale": false,
       "rate": 5,
       "image": "The Plaza Hotel.jpg",
+      "roomsImages": [
+        "The Plaza Hotel room1.jpg",
+        "The Plaza Hotel room2.jpg",
+        "The Plaza Hotel room3.jpg",
+        "The Plaza Hotel room4.jpg"
+      ],
       "description": "New York’s iconic hotel at Central Park South with elegant, historic charm.",
       "amenities": [
         "Free Wi-Fi",
@@ -3133,27 +4471,41 @@
       "id": 18,
       "city": "New York",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6044.567352781436!2d-73.9716684241549!3d40.755785071387024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e31d4457eb%3A0x2bb34c38744394ed!2sPod%2051!5e0!3m2!1sen!2seg!4v1753539263354!5m2!1sen!2seg",
+      "lat": "40.755963866977076",
+      "lng": "-73.96901839459758",
       "name": "Pod 51",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 25,
-          "price": 100
+          "price": 100,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 40,
-          "price": 180
+          "price": 180,
+          "bed": "queen",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 10,
-          "price": 350
+          "price": 350,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 4.2,
       "image": "Pod 51.jpg",
+      "roomsImages": [
+        "Pod 51 room1.jpg",
+        "Pod 51 room2.jpg",
+        "Pod 51 room3.jpg",
+        "Pod 51 room4.jpg"
+      ],
       "description": "Smart, affordable and compact rooms in Midtown Manhattan with a rooftop deck.",
       "amenities": [
         "Free Wi-Fi",
@@ -3170,27 +4522,41 @@
       "id": 19,
       "city": "New York",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6047.411718143927!2d-74.01054002415648!3d40.72449127139177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a86ec13155%3A0x241dde24a8128197!2sArlo%20SoHo!5e0!3m2!1sen!2seg!4v1753539311836!5m2!1sen!2seg",
+      "lat": "40.72464575845551",
+      "lng": "-74.00800801179027",
       "name": "Arlo SoHo",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 20,
-          "price": 150
+          "price": 150,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 30,
-          "price": 250
+          "price": 250,
+          "bed": "queen",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 5,
-          "price": 500
+          "price": 500,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 4.5,
       "image": "Arlo SoHo.jpg",
+      "roomsImages": [
+        "Arlo SoHo room1.jpg",
+        "Arlo SoHo room2.jpg",
+        "Arlo SoHo room3.jpg",
+        "Arlo SoHo room4.jpeg"
+      ],
       "description": "Trendy micro-hotel in SoHo with vibrant social spaces and cozy rooms.",
       "amenities": [
         "Free Wi-Fi",
@@ -3207,27 +4573,41 @@
       "id": 20,
       "city": "New York",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9641768275096!2d-74.01043832415567!3d40.74081377138925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259c06677ef37%3A0x505cfe96ba9da92a!2sThe%20Standard%2C%20High%20Line!5e0!3m2!1sen!2seg!4v1753539365683!5m2!1sen!2seg",
+      "lat": "40.740943833871825",
+      "lng": "-74.00787412528358",
       "name": "The Standard High Line",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 10,
-          "price": 250
+          "price": 250,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 15,
-          "price": 400
+          "price": 400,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 3,
-          "price": 700
+          "price": 700,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 5,
       "image": "The Standard High Line.jpg",
+      "roomsImages": [
+        "The Standard High Line room1.jpg",
+        "The Standard High Line room2.jpg",
+        "The Standard High Line room3.jpg",
+        "The Standard High Line room4.jpg"
+      ],
       "description": "Modern hotel with skyline views above the High Line park in NYC.",
       "amenities": [
         "Free Wi-Fi",
@@ -3244,27 +4624,41 @@
       "id": 21,
       "city": "Tokyo",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.648662032545!2d139.68851377559193!3d35.685652072585874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f32cd7dab227%3A0x2cd8a394ca8e7d96!2sPark%20Hyatt%20Tokyo!5e0!3m2!1sen!2seg!4v1753539424404!5m2!1sen!2seg",
+      "lat": "35.68583507222204",
+      "lng": "139.69104578846122",
       "name": "Park Hyatt Tokyo",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 8,
-          "price": 300
+          "price": 300,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 12,
-          "price": 500
+          "price": 500,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 2,
-          "price": 1000
+          "price": 1000,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 5,
       "image": "Park Hyatt Tokyo.jpg",
+      "roomsImages": [
+        "Park Hyatt Tokyo room1.jpg",
+        "Park Hyatt Tokyo room2.jpg",
+        "Park Hyatt Tokyo room3.jpg",
+        "Park Hyatt Tokyo room4.jpg"
+      ],
       "description": "Famous for its luxury and skyline views, featured in the movie 'Lost in Translation'.",
       "amenities": [
         "Free Wi-Fi",
@@ -3281,27 +4675,41 @@
       "id": 22,
       "city": "Tokyo",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.202397021688!2d139.7031218755924!3d35.69663667258221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd8dc89b75f%3A0xdf00a4957d8a0cfd!2sShinjuku%20Granbell%20Hotel!5e0!3m2!1sen!2seg!4v1753539464227!5m2!1sen!2seg",
+      "lat": "35.69680222089911",
+      "lng": "139.705696803804",
       "name": "Shinjuku Granbell Hotel",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 10,
-          "price": 150
+          "price": 150,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 20,
-          "price": 250
+          "price": 250,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 5,
-          "price": 500
+          "price": 500,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 4.5,
       "image": "Shinjuku Granbell Hotel.jpg",
+      "roomsImages": [
+        "Shinjuku Granbell Hotel room1.jpg",
+        "Shinjuku Granbell Hotel room2.jpg",
+        "Shinjuku Granbell Hotel room3.jpg",
+        "Shinjuku Granbell Hotel room4.jpg"
+      ],
       "description": "A stylish hotel in Shinjuku with modern design and rooftop bar.",
       "amenities": [
         "Free Wi-Fi",
@@ -3318,27 +4726,41 @@
       "id": 23,
       "city": "Tokyo",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6483.75018380493!2d139.74451647559061!3d35.6554489725956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ec44a3cbf4f5%3A0xeb0678d2239813f6!2sThe%20Prince%20Park%20Tower%20Tokyo!5e0!3m2!1sen!2seg!4v1753539525938!5m2!1sen!2seg",
+      "lat": "35.65559717125556",
+      "lng": "139.74703775962695",
       "name": "The Prince Park Tower Tokyo",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 6,
-          "price": 350
+          "price": 350,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 10,
-          "price": 600
+          "price": 600,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 2,
-          "price": 1200
+          "price": 1200,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 5,
       "image": "The Prince Park Tower Tokyo.jpg",
+      "roomsImages": [
+        "The Prince Park Tower Tokyo room1.jpg",
+        "The Prince Park Tower Tokyo room2.jpg",
+        "The Prince Park Tower Tokyo room3.jpg",
+        "The Prince Park Tower Tokyo room4.jpg"
+      ],
       "description": "Overlooks Tokyo Tower with luxurious rooms and a serene park setting.",
       "amenities": [
         "Free Wi-Fi",
@@ -3355,27 +4777,41 @@
       "id": 24,
       "city": "Tokyo",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.254339965405!2d139.69945957559239!3d35.695358272582645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd82535e517%3A0x9db5eb8a28bbac69!2sHotel%20Gracery%20Shinjuku!5e0!3m2!1sen!2seg!4v1753539568645!5m2!1sen!2seg",
+      "lat": "35.695532536752864",
+      "lng": "139.70202377496844",
       "name": "Hotel Gracery Shinjuku",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 15,
-          "price": 180
+          "price": 180,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 25,
-          "price": 300
+          "price": 300,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 5,
-          "price": 600
+          "price": 600,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 4.3,
       "image": "Hotel Gracery Shinjuku.jpg",
+      "roomsImages": [
+        "Hotel Gracery Shinjuku room1.jpg",
+        "Hotel Gracery Shinjuku room2.jpg",
+        "Hotel Gracery Shinjuku room3.jpg",
+        "Hotel Gracery Shinjuku room4.jpg"
+      ],
       "description": "Popular hotel in Kabukicho known for its giant Godzilla head on the terrace.",
       "amenities": [
         "Free Wi-Fi",
@@ -3392,27 +4828,41 @@
       "id": 25,
       "city": "Jeddah",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3709.5154297930712!2d39.10675937504829!3d21.604829980192484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3dbd751aa2b57%3A0xd32f14ab8ce46662!2sJeddah%20Hilton!5e0!3m2!1sen!2seg!4v1753539784824!5m2!1sen!2seg",
+      "lat": "21.605009531634767",
+      "lng": "39.10928066016908",
       "name": "Jeddah Hilton",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 8,
-          "price": 200
+          "price": 200,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 15,
-          "price": 350
+          "price": 350,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 4,
-          "price": 700
+          "price": 700,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 5,
       "image": "Jeddah Hilton.jpg",
+      "roomsImages": [
+        "Jeddah Hilton room1.jpg",
+        "Jeddah Hilton room2.jpg",
+        "Jeddah Hilton room3.jpg",
+        "Jeddah Hilton room4.jpg"
+      ],
       "description": "Prestigious seafront hotel near the Corniche with luxurious rooms and event halls.",
       "amenities": [
         "Free Wi-Fi",
@@ -3429,27 +4879,41 @@
       "id": 26,
       "city": "Jeddah",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.7980454347994!2d39.153171075045805!3d21.515628980258274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3db20ff3443b5%3A0x9f2944a4d4214fd2!2sInterContinental%20Jeddah%20by%20IHG!5e0!3m2!1sen!2seg!4v1753539896135!5m2!1sen!2seg",
+      "lat": "21.51584856702904",
+      "lng": "39.15577819085851",
       "name": "InterContinental Jeddah",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 10,
-          "price": 250
+          "price": 250,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 20,
-          "price": 400
+          "price": 400,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 3,
-          "price": 800
+          "price": 800,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 4.9,
       "image": "InterContinental Jeddah.jpg",
+      "roomsImages": [
+        "InterContinental Jeddah room1.jpg",
+        "InterContinental Jeddah room2.jpg",
+        "InterContinental Jeddah room3.jpg",
+        "InterContinental Jeddah room4.jpg"
+      ],
       "description": "Elegant hotel with Red Sea views, upscale dining, and central location.",
       "amenities": [
         "Free Wi-Fi",
@@ -3466,27 +4930,41 @@
       "id": 27,
       "city": "Jeddah",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3711.7971898724327!2d39.15810757504566!3d21.51566248025837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3cfee01b368b9%3A0x43328385b1894790!2sRadisson%20Blu%20Hotel%2C%20Jeddah%20Al%20Hamra!5e0!3m2!1sen!2seg!4v1753539946782!5m2!1sen!2seg",
+      "lat": "21.59938062809815",
+      "lng": "39.1499134195305",
       "name": "Radisson Blu Jeddah",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 12,
-          "price": 220
+          "price": 220,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 18,
-          "price": 350
+          "price": 350,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 4,
-          "price": 650
+          "price": 650,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 4.2,
       "image": "Radisson Blu Jeddah.jpg",
+      "roomsImages": [
+        "Radisson Blu Jeddah room1.jpg",
+        "Radisson Blu Jeddah room2.jpg",
+        "Radisson Blu Jeddah room3.jpg",
+        "Radisson Blu Jeddah room4.jpg"
+      ],
       "description": "Modern hotel with comfortable rooms and international cuisine.",
       "amenities": [
         "Free Wi-Fi",
@@ -3503,27 +4981,41 @@
       "id": 28,
       "city": "Jeddah",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3708.968200061054!2d39.15218457504891!3d21.626162780176877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d867359f05bf%3A0x5aca756a1744de89!2sHoliday%20Inn%20Jeddah%20Gateway%20by%20IHG!5e0!3m2!1sen!2seg!4v1753539990535!5m2!1sen!2seg",
+      "lat": "21.626322357925392",
+      "lng": "39.15477023318344",
       "name": "Holiday Inn Jeddah Gateway",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 15,
-          "price": 180
+          "price": 180,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 25,
-          "price": 300
+          "price": 300,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 5,
-          "price": 550
+          "price": 550,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 4.4,
       "image": "Holiday Inn Jeddah Gateway.jpg",
+      "roomsImages": [
+        "Holiday Inn Jeddah Gateway room1.jpg",
+        "Holiday Inn Jeddah Gateway room2.jpg",
+        "Holiday Inn Jeddah Gateway room3.jpg",
+        "Holiday Inn Jeddah Gateway room4.jpg"
+      ],
       "description": "Close to the airport and Red Sea Mall, offering convenient stays for travelers.",
       "amenities": [
         "Free Wi-Fi",
@@ -3540,27 +5032,41 @@
       "id": 29,
       "city": "Paris",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5249.2680498248055!2d2.3255081763061196!3d48.865188771333045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66f37dc585251%3A0xe0a171bc7aaa5c94!2sLe%20Meurice!5e0!3m2!1sen!2seg!4v1753540332811!5m2!1sen!2seg",
+      "lat": "48.86532286900997",
+      "lng": "2.3280401877471046",
       "name": "Hotel Le Meurice",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 5,
-          "price": 400
+          "price": 400,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 10,
-          "price": 700
+          "price": 700,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 2,
-          "price": 1500
+          "price": 1500,
+          "bed": "king",
+          "noOfBeds": 4
         }
       ],
       "onSale": false,
       "rate": 5,
       "image": "Hotel Le Meurice.jpg",
+      "roomsImages": [
+        "Hotel Le Meurice room1.jpg",
+        "Hotel Le Meurice room2.jpg",
+        "Hotel Le Meurice room3.jpg",
+        "Hotel Le Meurice room4.jpg"
+      ],
       "description": "Historic palace hotel with opulent interiors and Michelin-starred dining.",
       "amenities": [
         "Free Wi-Fi",
@@ -3577,27 +5083,41 @@
       "id": 30,
       "city": "Paris",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5249.406864921702!2d2.329973876306047!3d48.863865371332864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2f0987ff3f%3A0xcc97cf1ed75b3fb2!2sHotel%20Regina%20Louvre!5e0!3m2!1sen!2seg!4v1753540528289!5m2!1sen!2seg",
+      "lat": "48.863999472555946",
+      "lng": "2.332527345418867",
       "name": "Hotel Regina Louvre",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 8,
-          "price": 350
+          "price": 350,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 12,
-          "price": 600
+          "price": 600,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 3,
-          "price": 1200
+          "price": 1200,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 4.8,
       "image": "Hotel Regina Louvre.jpg",
+      "roomsImages": [
+        "Hotel Regina Louvre room1.jpg",
+        "Hotel Regina Louvre room2.jpg",
+        "Hotel Regina Louvre room3.jpg",
+        "Hotel Regina Louvre room4.jpg"
+      ],
       "description": "Elegant hotel opposite the Louvre with classic Parisian charm.",
       "amenities": [
         "Free Wi-Fi",
@@ -3614,27 +5134,41 @@
       "id": 31,
       "city": "Paris",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.775735862253!2d2.369094176304816!3d48.84341627133016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6721b7d55567d%3A0xaa8fe344e1e346b3!2scitizenM%20Paris%20Gare%20de%20Lyon%20hotel!5e0!3m2!1sen!2seg!4v1753540598428!5m2!1sen!2seg",
+      "lat": "48.84358573149256",
+      "lng": "2.3717120184352076",
       "name": "CitizenM Paris Gare de Lyon",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 20,
-          "price": 120
+          "price": 120,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 30,
-          "price": 200
+          "price": 200,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 6,
-          "price": 400
+          "price": 400,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 4.3,
       "image": "CitizenM Paris Gare de Lyon.jpg",
+      "roomsImages": [
+        "CitizenM Paris Gare de Lyon room1.jpg",
+        "CitizenM Paris Gare de Lyon room2.jpg",
+        "CitizenM Paris Gare de Lyon room3.jpg",
+        "CitizenM Paris Gare de Lyon room4.jpg"
+      ],
       "description": "Trendy and tech-savvy hotel ideal for digital nomads and city explorers.",
       "amenities": [
         "Free Wi-Fi",
@@ -3651,27 +5185,41 @@
       "id": 32,
       "city": "Paris",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.2011076469116!2d2.2867305763054593!3d48.85437537133157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6701cdc5aca9d%3A0xd2832698e462ce44!2sHotel%20Eiffel%20Seine!5e0!3m2!1sen!2seg!4v1753540642309!5m2!1sen!2seg",
+      "lat": "48.85450243869348",
+      "lng": "2.2892947742553016",
       "name": "Hotel Eiffel Seine",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 15,
-          "price": 150
+          "price": 150,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 25,
-          "price": 250
+          "price": 250,
+          "bed": "queen",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 4,
-          "price": 500
+          "price": 500,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 4.2,
       "image": "Hotel Eiffel Seine.jpg",
+      "roomsImages": [
+        "Hotel Eiffel Seine room1.jpg",
+        "Hotel Eiffel Seine room2.jpg",
+        "Hotel Eiffel Seine room3.jpg",
+        "Hotel Eiffel Seine room4.jpg"
+      ],
       "description": "Boutique hotel near the Eiffel Tower with Art Nouveau-inspired decor.",
       "amenities": [
         "Free Wi-Fi",
@@ -3688,27 +5236,41 @@
       "id": 33,
       "city": "Cairo",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.021669493729!2d31.22688187534459!3d30.03623617492775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840cd3ef57809%3A0xd7f50b4221f71eb0!2sFour%20Seasons%20Hotel%20Cairo%20at%20Nile%20Plaza!5e0!3m2!1sen!2seg!4v1753540734896!5m2!1sen!2seg",
+      "lat": "30.036366207540528",
+      "lng": "31.229499719395406",
       "name": "Four Seasons Cairo Nile Plaza",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 10,
-          "price": 150
+          "price": 150,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 15,
-          "price": 250
+          "price": 250,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 3,
-          "price": 500
+          "price": 500,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 5,
       "image": "Four Seasons Cairo Nile Plaza.jpg",
+      "roomsImages": [
+        "Four Seasons Cairo Nile Plaza room1.jpg",
+        "Four Seasons Cairo Nile Plaza room2.jpg",
+        "Four Seasons Cairo Nile Plaza room3.jpg",
+        "Four Seasons Cairo Nile Plaza room4.jpg"
+      ],
       "description": "Lavish hotel with panoramic Nile views, luxurious spa, and fine dining.",
       "amenities": [
         "Free Wi-Fi",
@@ -3725,27 +5287,41 @@
       "id": 34,
       "city": "Cairo",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.6558933763195!2d31.232684075345063!3d30.046728474922507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840c6e7b40217%3A0xa56e70b7cb4fa53d!2sSteigenberger%20Hotel%20El%20Tahrir%20Cairo!5e0!3m2!1sen!2seg!4v1753540793781!5m2!1sen!2seg",
+      "lat": "30.046932790169848",
+      "lng": "31.235183902200696",
       "name": "Steigenberger Hotel El Tahrir",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 12,
-          "price": 180
+          "price": 180,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 20,
-          "price": 300
+          "price": 300,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 4,
-          "price": 600
+          "price": 600,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 4.5,
       "image": "Steigenberger Hotel El Tahrir.jpg",
+      "roomsImages": [
+        "Steigenberger Hotel El Tahrir room1.jpg",
+        "Steigenberger Hotel El Tahrir room2.jpg",
+        "Steigenberger Hotel El Tahrir room3.jpg",
+        "Steigenberger Hotel El Tahrir room4.jpg"
+      ],
       "description": "Modern hotel across from the Egyptian Museum in the heart of Cairo.",
       "amenities": [
         "Free Wi-Fi",
@@ -3762,27 +5338,41 @@
       "id": 35,
       "city": "Cairo",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.5290929198413!2d31.22946617534514!3d30.050364974920672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840c381a29537%3A0xf1d5b3a64a0e4de1!2sRamses%20Hilton!5e0!3m2!1sen!2seg!4v1753540848350!5m2!1sen!2seg",
+      "lat": "30.05056928266658",
+      "lng": "31.232041104051447",
       "name": "Ramses Hilton",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 15,
-          "price": 200
+          "price": 200,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 25,
-          "price": 350
+          "price": 350,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 5,
-          "price": 700
+          "price": 700,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": false,
       "rate": 4.8,
       "image": "Ramses Hilton.jpg",
+      "roomsImages": [
+        "Ramses Hilton room1.jpg",
+        "Ramses Hilton room2.jpg",
+        "Ramses Hilton room3.jpg",
+        "Ramses Hilton room4.jpg"
+      ],
       "description": "High-rise hotel offering Nile views, rooftop dining, and excellent service.",
       "amenities": [
         "Free Wi-Fi",
@@ -3799,27 +5389,41 @@
       "id": 36,
       "city": "Cairo",
       "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.935962709555!2d31.233456324655315!3d30.038694974926447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840cdb8f441cb%3A0x59cf96cf4cfe8978!2z2YHZhtiv2YIg2YPZhdio2YbYs9mD2Yog2KfZhNmG2YrZhCDYp9mE2YLYp9mH2LHYqQ!5e0!3m2!1sar!2seg!4v1753537544225!5m2!1sar!2seg",
+      "lat": "30.038843579925338",
+      "lng": "31.230881404051942",
       "name": "Kempinski Nile Hotel",
       "availableRooms": [
         {
           "type": "single",
           "quantity": 10,
-          "price": 220
+          "price": 220,
+          "bed": "queen",
+          "noOfBeds": 1
         },
         {
           "type": "double",
           "quantity": 18,
-          "price": 350
+          "price": 350,
+          "bed": "king",
+          "noOfBeds": 2
         },
         {
           "type": "suite",
           "quantity": 4,
-          "price": 700
+          "price": 700,
+          "bed": "king",
+          "noOfBeds": 3
         }
       ],
       "onSale": true,
       "rate": 5,
       "image": "Kempinski Nile Hotel.jpg",
+      "roomsImages": [
+        "Kempinski Nile Hotel room1.jpg",
+        "Kempinski Nile Hotel room2.jpg",
+        "Kempinski Nile Hotel room3.jpg",
+        "Kempinski Nile Hotel room4.jpg"
+      ],
       "description": "European luxury meets Egyptian elegance along the Nile Corniche.",
       "amenities": [
         "Free Wi-Fi",
@@ -4116,40 +5720,107 @@
   ],
   "users": [
     {
-      "email": "ahmedelhalawany429@gmail.com",
+      "id": 1753903349638,
+      "email": "mohamed@gmail.com",
+      "password": "$2b$10$/uWwmOvbVaY8wEwOXYMKAOhwadL4c4QwzSDUNBUy.SVm6VbafdXb6",
+      "name": "mohamed",
+      "phone": "01012345679",
       "favorites": [
         {
-          "id": 1,
+          "id": 2001,
           "type": "flight",
           "airline": "Emirates",
-          "flightNumber": "Flight #1",
+          "flightNumber": "N/A",
           "from": "Cairo",
           "to": "Dubai",
           "departureTime": "09:00",
           "arrivalTime": "13:30",
-          "date": "2025-08-20",
+          "date": "2025-09-01",
           "price": 350
         },
         {
-          "id": 2,
+          "id": 2005,
           "type": "flight",
-          "airline": "Saudi Airlines",
-          "flightNumber": "Flight #2",
+          "airline": "Emirates",
+          "flightNumber": "N/A",
           "from": "Cairo",
-          "to": "Riyadh",
-          "departureTime": "10:15",
-          "arrivalTime": "13:00",
-          "date": "2025-08-21",
-          "price": 220
+          "to": "Tokyo",
+          "departureTime": "22:00",
+          "arrivalTime": "14:30",
+          "date": "2025-09-01",
+          "price": 990
+        },
+        {
+          "id": 2002,
+          "type": "flight",
+          "airline": "Etihad Airways",
+          "flightNumber": "N/A",
+          "from": "Cairo",
+          "to": "Dubai",
+          "departureTime": "14:30",
+          "arrivalTime": "19:30",
+          "date": "2025-09-01",
+          "price": 320
+        },
+        {
+          "id": 7,
+          "type": "hotel",
+          "name": "Novotel Riyadh",
+          "city": "Riyadh",
+          "image": "Novotel Riyadh.jpg",
+          "description": "",
+          "rate": 4.7,
+          "location": ""
+        },
+        {
+          "id": 8,
+          "type": "hotel",
+          "name": "Holiday Inn Olaya",
+          "city": "Riyadh",
+          "image": "Holiday Inn Olaya.jpg",
+          "description": "",
+          "rate": 4.1,
+          "location": ""
+        },
+        {
+          "id": 3,
+          "type": "hotel",
+          "name": "Rove Downtown",
+          "city": "Dubai",
+          "image": "Rove Downtown.jpg",
+          "description": "",
+          "rate": 4.6,
+          "location": ""
+        },
+        {
+          "id": 4,
+          "type": "hotel",
+          "name": "Jumeirah Beach Hotel",
+          "city": "Dubai",
+          "image": "Jumeirah Beach Hotel.jpg",
+          "description": "",
+          "rate": 4.5,
+          "location": ""
+        },
+        {
+          "id": 2003,
+          "type": "flight",
+          "airline": "Qatar Airways",
+          "flightNumber": "N/A",
+          "from": "Cairo",
+          "to": "Dubai",
+          "departureTime": "18:00",
+          "arrivalTime": "22:15",
+          "date": "2025-09-01",
+          "price": 380
         }
       ],
       "bookedFlights": [
         {
-          "id": 1,
+          "id": 2001,
           "from": "Cairo",
           "to": "Dubai",
-          "date": "2025-08-20",
-          "returnDate": "2025-08-27",
+          "date": "2025-09-01",
           "departureTime": "09:00",
           "arrivalTime": "13:30",
           "price": 350,
@@ -4160,62 +5831,176 @@
       ],
       "bookedHotels": [
         {
-          "bookingId": "381ff6d0-caa0-4237-b7c7-4306bc36aff6",
+          "bookingId": "bc5aa8eb-b07f-4c71-8bc4-fc1e76a7c08b",
+          "hotelId": 2,
+          "hotelName": "Burj Al Arab",
+          "city": "Dubai",
+          "rooms": [
+            {
+              "type": "single",
+              "count": 2,
+              "price": 150
+            }
+          ],
+          "totalCost": "300",
+          "fullName": "mohamed",
+          "phone": "01012345679",
+          "bookingDate": "2025-08-06T13:28:06.898Z",
+          "checkIn": "2025-10-09",
+          "checkOut": "2025-11-07",
+          "discountApplied": "",
+          "checkInDate": "2025-10-09",
+          "checkOutDate": "2025-11-07"
+        },
+        {
+          "bookingId": "c640d1a4-c65c-4a3e-b188-3f4382c153cb",
           "hotelId": 5,
           "hotelName": "Riyadh Marriott",
           "city": "Riyadh",
           "rooms": [
             {
               "type": "single",
-              "count": 3,
+              "count": 2,
               "price": 180
             }
           ],
-          "totalCost": 540,
-          "fullName": "Ahmed Elhlawany",
-          "phone": "01019319563",
-          "bookingDate": "2025-07-30T07:32:29.597Z"
+          "totalCost": 360,
+          "fullName": "mohamed",
+          "phone": "01012345679",
+          "bookingDate": "2025-08-07T10:45:38.109Z",
+          "checkIn": "2025-08-08",
+          "checkOut": "2025-08-18",
+          "discountApplied": "None"
+        },
+        {
+          "bookingId": "27ccebe7-38ad-4c33-951f-7dbecd38b546",
+          "hotelId": 6,
+          "hotelName": "Hyatt Regency Riyadh",
+          "city": "Riyadh",
+          "rooms": [
+            {
+              "type": "double",
+              "count": 2,
+              "price": 400
+            }
+          ],
+          "totalCost": 8000,
+          "fullName": "mohamed",
+          "phone": "01012345679",
+          "bookingDate": "2025-08-07T10:52:51.887Z",
+          "checkIn": "2025-08-08",
+          "checkOut": "2025-08-18",
+          "discountApplied": "None"
         }
-      ]
+      ],
+      "profilePhoto": "https://i.ibb.co/gb8phXgV/Whats-App-Image-2025-03-19-at-13-26-51-d3559903.jpg"
     },
     {
+      "id": 1754116531914,
+      "email": "ahmedelhalawany429@gmail.com",
+      "password": "$2b$10$nkSiV7F8N2Nw/LQXHe1sD.VB8zo8M9LVp9ZoLLvxq2VJkymGurLP6",
+      "name": "Ahmed Elhlawany",
+      "phone": "01019319563",
+      "favorites": [],
+      "bookedFlights": [],
+      "bookedHotels": [],
+      "resetToken": null,
+      "resetTokenExpiry": null
+    },
+    {
+      "id": 1754133419507,
       "email": "ziad@gmail.com",
+      "password": "$2b$10$MnMz3KIeZYAF.1Po/wUAh.xeoKRtY6U1rAeM.pneirtSm3XEqtYoe",
+      "name": "ziad ragab",
+      "phone": "01024681234",
       "favorites": [
-        {
-          "id": 1,
-          "type": "flight",
-          "airline": "Emirates",
-          "flightNumber": "Flight #1",
-          "from": "Cairo",
-          "to": "Dubai",
-          "departureTime": "09:00",
-          "arrivalTime": "13:30",
-          "date": "2025-08-20",
-          "price": 350
-        },
         {
           "id": 2001,
           "type": "flight",
           "airline": "Emirates",
-          "flightNumber": "Flight #1",
+          "flightNumber": "N/A",
           "from": "Cairo",
           "to": "Dubai",
           "departureTime": "09:00",
           "arrivalTime": "13:30",
           "date": "2025-09-01",
           "price": 350
+        },
+        {
+          "id": 2002,
+          "type": "flight",
+          "airline": "Etihad Airways",
+          "flightNumber": "N/A",
+          "from": "Cairo",
+          "to": "Dubai",
+          "departureTime": "14:30",
+          "arrivalTime": "19:30",
+          "date": "2025-09-01",
+          "price": 320
+        },
+        {
+          "id": 2003,
+          "type": "flight",
+          "airline": "Qatar Airways",
+          "flightNumber": "N/A",
+          "from": "Cairo",
+          "to": "Dubai",
+          "departureTime": "18:00",
+          "arrivalTime": "22:15",
+          "date": "2025-09-01",
+          "price": 380
+        },
+        {
+          "id": 2004,
+          "type": "flight",
+          "airline": "FlyDubai",
+          "flightNumber": "N/A",
+          "from": "Cairo",
+          "to": "Dubai",
+          "departureTime": "03:00",
+          "arrivalTime": "07:00",
+          "date": "2025-09-01",
+          "price": 300
+        },
+        {
+          "id": 2005,
+          "type": "flight",
+          "airline": "Emirates",
+          "flightNumber": "N/A",
+          "from": "Cairo",
+          "to": "Tokyo",
+          "departureTime": "22:00",
+          "arrivalTime": "14:30",
+          "date": "2025-09-01",
+          "price": 990
         }
       ],
       "bookedFlights": [
         {
-          "id": 2077,
-          "from": "Cairo",
-          "to": "London",
+          "id": 2076,
+          "from": "New York",
+          "fromAirport": {
+            "code": "EWR",
+            "name": "Newark Liberty International Airport"
+          },
+          "to": "Cairo",
+          "toAirport": {
+            "code": "CAI",
+            "name": "Cairo International Airport"
+          },
           "date": "2025-09-01",
-          "departureTime": "14:00",
-          "arrivalTime": "18:30",
-          "price": 460,
-          "airline": "British Airways",
+          "departureTime": "18:00",
+          "arrivalTime": "12:00",
+          "price": 970,
+          "airline": "Qatar Airways",
+          "transit": {
+            "transitCity": "Doha",
+            "transitAirport": {
+              "code": "DOH",
+              "name": "Hamad International Airport"
+            },
+            "transitDuration": "2h 50m"
+          },
           "adults": 1,
           "children": 0
         }
@@ -4223,65 +6008,120 @@
       "bookedHotels": []
     },
     {
-      "id": 1753903349638,
-      "email": "mohamed@gmail.com",
-      "password": "$2b$10$/uWwmOvbVaY8wEwOXYMKAOhwadL4c4QwzSDUNBUy.SVm6VbafdXb6",
-      "name": "mohamed",
-      "phone": "01012345678",
+      "id": 1754139734378,
+      "email": "ghada@gmail.com",
+      "password": "$2b$10$KrfJhmwd4JKdQBJ8e7oGde.hncdBxvE7U5fNOwhFDUB2V1SFYzJRq",
+      "name": "ghada ahmed",
+      "phone": "01011111111",
       "favorites": [
+        {
+          "id": 2002,
+          "type": "flight",
+          "airline": "Etihad Airways",
+          "flightNumber": "N/A",
+          "from": "Cairo",
+          "to": "Dubai",
+          "departureTime": "14:30",
+          "arrivalTime": "19:30",
+          "date": "2025-09-01",
+          "price": 320
+        },
+        {
+          "id": 2001,
+          "type": "flight",
+          "airline": "Emirates",
+          "flightNumber": "N/A",
+          "from": "Cairo",
+          "to": "Dubai",
+          "departureTime": "09:00",
+          "arrivalTime": "13:30",
+          "date": "2025-09-01",
+          "price": 350
+        }
+      ],
+      "bookedFlights": [],
+      "bookedHotels": []
+    },
+    {
+      "id": 1754221487966,
+      "email": "mohamedelsherif@gmail.com",
+      "password": "$2b$10$IRcemzRr0G3AkHcOo4k7.OcVXcgyO0y9yNyZxFsI6FPb0mW6Ltjyi",
+      "name": "mohamed sherif",
+      "phone": "01010101010",
+      "profilePhoto": "",
+      "favorites": [],
+      "bookedFlights": [],
+      "bookedHotels": []
+    },
+    {
+      "id": 1754569218086,
+      "email": "ziadrajab01@gmail.com",
+      "password": "$2b$10$tA2NRXeeDGvuDR8C/lmQIOhmkRcgE4WG06m.K9zhMKFZX9yfwhJzy",
+      "name": "ziad  ahmed",
+      "phone": "01010101010",
+      "profilePhoto": "",
+      "favorites": [],
+      "bookedFlights": [],
+      "bookedHotels": [],
+      "resetToken": "$2b$10$NMl/dYRE8aOk3haa9d281uWy4GD1sIvZ6AwkbuKczvgxD8AM2F2Re",
+      "resetTokenExpiry": 1754572844011
+    },
+    {
+      "id": 1754848365234,
+      "email": "gemy492000@gmail.com",
+      "password": "$2b$10$4/J8wP1ApT2E5pvF1gY6FuUiFG3b/dK4tUDxFzgSgvBqXpEBXHNCq",
+      "name": "Mohamed gamal",
+      "phone": "01066846456",
+      "profilePhoto": "https://i.ibb.co/39ZX8kVP/1000213171.jpg",
+      "favorites": [
+        {
+          "id": 2001,
+          "type": "flight",
+          "airline": "Emirates",
+          "flightNumber": 2001,
+          "from": "Cairo",
+          "to": "Dubai",
+          "departureTime": "09:00",
+          "arrivalTime": "13:30",
+          "date": "2025-09-01",
+          "price": 3150
+        },
         {
           "id": 2007,
           "type": "flight",
           "airline": "Etihad Airways",
-          "flightNumber": "N/A",
+          "flightNumber": 2007,
           "from": "Cairo",
           "to": "Tokyo",
           "departureTime": "09:45",
           "arrivalTime": "02:30",
           "date": "2025-09-01",
           "price": 980
-        }
-      ],
-      "bookedFlights": [],
-      "bookedHotels": [
+        },
         {
-          "bookingId": "5a550c45-40a0-4a54-8401-ce2c838b864c",
-          "hotelId": 2,
-          "hotelName": "Burj Al Arab",
+          "id": 1,
+          "type": "hotel",
+          "name": "Atlantis The Palm",
           "city": "Dubai",
-          "rooms": [
-            {
-              "type": "single",
-              "count": 1,
-              "price": 150
-            }
-          ],
-          "totalCost": 150,
-          "fullName": "mohamed",
-          "phone": "01012345678",
-          "bookingDate": "2025-07-30T22:17:36.915Z"
-        }
-      ]
-    },
-    {
-      "id": 1754199035597,
-      "email": "gg@gmail.com",
-      "password": "$2b$10$GPFLX9oJHVYlK88.XssUOuzqEoaS4qv2xK.Oj1VtpRZ5FibWA3mBS",
-      "name": "mohamed gamal",
-      "phone": "01066846456",
-      "favorites": [],
-      "bookedFlights": [],
-      "bookedHotels": []
-    },
-    {
-      "id": 1754200285596,
-      "email": "gemy492000@gmail.com",
-      "password": "$2b$10$oAYXI2soe2mG4PJZqNYT6Omf.gNtRuyF2Rz8xsreR6pXsevy4dH9u",
-      "name": "gemy",
-      "phone": "0106668464566",
-      "favorites": [
+          "image": "Atlantis The Palm.jpg",
+          "description": "A luxurious ocean-themed resort located on Dubai’s iconic Palm Jumeirah with a waterpark and aquarium.",
+          "rate": 4.8,
+          "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.1552231883607!2d55.12202071989651!3d25.13044252039412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f153e3609c979%3A0x5945a418a804ac5!2z2KPYqtmE2KfZhtiq2LMg4oCTINin2YTZhtiu2YTYqQ!5e0!3m2!1sar!2seg!4v1753537997628!5m2!1sar!2seg"
+        },
         {
-          "id": "2003",
+          "id": 2002,
+          "type": "flight",
+          "airline": "Etihad Airways",
+          "flightNumber": 2002,
+          "from": "Cairo",
+          "to": "Dubai",
+          "departureTime": "14:30",
+          "arrivalTime": "19:30",
+          "date": "2025-09-01",
+          "price": 320
+        },
+        {
+          "id": 2003,
           "type": "flight",
           "airline": "Qatar Airways",
           "flightNumber": 2003,
@@ -4293,33 +6133,126 @@
           "price": 380
         },
         {
-          "id": "2001",
-          "type": "flight",
-          "airline": "Emirates",
-          "flightNumber": 2001,
-          "from": "Cairo",
-          "to": "Dubai",
-          "departureTime": "09:00",
-          "arrivalTime": "13:30",
-          "date": "2025-09-01",
-          "price": 350
+          "id": 2,
+          "type": "hotel",
+          "name": "Burj Al Arab",
+          "city": "Dubai",
+          "image": "Burj Al Arab.jpg",
+          "description": "An iconic sail-shaped 7-star hotel known for its lavish suites and world-class service.",
+          "rate": 5,
+          "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1805.9132662175873!2d55.186265761373086!3d25.14155484443672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6a576414cf2d%3A0xb3da71b879f0e038!2z2KjYsdisINin2YTYudix2Kg!5e0!3m2!1sar!2seg!4v1753538163519!5m2!1sar!2seg"
+        },
+        {
+          "id": 3,
+          "type": "hotel",
+          "name": "Rove Downtown",
+          "city": "Dubai",
+          "image": "Rove Downtown.jpg",
+          "description": "A trendy and affordable hotel steps away from the Burj Khalifa and Dubai Mall.",
+          "rate": 4.6,
+          "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7220.0103560047055!2d55.27651337516376!3d25.203047877707156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f428341ddb8e1%3A0xc51e0d30c4efde50!2sRove%20Downtown!5e0!3m2!1sen!2seg!4v1753538350491!5m2!1sen!2seg"
         }
       ],
       "bookedFlights": [
         {
+          "id": 2002,
+          "from": "Cairo",
+          "fromAirport": {
+            "code": "CAI",
+            "name": "Cairo International Airport"
+          },
+          "to": "Dubai",
+          "toAirport": {
+            "code": "DXB",
+            "name": "Dubai International Airport"
+          },
+          "date": "2025-09-01",
+          "departureTime": "14:30",
+          "arrivalTime": "19:30",
+          "price": 480,
+          "airline": "Etihad Airways",
+          "adults": 1,
+          "children": 0,
+          "bFId": "1754965828865"
+        },
+        {
           "id": 2001,
           "from": "Cairo",
+          "fromAirport": {
+            "code": "CAI",
+            "name": "Cairo International Airport"
+          },
           "to": "Dubai",
+          "toAirport": {
+            "code": "DXB",
+            "name": "Dubai International Airport"
+          },
           "date": "2025-09-01",
           "departureTime": "09:00",
           "arrivalTime": "13:30",
-          "price": 350,
+          "price": 141750,
           "airline": "Emirates",
           "adults": 1,
-          "children": 1
+          "children": 1,
+          "bFId": "1754966184737"
         }
       ],
-      "bookedHotels": []
+      "bookedHotels": [
+        {
+          "bookingId": "1754851125138",
+          "hotelId": 1,
+          "hotelName": "Atlantis The Palm",
+          "city": "Dubai",
+          "rooms": [
+            {
+              "type": "single",
+              "count": 1
+            },
+            {
+              "type": "double",
+              "count": 1
+            },
+            {
+              "type": "suite",
+              "count": 1
+            }
+          ],
+          "totalCost": 4000,
+          "fullName": "Mohamed gamal",
+          "phone": "01066846456",
+          "bookingDate": "2025-08-10T21:38:45.139185",
+          "checkIn": "2025-08-10 00:00:00.000",
+          "checkOut": "2025-08-15 00:00:00.000"
+        },
+        {
+          "bookingId": "1754966257292",
+          "hotelId": 2,
+          "hotelName": "Burj Al Arab",
+          "city": "Dubai",
+          "rooms": [
+            {
+              "type": "single",
+              "count": 1
+            },
+            {
+              "type": "double",
+              "count": 1
+            },
+            {
+              "type": "suite",
+              "count": 1
+            }
+          ],
+          "totalCost": 20700,
+          "fullName": "Mohamed gamal",
+          "phone": "01066846456",
+          "bookingDate": "2025-08-12T05:37:37.292753",
+          "checkIn": "2025-08-12 00:00:00.000",
+          "checkOut": "2025-08-30 00:00:00.000"
+        }
+      ],
+      "resetToken": null,
+      "resetTokenExpiry": null
     }
   ],
   "airlines": [
